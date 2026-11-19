@@ -68,26 +68,26 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] Prueba de mutación: una cifra cambiada (similitud 99,1) y una página errónea se detectan
 - [x] Commit de la fase
 
-## Fase 5: Web (`web/`, Vite + Svelte + TypeScript) `[~]`
+## Fase 5: Web (`web/`, Vite + Svelte + TypeScript) `[~]` (código hecho, falta revisión visual en navegador)
 
-- [ ] Proyecto base con `base: '/afinidad-29n/'`
-- [ ] `web/src/lib/afinidad.ts` (función pura: afinidad, cobertura, por tema, `null` sin datos)
-- [ ] Pantalla Inicio (qué es, cómo funciona, aviso de neutralidad y privacidad, "Empezar")
-- [ ] Pantalla Preguntas (una por pantalla, progreso, 5 opciones + Saltar, "importante", contexto, volver atrás)
-- [ ] Pantalla Resultados (barras globales, cobertura con aviso < 60 %, heatmap tema × partido, detalle con cita y enlace `.pdf#page=N`, reiniciar)
-- [ ] Pantalla Metodología (fuentes con fecha, criterios, escala, fórmula, limitaciones, repo)
-- [ ] Copia de los PDF a `web/public/programas/` en el build
-- [ ] Mobile-first, accesible (contraste, teclado, aria), en español
-- [ ] Privacidad: sin backend, cookies, analítica ni localStorage de respuestas
-- [ ] Neutralidad: orden aleatorio, colores neutros, sin logos, aviso "no es una recomendación de voto"
+- [x] Proyecto base con `base: '/afinidad-29n/'`
+- [x] `web/src/lib/afinidad.ts` (función pura: afinidad, cobertura, por tema, `null` sin datos)
+- [x] Pantalla Inicio (qué es, cómo funciona, aviso de neutralidad y privacidad, "Empezar")
+- [x] Pantalla Preguntas (una por pantalla, progreso, 5 opciones + Saltar, "importante", contexto, volver atrás)
+- [x] Pantalla Resultados (barras globales, cobertura con aviso < 60 %, heatmap tema × partido, detalle con cita y enlace `.pdf#page=N`, reiniciar)
+- [x] Pantalla Metodología (fuentes con fecha, criterios, escala, fórmula, limitaciones, repo)
+- [x] Copia de los PDF a `web/public/programas/` en el build
+- [~] Mobile-first, accesible (contraste, teclado, aria), en español: implementado, pendiente de revisar en navegador
+- [x] Privacidad: sin backend, cookies, analítica ni localStorage de respuestas
+- [x] Neutralidad: orden aleatorio, colores neutros, sin logos, aviso "no es una recomendación de voto"
 - [ ] Commit de la fase
 
-## Fase 6: Tests (Vitest)
+## Fase 6: Tests (Vitest) `[x]`
 
-- [ ] Partido espejo → 100 % (para cada partido)
-- [ ] Opuesto total → 0 %
-- [ ] Saltadas no cuentan, peso ×2 y `null` excluido
-- [ ] Cobertura correcta y "sin datos" → `null`
+- [x] Partido espejo → 100 % (para cada partido)
+- [x] Opuesto total → 0 %
+- [x] Saltadas no cuentan, peso ×2 y `null` excluido
+- [x] Cobertura correcta y "sin datos" → `null`
 - [ ] Commit de la fase
 
 ## Fase 7: CI/CD
@@ -113,4 +113,5 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 |---|---|
 | 2026-11-19 | Inicio del proyecto. |
 | 2026-11-19 | Fase 0: se incluyen los 5 programas (FRENTE_AMPLIO, PODEMOS, PP, PSOE, VOX); todos son de las generales del 29N 2026 y ninguno necesita OCR. PODEMOS sí publicó programa (PDF del 17-11). |
+| 2026-11-19 | Fase 5: CSP en producción con `connect-src 'none'` (la página no puede enviar datos); sin fuentes externas. |
 | 2026-11-19 | Fase 3, criterios de codificación: (a) los logros pasados que describe un partido cuentan como postura con intensidad ±1; (b) las posturas que requieren una inferencia corta desde la cita se codifican con ±1 y se marcan como `inferida` (la web lo indica); (c) se aceptan afirmaciones en las que solo se pronuncian partidos de un bloque si difieren en intensidad (jornada de 35 h, pensión mínima = SMI); (d) en seguridad se incluyen «derogar la Ley de Seguridad Ciudadana de 2015» y «endurecer penas por disturbios violentos», con las posturas contrarias inferidas. |
