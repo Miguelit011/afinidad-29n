@@ -1,0 +1,198 @@
+[
+  {
+    "tema": "vivienda",
+    "resumen": "En contra de: «Debería derogarse la Ley de Vivienda aprobada en 2023.»",
+    "cita_literal": "En 2023, aprobamos la primera Ley por el Derecho a la Vivienda de la democracia",
+    "pagina": 24,
+    "usada_en": "viv-2"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "A favor de: «Debería limitarse por ley el precio del alquiler en las zonas con el mercado de vivienda tensionado.»",
+    "cita_literal": "Congelar temporalmente las rentas que superen los índices de referencia, evitando incrementos abusivos en los mercados tensionados.",
+    "pagina": 30,
+    "usada_en": "viv-1"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Desalojo de viviendas ocupadas en 48 horas.",
+    "cita_literal": "desalojo de viviendas ocupadas en 48 horas",
+    "pagina": 100,
+    "usada_en": null
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "A favor de: «Debería subirse el IRPF a las rentas más altas.»",
+    "cita_literal": "Introducir progresividad a la imposición del capital. Incrementar la tributación de las rentas de capital más elevadas.",
+    "pagina": 48,
+    "usada_en": "fis-1"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "En contra de: «Debería reducirse el Impuesto sobre Sociedades que pagan las empresas.»",
+    "cita_literal": "Aumentar la tributación de las empresas cotizadas cuya ratio entre la retribución total de su ejecutivo principal y la mediana de su plantilla supere 100 a 1",
+    "pagina": 48,
+    "usada_en": "fis-2"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Subir el impuesto sobre transacciones financieras del 0,2 % al 0,4 %.",
+    "cita_literal": "Reforzar la tasa Tobin aumentando el tipo impositivo del 0,2% al 0,4%.",
+    "pagina": 49,
+    "usada_en": null
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "A favor de: «Debería existir un impuesto estatal sobre las grandes fortunas que las comunidades autónomas no puedan suprimir.» (postura inferida)",
+    "cita_literal": "Impulsar la creación de un impuesto mínimo global sobre las grandes fortunas",
+    "pagina": 107,
+    "usada_en": "fis-3"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "En contra de: «Debería derogarse la reforma laboral aprobada en 2021.»",
+    "cita_literal": "Con la reforma laboral, España ha alcanzado los 22,8 millones de ocupados, ha reducido el paro por debajo del 10% por primera vez en 17 años",
+    "pagina": 36,
+    "usada_en": "emp-2"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "A favor de: «Debería reducirse por ley la jornada laboral máxima a 35 horas semanales o menos, sin bajar el salario.»",
+    "cita_literal": "Completar la reducción de la jornada a 37,5 horas e incentivar los avances en la negociación colectiva hacia las 35 horas.",
+    "pagina": 41,
+    "usada_en": "emp-1"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "Recuperar los salarios de tramitación en los despidos.",
+    "cita_literal": "Recuperar los salarios de tramitación en los supuestos legalmente establecidos",
+    "pagina": 41,
+    "usada_en": null
+  },
+  {
+    "tema": "pensiones",
+    "resumen": "A favor de: «La pensión mínima contributiva debería igualarse al salario mínimo interprofesional.»",
+    "cita_literal": "culminando el proceso de convergencia de las cuantías de las pensiones mínimas con estándares de ingresos del conjunto de la sociedad.",
+    "pagina": 39,
+    "usada_en": "pen-1"
+  },
+  {
+    "tema": "pensiones",
+    "resumen": "Blindar en la Constitución la revalorización de las pensiones con el IPC.",
+    "cita_literal": "Blindar constitucionalmente el sistema público de pensiones y su revalorización conforme al IPC",
+    "pagina": 40,
+    "usada_en": null
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "A favor de: «Las personas inmigrantes en situación irregular deberían tener acceso a la sanidad pública en las mismas condiciones que el resto de residentes.» (postura inferida)",
+    "cita_literal": "En sanidad, devolvimos la universalidad al Sistema Nacional de Salud",
+    "pagina": 46,
+    "usada_en": "san-2"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "En contra de: «La sanidad pública debería recurrir a centros privados para reducir las listas de espera.»",
+    "cita_literal": "Limitar la privatización de la sanidad estableciendo la gestión directa como modalidad preferente en la prestación sanitaria.",
+    "pagina": 49,
+    "usada_en": "san-1"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "Incorporar la salud bucodental básica de adultos a la sanidad pública.",
+    "cita_literal": "Incorporaremos progresivamente a la sanidad pública los tratamientos básicos para toda la población adulta",
+    "pagina": 49,
+    "usada_en": null
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy en contra de: «Debería alargarse la vida de las centrales nucleares más allá del calendario de cierre previsto.»",
+    "cita_literal": "Mantener el calendario de cierre de las centrales nucleares hasta 2035",
+    "pagina": 66,
+    "usada_en": "ene-1"
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy a favor de: «Deberían implantarse zonas de bajas emisiones que restrinjan la circulación de los vehículos más contaminantes en las ciudades.»",
+    "cita_literal": "Impulsar las Zonas de Bajas Emisiones y la movilidad sostenible en las ciudades",
+    "pagina": 71,
+    "usada_en": "ene-2"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Muy a favor de: «El Estado debería asumir una parte de la deuda de las comunidades autónomas.»",
+    "cita_literal": "Avanzaremos en la asunción parcial por el Estado de 83.000 millones de euros de deuda autonómica",
+    "pagina": 61,
+    "usada_en": "ter-1"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Muy a favor de: «Debería poder usarse el catalán, el euskera y el gallego en los debates del Congreso de los Diputados.»",
+    "cita_literal": "Consolidaremos el uso de las lenguas cooficiales en las Cortes Generales",
+    "pagina": 91,
+    "usada_en": "ter-2"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "En contra de: «Debería derogarse la Ley de Memoria Democrática.»",
+    "cita_literal": "Con la Ley de Memoria Democrática las hemos situado en el centro de las políticas públicas.",
+    "pagina": 98,
+    "usada_en": "ins-2"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Muy a favor de: «El derecho al aborto debería incluirse en la Constitución.»",
+    "cita_literal": "Blindar constitucionalmente el derecho a la interrupción voluntaria del embarazo.",
+    "pagina": 81,
+    "usada_en": "der-3"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Muy en contra de: «Deberían derogarse las leyes específicas contra la violencia de género.»",
+    "cita_literal": "Aprobar una Ley Orgánica contra la Violencia Vicaria como manifestación de la violencia de género",
+    "pagina": 82,
+    "usada_en": "der-1"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "En contra de: «Debería eliminarse la posibilidad de cambiar el sexo en el Registro Civil con la sola declaración de la persona interesada.» (postura inferida)",
+    "cita_literal": "Garantizar que la Ley 4/2023 sea el suelo común de derechos de las personas LGTBI en toda España",
+    "pagina": 97,
+    "usada_en": "der-2"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Castigar penalmente las llamadas terapias de conversión.",
+    "cita_literal": "Culminar la reforma del Código Penal para penalizar las llamadas «terapias de conversión»",
+    "pagina": 97,
+    "usada_en": null
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Muy a favor de: «Debería derogarse la Ley de Seguridad Ciudadana de 2015.»",
+    "cita_literal": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la Ley Orgánica 4/2015",
+    "pagina": 99,
+    "usada_en": "seg-1"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "A favor de: «España debería mantener su apoyo militar a Ucrania.» (postura inferida)",
+    "cita_literal": "con Ucrania frente a Putin",
+    "pagina": 88,
+    "usada_en": "ext-4"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "En contra de: «España debería aumentar su gasto en defensa.»",
+    "cita_literal": "rechazando el aumento del gasto militar al 5% del PIB, pues ello pondría en riesgo nuestro Estado del bienestar.",
+    "pagina": 105,
+    "usada_en": "ext-1"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "En contra de: «España debería salir de la OTAN.» (postura inferida)",
+    "cita_literal": "Somos aliados, no vasallos.",
+    "pagina": 105,
+    "usada_en": "ext-2"
+  }
+]

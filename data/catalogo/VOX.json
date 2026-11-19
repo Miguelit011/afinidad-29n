@@ -1,0 +1,226 @@
+[
+  {
+    "tema": "vivienda",
+    "resumen": "En contra de: «Debería limitarse por ley el precio del alquiler en las zonas con el mercado de vivienda tensionado.» (postura inferida)",
+    "cita_literal": "Recuperar la seguridad jurídica y una oferta de alquileres estable, abundante y asequible. Derogación de la Ley de Vivienda.",
+    "pagina": 23,
+    "usada_en": "viv-1"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Muy a favor de: «Debería derogarse la Ley de Vivienda aprobada en 2023.»",
+    "cita_literal": "Recuperar la seguridad jurídica y una oferta de alquileres estable, abundante y asequible. Derogación de la Ley de Vivienda.",
+    "pagina": 23,
+    "usada_en": "viv-2"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Desalojo de viviendas ocupadas en menos de 24 horas.",
+    "cita_literal": "Desalojo de la vivienda okupada en menos de 24 horas y recuperación inmediata de la posesión por su legítimo titular, el propietario.",
+    "pagina": 24,
+    "usada_en": null
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "IVA del 0 % en la compra de la primera vivienda nueva.",
+    "cita_literal": "Tipo 0% de IVA para la compra de tu primera vivienda habitual -de nueva construcción-",
+    "pagina": 24,
+    "usada_en": null
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "En contra de: «Debería subirse el IRPF a las rentas más altas.» (postura inferida)",
+    "cita_literal": "Reforma del sistema de tributación sobre la renta (IRPF). Simplificación y bajada del IRPF.",
+    "pagina": 9,
+    "usada_en": "fis-1"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Muy a favor de: «Debería reducirse el Impuesto sobre Sociedades que pagan las empresas.»",
+    "cita_literal": "Reducir el tipo del Impuesto de Sociedades con el fin de promover la dinamización de nuestra economía",
+    "pagina": 9,
+    "usada_en": "fis-2"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "En contra de: «Debería existir un impuesto estatal sobre las grandes fortunas que las comunidades autónomas no puedan suprimir.» (postura inferida)",
+    "cita_literal": "Revisión y reducción sistemática de todos los impuestos y tasas que lastran la prosperidad",
+    "pagina": 9,
+    "usada_en": "fis-3"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "Cuota cero para autónomos con ingresos inferiores al SMI.",
+    "cita_literal": "Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional",
+    "pagina": 9,
+    "usada_en": null
+  },
+  {
+    "tema": "empleo",
+    "resumen": "A favor de: «Debería derogarse la reforma laboral aprobada en 2021.» (postura inferida)",
+    "cita_literal": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad",
+    "pagina": 13,
+    "usada_en": "emp-2"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "Muy en contra de: «Las personas inmigrantes en situación irregular deberían tener acceso a la sanidad pública en las mismas condiciones que el resto de residentes.»",
+    "cita_literal": "Garantizar la sostenibilidad del sistema sanitario dotándolo de los medios necesarios para atender las necesidades de los españoles, excluyendo a los extranjeros en situación ilegal salvo casos de urgencia grave.",
+    "pagina": 19,
+    "usada_en": "san-2"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "Muy a favor de: «La sanidad pública debería recurrir a centros privados para reducir las listas de espera.»",
+    "cita_literal": "Fomento de la colaboración público-privada cuando ayude efectivamente a reducir demoras",
+    "pagina": 37,
+    "usada_en": "san-1"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "En contra de: «Debería reducirse progresivamente la financiación pública de los colegios concertados.» (postura inferida)",
+    "cita_literal": "Garantizar la libre elección de centro educativo en todos los niveles para que las familias elijan libremente el modelo educativo que desean, sin que su situación económica o social sea un impedimento para ello.",
+    "pagina": 41,
+    "usada_en": "edu-1"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Muy a favor de: «Debería garantizarse en todas las comunidades autónomas el derecho a recibir la enseñanza en castellano.»",
+    "cita_literal": "Se garantizará la educación en español en todo el territorio nacional.",
+    "pagina": 41,
+    "usada_en": "edu-2"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Muy a favor de: «Debería sustituirse la ley educativa actual (LOMLOE) por una nueva ley.»",
+    "cita_literal": "Derogación de la LOMLOE y recuperación de una enseñanza basada en el esfuerzo",
+    "pagina": 41,
+    "usada_en": "edu-3"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Educación infantil de 0 a 3 años gratuita.",
+    "cita_literal": "la gratuidad real de la educación infantil de 0 a 3 años.",
+    "pagina": 51,
+    "usada_en": null
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Muy en contra de: «Debería regularizarse a las personas inmigrantes que viven en España en situación irregular.»",
+    "cita_literal": "Prohibición de las regularizaciones masivas. Quien entra de forma ilegal jamás podrá regularizar su situación.",
+    "pagina": 15,
+    "usada_en": "inm-1"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Muy a favor de: «Los menores extranjeros que llegan solos a España deberían volver con sus familias o a su país como opción prioritaria.»",
+    "cita_literal": "Devolución de menores extranjeros no acompañados a sus padres",
+    "pagina": 15,
+    "usada_en": "inm-3"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Muy a favor de: «Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas de nacionalidad española.»",
+    "cita_literal": "Acceso preferente de los españoles a vivienda pública, plazas de guardería, bonos de comedor o transporte, ayudas, prestaciones y servicios sociales.",
+    "pagina": 19,
+    "usada_en": "inm-2"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Impuesto sobre el dinero que se envía al extranjero.",
+    "cita_literal": "Gravamen sobre las remesas al extranjero.",
+    "pagina": 19,
+    "usada_en": null
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Prohibir el burka y el niqab en espacios públicos.",
+    "cita_literal": "Prohibición del burka y el niqab en todos los espacios públicos",
+    "pagina": 42,
+    "usada_en": null
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy a favor de: «Debería alargarse la vida de las centrales nucleares más allá del calendario de cierre previsto.»",
+    "cita_literal": "Se garantizará la supervivencia de las centrales nucleares actuales, derogando el calendario de cierre.",
+    "pagina": 12,
+    "usada_en": "ene-1"
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy en contra de: «Deberían implantarse zonas de bajas emisiones que restrinjan la circulación de los vehículos más contaminantes en las ciudades.»",
+    "cita_literal": "Acabar con todas las imposiciones climáticas como el Pacto Verde que castigan nuestra industria, nuestro campo o que coartan la libertad de circulación de los españoles, como la imposición de ZBE.",
+    "pagina": 29,
+    "usada_en": "ene-2"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Ilegalizar las organizaciones que atenten contra la unidad de España.",
+    "cita_literal": "Ilegalización de los partidos políticos, asociaciones u organizaciones de cualquier tipo que atenten contra la soberanía e independencia de España, su unidad e integridad territorial.",
+    "pagina": 56,
+    "usada_en": null
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "A favor de: «Debería derogarse la Ley de Memoria Democrática.» (postura inferida)",
+    "cita_literal": "Superación de las divisivas leyes ideológicas que enfrentan a los españoles, tales como la de Memoria Democrática",
+    "pagina": 30,
+    "usada_en": "ins-2"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Muy a favor de: «Los propios jueces deberían elegir a los doce vocales de origen judicial del Consejo General del Poder Judicial.»",
+    "cita_literal": "Modificar la Ley Orgánica del Poder Judicial para que los doce vocales de procedencia judicial del Consejo General del Poder Judicial sean elegidos mediante voto personal, directo y secreto por y entre los propios jueces y magistrados",
+    "pagina": 55,
+    "usada_en": "ins-1"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Muy en contra de: «Deberían dejar de ser delito las injurias a la Corona y los ultrajes a España y a sus símbolos.»",
+    "cita_literal": "Las penas por las ofensas y ultrajes a España y sus símbolos o emblemas deben agravarse para que ninguna afrenta a ellos quede impune.",
+    "pagina": 56,
+    "usada_en": "ins-3"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Muy a favor de: «Deberían derogarse las leyes específicas contra la violencia de género.»",
+    "cita_literal": "Derogar las leyes que han criminalizado a los hombres y desprotegido a las mujeres.",
+    "pagina": 30,
+    "usada_en": "der-1"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Criterios biológicos en el deporte femenino.",
+    "cita_literal": "Compromiso con la defensa del deporte femenino, que debe regirse por criterios biológicos",
+    "pagina": 43,
+    "usada_en": null
+  },
+  {
+    "tema": "derechos",
+    "resumen": "En contra de: «El derecho al aborto debería incluirse en la Constitución.» (postura inferida)",
+    "cita_literal": "Defensa del derecho a la vida desde su concepción hasta la muerte natural y fin de la cultura de la muerte.",
+    "pagina": 52,
+    "usada_en": "der-3"
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Ampliar la prisión permanente revisable.",
+    "cita_literal": "Ampliación de la prisión permanente revisable.",
+    "pagina": 45,
+    "usada_en": null
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Rebajar la edad de responsabilidad penal.",
+    "cita_literal": "Reducción de la edad de responsabilidad penal del menor",
+    "pagina": 45,
+    "usada_en": null
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Muy a favor de: «España debería aumentar su gasto en defensa.»",
+    "cita_literal": "Aumento de la inversión en Defensa",
+    "pagina": 47,
+    "usada_en": "ext-1"
+  }
+]

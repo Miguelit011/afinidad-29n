@@ -1,0 +1,212 @@
+[
+  {
+    "tema": "vivienda",
+    "resumen": "Muy a favor de: «Debería limitarse por ley el precio del alquiler en las zonas con el mercado de vivienda tensionado.»",
+    "cita_literal": "Bajar los alquileres un 40% por ley. Aprobaremos una reducción extraordinaria del 40 % de los precios del alquiler",
+    "pagina": 8,
+    "usada_en": "viv-1"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Crear un impuesto sobre las viviendas vacías.",
+    "cita_literal": "Impuesto para las viviendas vacías.",
+    "pagina": 10,
+    "usada_en": null
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Muy a favor de: «Debería existir un impuesto estatal sobre las grandes fortunas que las comunidades autónomas no puedan suprimir.»",
+    "cita_literal": "Ampliaremos el impuesto a las grandes fortunas a todos los obligados tributarios del Impuesto del Patrimonio, para evitar que las Comunidades Autónomas lo eliminen.",
+    "pagina": 17,
+    "usada_en": "fis-3"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Muy a favor de: «Debería subirse el IRPF a las rentas más altas.»",
+    "cita_literal": "Reforma del IRPF para que las rentas más altas contribuyan más.",
+    "pagina": 21,
+    "usada_en": "fis-1"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Muy en contra de: «Debería reducirse el Impuesto sobre Sociedades que pagan las empresas.»",
+    "cita_literal": "Reforma del impuesto de sociedades para que las grandes empresas y los oligopolios paguen lo que les corresponde. Reformaremos el impuesto de sociedades para aumentar su capacidad recaudatoria",
+    "pagina": 21,
+    "usada_en": "fis-2"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "Muy a favor de: «Debería reducirse por ley la jornada laboral máxima a 35 horas semanales o menos, sin bajar el salario.»",
+    "cita_literal": "Reduciremos la jornada laboral a 30 horas semanales durante la legislatura, comenzando con una bajada a 35 horas",
+    "pagina": 41,
+    "usada_en": "emp-1"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "Subir el SMI a 1.800 euros mensuales en la legislatura.",
+    "cita_literal": "Aumentaremos el SMI hasta los 1.800 euros al mes en una legislatura",
+    "pagina": 41,
+    "usada_en": null
+  },
+  {
+    "tema": "pensiones",
+    "resumen": "Muy a favor de: «La pensión mínima contributiva debería igualarse al salario mínimo interprofesional.»",
+    "cita_literal": "Equiparar la pensión mínima al salario mínimo interprofesional. Garantizaremos que la pensión mínima contributiva se equipare al SMI",
+    "pagina": 44,
+    "usada_en": "pen-1"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "Muy a favor de: «Las personas inmigrantes en situación irregular deberían tener acceso a la sanidad pública en las mismas condiciones que el resto de residentes.»",
+    "cita_literal": "incluidas las personas migrantes en situación administrativa irregular y las solicitantes de asilo. Eliminaremos las barreras administrativas que impiden recibir atención",
+    "pagina": 69,
+    "usada_en": "san-2"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "Muy en contra de: «La sanidad pública debería recurrir a centros privados para reducir las listas de espera.»",
+    "cita_literal": "Acabar con la privatización y recuperar la sanidad para lo público.",
+    "pagina": 88,
+    "usada_en": "san-1"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Muy a favor de: «Debería reducirse progresivamente la financiación pública de los colegios concertados.»",
+    "cita_literal": "Avanzaremos hacia una única red educativa de gestión pública directa, poniendo fin progresivamente a la privatización de la enseñanza y a la utilización de fondos públicos para financiar negocios privados.",
+    "pagina": 79,
+    "usada_en": "edu-1"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Suprimir la enseñanza de la religión en todos los colegios.",
+    "cita_literal": "Suprimiremos la enseñanza de cualquier religión en cualquier colegio.",
+    "pagina": 83,
+    "usada_en": null
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "En contra de: «Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas de nacionalidad española.» (postura inferida)",
+    "cita_literal": "impidiendo que se rechace a personas por su origen, nacionalidad o situación administrativa",
+    "pagina": 12,
+    "usada_en": "inm-2"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "En contra de: «Los menores extranjeros que llegan solos a España deberían volver con sus familias o a su país como opción prioritaria.» (postura inferida)",
+    "cita_literal": "se garantizará la atención integral y regularización de los menores extranjeros no acompañados",
+    "pagina": 65,
+    "usada_en": "inm-3"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Muy a favor de: «Debería regularizarse a las personas inmigrantes que viven en España en situación irregular.»",
+    "cita_literal": "Establecimiento de un procedimiento permanente de regularización de las personas migrantes.",
+    "pagina": 67,
+    "usada_en": "inm-1"
+  },
+  {
+    "tema": "energia",
+    "resumen": "Transporte público gratuito.",
+    "cita_literal": "Garantizaremos la gratuidad de todo el transporte público de viajeros",
+    "pagina": 19,
+    "usada_en": null
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy a favor de: «Deberían implantarse zonas de bajas emisiones que restrinjan la circulación de los vehículos más contaminantes en las ciudades.»",
+    "cita_literal": "Implantar de forma acelerada las Zonas de Bajas Emisiones",
+    "pagina": 95,
+    "usada_en": "ene-2"
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy en contra de: «Debería alargarse la vida de las centrales nucleares más allá del calendario de cierre previsto.»",
+    "cita_literal": "Defenderemos el cumplimiento del calendario de cierre de las centrales nucleares, comenzando por Almaraz",
+    "pagina": 103,
+    "usada_en": "ene-1"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "En contra de: «Debería derogarse la Ley de Memoria Democrática.» (postura inferida)",
+    "cita_literal": "Llevar a la práctica las propuestas de la Comisión de Memoria del Pueblo Gitano, que se creó en 2024 por la disposición adicional duodécima de la Ley de Memoria Democrática",
+    "pagina": 71,
+    "usada_en": "ins-2"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Referéndum para elegir entre monarquía y república.",
+    "cita_literal": "que la ciudadanía decida de forma separada y directa entre monarquía y república",
+    "pagina": 128,
+    "usada_en": null
+  },
+  {
+    "tema": "derechos",
+    "resumen": "En contra de: «Deberían derogarse las leyes específicas contra la violencia de género.» (postura inferida)",
+    "cita_literal": "Este fondo garantizará la financiación pública de todas las medidas, servicios y políticas públicas contra las violencias machistas",
+    "pagina": 51,
+    "usada_en": "der-1"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Muy a favor de: «El derecho al aborto debería incluirse en la Constitución.»",
+    "cita_literal": "Incorporar expresamente el derecho al aborto en la Constitución",
+    "pagina": 51,
+    "usada_en": "der-3"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "En contra de: «Debería eliminarse la posibilidad de cambiar el sexo en el Registro Civil con la sola declaración de la persona interesada.» (postura inferida)",
+    "cita_literal": "El Estado debe reconocer todos sus derechos a las personas no binarias y el más primordial de todos es reconocerles su identidad.",
+    "pagina": 52,
+    "usada_en": "der-2"
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Muy a favor de: «Debería derogarse la Ley de Seguridad Ciudadana de 2015.»",
+    "cita_literal": "Derogar la Ley Mordaza y reformar la legislación que limita los derechos fundamentales.",
+    "pagina": 133,
+    "usada_en": "seg-1"
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Prohibir el uso policial de pelotas de goma.",
+    "cita_literal": "que incluya expresamente la prohibición del uso de pelotas de goma",
+    "pagina": 133,
+    "usada_en": null
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Muy en contra de: «España debería aumentar su gasto en defensa.»",
+    "cita_literal": "Revertiremos en los Presupuestos Generales del Estado el mayor aumento del gasto militar de la historia de la democracia",
+    "pagina": 28,
+    "usada_en": "ext-1"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Muy a favor de: «España debería salir de la OTAN.»",
+    "cita_literal": "Impulsaremos la salida de España de la OTAN mediante la denuncia del Tratado del Atlántico Norte",
+    "pagina": 28,
+    "usada_en": "ext-2"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Cerrar las bases militares estadounidenses de Rota y Morón.",
+    "cita_literal": "Salida de la OTAN y cierre de las bases militares estadounidenses de Rota y Morón.",
+    "pagina": 28,
+    "usada_en": null
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Muy a favor de: «España debería romper sus relaciones diplomáticas y comerciales con Israel.»",
+    "cita_literal": "Ruptura de las relaciones diplomáticas, culturales y comerciales con Israel.",
+    "pagina": 34,
+    "usada_en": "ext-3"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "En contra de: «España debería mantener su apoyo militar a Ucrania.» (postura inferida)",
+    "cita_literal": "Defenderemos una solución diplomática y negociada al conflicto de Ucrania, impulsando un alto el fuego",
+    "pagina": 37,
+    "usada_en": "ext-4"
+  }
+]

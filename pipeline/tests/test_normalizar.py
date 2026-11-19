@@ -15,6 +15,11 @@ def test_guion_de_corte_de_linea_se_une():
     assert limpiar("deci-\nsiones a su altura") == "decisiones a su altura"
 
 
+def test_guion_de_corte_en_mayusculas_se_une():
+    entrada = "IMPUESTO SOBRE SOCIEDA-" + chr(10) + "DES."
+    assert limpiar(entrada) == "IMPUESTO SOBRE SOCIEDADES."
+
+
 def test_guion_real_se_conserva():
     # Seguido de mayúscula o número no es un corte de palabra.
     assert limpiar("Castilla-\nLa Mancha") == "Castilla-\nLa Mancha"

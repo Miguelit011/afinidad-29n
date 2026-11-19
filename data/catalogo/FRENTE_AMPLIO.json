@@ -1,0 +1,233 @@
+[
+  {
+    "tema": "vivienda",
+    "resumen": "Extinguir en tres años las licencias de pisos turísticos en zonas tensionadas.",
+    "cita_literal": "Tramitaremos la extinción progresiva y definitiva de todas las licencias de Viviendas de Uso Turístico (VUT) y alquileres de temporada fraudulentos en edificios residenciales en un plazo máximo de 3 años dentro de las zonas tensionadas",
+    "pagina": 12,
+    "usada_en": null
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Muy a favor de: «Debería limitarse por ley el precio del alquiler en las zonas con el mercado de vivienda tensionado.»",
+    "cita_literal": "Limitaremos por ley el precio del alquiler residencial en todas las zonas tensionadas",
+    "pagina": 13,
+    "usada_en": "viv-1"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "En contra de: «Debería derogarse la Ley de Vivienda aprobada en 2023.» (postura inferida)",
+    "cita_literal": "La declaración de Zona de Mercado Residencial Tensionado (ZMRT) será obligatoria y automática en el momento en que una demarcación cumpla con los parámetros objetivos legalmente establecidos en la Ley de Vivienda",
+    "pagina": 14,
+    "usada_en": "viv-2"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Muy en contra de: «Debería reducirse el Impuesto sobre Sociedades que pagan las empresas.»",
+    "cita_literal": "Nuestra reforma fiscal hará que el nuevo esfuerzo tributario recaiga sobre las grandes corporaciones, el sector financiero y las grandes fortunas — mediante un tipo mínimo real del 20 % en Sociedades",
+    "pagina": 8,
+    "usada_en": "fis-2"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Muy a favor de: «Debería existir un impuesto estatal sobre las grandes fortunas que las comunidades autónomas no puedan suprimir.»",
+    "cita_literal": "Reformaremos el Impuesto de Solidaridad de las Grandes Fortunas para garantizar que los patrimonios con más de un millón de euros paguen como mínimo el 2 %.",
+    "pagina": 45,
+    "usada_en": "fis-3"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "Muy a favor de: «Debería subirse el IRPF a las rentas más altas.»",
+    "cita_literal": "Ampliaremos el número de tramos del IRPF a partir de 120.000 euros anuales y elevaremos progresivamente los tipos marginales hasta alcanzar el 52 % para rentas a partir de 300.000 euros.",
+    "pagina": 46,
+    "usada_en": "fis-1"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "Muy a favor de: «Debería reducirse por ley la jornada laboral máxima a 35 horas semanales o menos, sin bajar el salario.»",
+    "cita_literal": "Avanzaremos hacia la jornada laboral máxima de 32 horas semanales sin reducción salarial",
+    "pagina": 7,
+    "usada_en": "emp-1"
+  },
+  {
+    "tema": "empleo",
+    "resumen": "Fijar por ley el SMI en el 60 % del salario medio neto.",
+    "cita_literal": "blindaremos por ley un Salario Mínimo Interprofesional equivalente al 60 % del salario medio neto",
+    "pagina": 7,
+    "usada_en": null
+  },
+  {
+    "tema": "empleo",
+    "resumen": "En contra de: «Debería derogarse la reforma laboral aprobada en 2021.» (postura inferida)",
+    "cita_literal": "A pesar de que la reforma laboral ha dado lugar a las cifras más altas de personas trabajando y de empleo estable",
+    "pagina": 54,
+    "usada_en": "emp-2"
+  },
+  {
+    "tema": "pensiones",
+    "resumen": "Muy a favor de: «La pensión mínima contributiva debería igualarse al salario mínimo interprofesional.»",
+    "cita_literal": "Blindaje constitucional del carácter público de las pensiones, de su revalorización y pensión mínima igual al SMI",
+    "pagina": 57,
+    "usada_en": "pen-1"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "Muy en contra de: «La sanidad pública debería recurrir a centros privados para reducir las listas de espera.»",
+    "cita_literal": "Derogaremos expresamente la Ley 15/1997, sobre habilitación de nuevas formas de gestión del SNS, que había abierto la puerta a la colaboración con entidades privadas",
+    "pagina": 26,
+    "usada_en": "san-1"
+  },
+  {
+    "tema": "sanidad",
+    "resumen": "Muy a favor de: «Las personas inmigrantes en situación irregular deberían tener acceso a la sanidad pública en las mismas condiciones que el resto de residentes.»",
+    "cita_literal": "Blindaremos por ley la universalidad de la atención sanitaria para residentes en España, independientemente de su estatus administrativo.",
+    "pagina": 26,
+    "usada_en": "san-2"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "En contra de: «Debería garantizarse en todas las comunidades autónomas el derecho a recibir la enseñanza en castellano.» (postura inferida)",
+    "cita_literal": "Lanzaremos un Plan Estatal para el aprendizaje y divulgación de las lenguas cooficiales en todo el Estado, garantizando la inmersión lingüística en catalán como lengua vehicular en Cataluña.",
+    "pagina": 32,
+    "usada_en": "edu-2"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "En contra de: «Debería sustituirse la ley educativa actual (LOMLOE) por una nueva ley.» (postura inferida)",
+    "cita_literal": "Impulsaremos una reforma de la LOMLOE que incluya la alfabetización informacional y digital como competencia clave",
+    "pagina": 41,
+    "usada_en": "edu-3"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Muy a favor de: «Debería regularizarse a las personas inmigrantes que viven en España en situación irregular.»",
+    "cita_literal": "Culminar la regularización extraordinaria de 2026: Resolveremos todas las solicitudes con medios suficientes, de modo que ninguna persona quede fuera por retrasos de la Administración.",
+    "pagina": 126,
+    "usada_en": "inm-1"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "En contra de: «Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas de nacionalidad española.» (postura inferida)",
+    "cita_literal": "Suprimiremos trabas administrativas para el acceso efectivo a derechos mediante un empadronamiento flexible",
+    "pagina": 126,
+    "usada_en": "inm-2"
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy en contra de: «Debería alargarse la vida de las centrales nucleares más allá del calendario de cierre previsto.»",
+    "cita_literal": "Cumpliremos el calendario de cierre de las centrales nucleares.",
+    "pagina": 64,
+    "usada_en": "ene-1"
+  },
+  {
+    "tema": "energia",
+    "resumen": "Retirar las nuevas calderas de combustibles fósiles desde 2027.",
+    "cita_literal": "Aplicaremos la retirada de nuevas calderas fósiles desde 2027",
+    "pagina": 71,
+    "usada_en": null
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Avanzar hacia una república federal y plurinacional.",
+    "cita_literal": "proponemos avanzar hacia una República Federal y Plurinacional",
+    "pagina": 8,
+    "usada_en": null
+  },
+  {
+    "tema": "territorial",
+    "resumen": "En contra de: «Ninguna comunidad autónoma debería tener un sistema de financiación propio pactado bilateralmente con el Estado.» (postura inferida)",
+    "cita_literal": "debe acomodar la voluntad de mayor autogobierno que han expresado algunas comunidades autónomas, avanzando hacia un modelo de financiación que responda a los principios de un federalismo social y plurinacional.",
+    "pagina": 103,
+    "usada_en": "ter-3"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Muy a favor de: «El Estado debería asumir una parte de la deuda de las comunidades autónomas.»",
+    "cita_literal": "Condonación de deuda autonómica condicionada a la prohibición de efectuar dumping fiscal o bajadas de impuestos a rentas altas.",
+    "pagina": 104,
+    "usada_en": "ter-1"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "A favor de: «Debería poder usarse el catalán, el euskera y el gallego en los debates del Congreso de los Diputados.» (postura inferida)",
+    "cita_literal": "Aprobaremos una ley del plurilingüismo, para garantizar plenamente los derechos lingüísticos, para que la ciudadanía pueda relacionarse en las lenguas cooficiales y estatutarias con las instituciones del Estado.",
+    "pagina": 141,
+    "usada_en": "ter-2"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Muy a favor de: «Deberían dejar de ser delito las injurias a la Corona y los ultrajes a España y a sus símbolos.»",
+    "cita_literal": "Derogaremos los artículos del Código Penal que castigan los delitos contra los sentimientos religiosos o de escarnio público, los delitos contra la Corona",
+    "pagina": 142,
+    "usada_en": "ins-3"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Muy en contra de: «Debería derogarse la Ley de Memoria Democrática.»",
+    "cita_literal": "Desarrollo reglamentario de la Ley de Memoria Democrática que recoja el derecho a la reparación de todas las víctimas de la dictadura franquista",
+    "pagina": 146,
+    "usada_en": "ins-2"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Muy en contra de: «Los propios jueces deberían elegir a los doce vocales de origen judicial del Consejo General del Poder Judicial.»",
+    "cita_literal": "Los vocales del turno judicial se seguirán eligiendo por mayoría de tres quintos, pero si en dos meses no hay acuerdo, las Cámaras podrán elegirlos en segunda votación por mayoría absoluta",
+    "pagina": 148,
+    "usada_en": "ins-1"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Muy a favor de: «El derecho al aborto debería incluirse en la Constitución.»",
+    "cita_literal": "Reformaremos el artículo 43 de la Constitución para incluir el derecho al aborto",
+    "pagina": 28,
+    "usada_en": "der-3"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "En contra de: «Deberían derogarse las leyes específicas contra la violencia de género.» (postura inferida)",
+    "cita_literal": "blindaremos con carácter plurianual las partidas estructurales del Pacto de Estado contra la Violencia de Género",
+    "pagina": 38,
+    "usada_en": "der-1"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Muy en contra de: «Debería eliminarse la posibilidad de cambiar el sexo en el Registro Civil con la sola declaración de la persona interesada.»",
+    "cita_literal": "autodeterminación de las personas trans, intersex y no binarias",
+    "pagina": 123,
+    "usada_en": "der-2"
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Muy a favor de: «Debería derogarse la Ley de Seguridad Ciudadana de 2015.»",
+    "cita_literal": "Derogaremos por completo la Ley Mordaza.",
+    "pagina": 142,
+    "usada_en": "seg-1"
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "En contra de: «Deberían endurecerse las penas por participar en disturbios violentos.» (postura inferida)",
+    "cita_literal": "Reduciremos las multas excesivas y aplicaremos «criterios de proporcionalidad»",
+    "pagina": 142,
+    "usada_en": "seg-2"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Muy en contra de: «España debería aumentar su gasto en defensa.»",
+    "cita_literal": "Reducción del gasto militar y rechazo al objetivo de la OTAN",
+    "pagina": 130,
+    "usada_en": "ext-1"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Ley de embargo integral de armas a Israel.",
+    "cita_literal": "Aprobaremos una ley específica de embargo integral de armas a Israel",
+    "pagina": 131,
+    "usada_en": null
+  },
+  {
+    "tema": "exterior",
+    "resumen": "A favor de: «España debería romper sus relaciones diplomáticas y comerciales con Israel.»",
+    "cita_literal": "suspensión efectiva del Acuerdo de Asociación UE-Israel",
+    "pagina": 132,
+    "usada_en": "ext-3"
+  }
+]

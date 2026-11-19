@@ -1,0 +1,275 @@
+[
+  {
+    "tema": "vivienda",
+    "resumen": "Construir un millón de viviendas movilizando suelo público y privado.",
+    "cita_literal": "CONSTRUIREMOS UN MILLÓN DE VIVIENDAS.",
+    "pagina": 41,
+    "usada_en": null
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Muy en contra de: «Debería limitarse por ley el precio del alquiler en las zonas con el mercado de vivienda tensionado.»",
+    "cita_literal": "Eliminaremos las zonas tensionadas y el índice de precios, que han introducido más intervención, más incertidumbre y menos oferta en el mercado del alquiler.",
+    "pagina": 42,
+    "usada_en": "viv-1"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Muy a favor de: «Debería derogarse la Ley de Vivienda aprobada en 2023.»",
+    "cita_literal": "DEROGAREMOS LA LEY DE VIVIENDA. Recuperaremos la seguridad jurídica que necesitan propietarios e inquilinos.",
+    "pagina": 42,
+    "usada_en": "viv-2"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Ley para que el propietario recupere en 48 horas una vivienda ocupada.",
+    "cita_literal": "EL OCUPA SALDRÁ EN 48 HORAS POR ORDEN JUDICIAL. Aprobaremos una ley para que el propietario pueda recuperar su vivienda en 48 horas desde el primer día.",
+    "pagina": 43,
+    "usada_en": null
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "IVA del 4 % en la compra de la primera vivienda para menores de 40 años.",
+    "cita_literal": "Reduciremos el IVA de la compra de primera vivienda del 10% al 4% para menores de 40 años",
+    "pagina": 43,
+    "usada_en": null
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "A favor de: «Debería reducirse el Impuesto sobre Sociedades que pagan las empresas.»",
+    "cita_literal": "LA EMPRESA QUE INVIERTA PARA CRECER PAGARÁ MENOS IMPUESTO SOBRE SOCIEDADES.",
+    "pagina": 47,
+    "usada_en": "fis-2"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "En contra de: «Debería existir un impuesto estatal sobre las grandes fortunas que las comunidades autónomas no puedan suprimir.» (postura inferida)",
+    "cita_literal": "Las Comunidades Autónomas seguirán decidiendo con libertad sobre sus impuestos propios y cedidos, dentro de sus competencias, y podrán bajarlos cuanto quieran.",
+    "pagina": 47,
+    "usada_en": "fis-3"
+  },
+  {
+    "tema": "fiscalidad",
+    "resumen": "IVA del 0 % para los alimentos básicos mientras dure la crisis de inflación.",
+    "cita_literal": "aplicaremos un IVA del 0% a los alimentos básicos, incluidos la carne, el pescado y las conservas.",
+    "pagina": 47,
+    "usada_en": null
+  },
+  {
+    "tema": "empleo",
+    "resumen": "Cuota cero para los nuevos autónomos el primer año.",
+    "cita_literal": "Los nuevos autónomos no pagarán cuota a la Seguridad Social durante su primer año",
+    "pagina": 46,
+    "usada_en": null
+  },
+  {
+    "tema": "pensiones",
+    "resumen": "Revalorizar las pensiones cada año con el IPC.",
+    "cita_literal": "Aseguraremos que mantengan su poder adquisitivo y suban cada año con el IPC.",
+    "pagina": 34,
+    "usada_en": null
+  },
+  {
+    "tema": "pensiones",
+    "resumen": "Deducciones en el IRPF para quien compatibilice pensión y trabajo.",
+    "cita_literal": "Incentivaremos la jubilación activa mediante deducciones en el IRPF.",
+    "pagina": 34,
+    "usada_en": null
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Muy a favor de: «Debería garantizarse en todas las comunidades autónomas el derecho a recibir la enseñanza en castellano.»",
+    "cita_literal": "Garantizaremos el derecho constitucional de recibir enseñanza en castellano en todas las etapas del sistema educativo y en toda la Nación",
+    "pagina": 32,
+    "usada_en": "edu-2"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Escuela infantil de 0 a 3 años gratuita.",
+    "cita_literal": "LA ESCUELA INFANTIL DE CERO A TRES AÑOS SERÁ GRATUITA.",
+    "pagina": 44,
+    "usada_en": null
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Muy en contra de: «Debería reducirse progresivamente la financiación pública de los colegios concertados.»",
+    "cita_literal": "LOS PADRES ELEGIRÁN COLEGIO, Y NINGÚN CONCIERTO EDUCATIVO SE ELIMINARÁ DONDE HAYA DEMANDA SUFICIENTE.",
+    "pagina": 51,
+    "usada_en": "edu-1"
+  },
+  {
+    "tema": "educacion",
+    "resumen": "Muy a favor de: «Debería sustituirse la ley educativa actual (LOMLOE) por una nueva ley.»",
+    "cita_literal": "Acordaremos con docentes, inspectores, expertos y familias un nuevo marco educativo que sustituya a la LOMLOE.",
+    "pagina": 51,
+    "usada_en": "edu-3"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Muy en contra de: «Debería regularizarse a las personas inmigrantes que viven en España en situación irregular.»",
+    "cita_literal": "PROHIBIREMOS POR LEY LAS REGULARIZACIONES MASIVAS E INDISCRIMINADAS Y EL ARRAIGO SERÁ EXCEPCIONAL.",
+    "pagina": 19,
+    "usada_en": "inm-1"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Prohibir el burka y el niqab en espacios públicos.",
+    "cita_literal": "Prohibiremos el uso del burka y el niqab en los espacios públicos.",
+    "pagina": 19,
+    "usada_en": null
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "Muy a favor de: «Los menores extranjeros que llegan solos a España deberían volver con sus familias o a su país como opción prioritaria.»",
+    "cita_literal": "PROMOVEREMOS EL REGRESO DE LOS MENORES CON SUS FAMILIAS COMO OBJETIVO PRIORITARIO.",
+    "pagina": 20,
+    "usada_en": "inm-3"
+  },
+  {
+    "tema": "inmigracion",
+    "resumen": "En contra de: «Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas de nacionalidad española.»",
+    "cita_literal": "Estos criterios se aplicarán dentro de los límites constitucionales y europeos, por lo que no podrán basarse exclusivamente en la nacionalidad.",
+    "pagina": 32,
+    "usada_en": "inm-2"
+  },
+  {
+    "tema": "energia",
+    "resumen": "Muy a favor de: «Debería alargarse la vida de las centrales nucleares más allá del calendario de cierre previsto.»",
+    "cita_literal": "ELIMINAREMOS EL CALENDARIO DE CIERRE DE ALMARAZ, ASCÓ, VANDELLÓS, COFRENTES Y TRILLO.",
+    "pagina": 54,
+    "usada_en": "ene-1"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Recuperar el delito de sedición.",
+    "cita_literal": "Recuperaremos en el Código Penal el delito de sedición",
+    "pagina": 15,
+    "usada_en": null
+  },
+  {
+    "tema": "territorial",
+    "resumen": "En contra de: «El Estado debería asumir una parte de la deuda de las comunidades autónomas.»",
+    "cita_literal": "Cada Comunidad responderá de sus decisiones y de su deuda.",
+    "pagina": 33,
+    "usada_en": "ter-1"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Muy a favor de: «Ninguna comunidad autónoma debería tener un sistema de financiación propio pactado bilateralmente con el Estado.»",
+    "cita_literal": "Ninguna de las Comunidades que actualmente integran el régimen común saldrá de él ni habrá nuevos regímenes singulares negociados bilateralmente al margen de este sistema.",
+    "pagina": 33,
+    "usada_en": "ter-3"
+  },
+  {
+    "tema": "territorial",
+    "resumen": "Muy en contra de: «Debería poder usarse el catalán, el euskera y el gallego en los debates del Congreso de los Diputados.»",
+    "cita_literal": "Propondremos la reforma del Reglamento de la Cámara para que los debates parlamentarios se desarrollen en la lengua común de todos los españoles.",
+    "pagina": 37,
+    "usada_en": "ter-2"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Derogar la Ley de Amnistía.",
+    "cita_literal": "Derogaremos la Ley de Amnistía",
+    "pagina": 25,
+    "usada_en": null
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Elecciones obligatorias tras dos prórrogas presupuestarias seguidas.",
+    "cita_literal": "Promoveremos las reformas necesarias para que una segunda prórroga consecutiva provoque la disolución de las Cortes y la convocatoria de elecciones.",
+    "pagina": 26,
+    "usada_en": null
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Muy a favor de: «Los propios jueces deberían elegir a los doce vocales de origen judicial del Consejo General del Poder Judicial.»",
+    "cita_literal": "Los jueces y magistrados de todas las categorías elegirán a los doce vocales judiciales del Consejo General del Poder Judicial.",
+    "pagina": 27,
+    "usada_en": "ins-1"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "Muy a favor de: «Debería derogarse la Ley de Memoria Democrática.»",
+    "cita_literal": "Derogaremos la mal llamada «ley de memoria democrática»",
+    "pagina": 37,
+    "usada_en": "ins-2"
+  },
+  {
+    "tema": "instituciones",
+    "resumen": "En contra de: «Deberían dejar de ser delito las injurias a la Corona y los ultrajes a España y a sus símbolos.» (postura inferida)",
+    "cita_literal": "Llevaremos a cabo una reforma legal que rehabilite y proteja los símbolos del Estado",
+    "pagina": 37,
+    "usada_en": "ins-3"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "En contra de: «Deberían derogarse las leyes específicas contra la violencia de género.» (postura inferida)",
+    "cita_literal": "Cada año rendiremos cuentas del cumplimiento del Pacto de Estado contra la Violencia de Género.",
+    "pagina": 17,
+    "usada_en": "der-1"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Muy a favor de: «Debería eliminarse la posibilidad de cambiar el sexo en el Registro Civil con la sola declaración de la persona interesada.»",
+    "cita_literal": "eliminaremos la libre autodeterminación registral del sexo",
+    "pagina": 35,
+    "usada_en": "der-2"
+  },
+  {
+    "tema": "derechos",
+    "resumen": "Sexo biológico como criterio para las categorías deportivas femeninas.",
+    "cita_literal": "Garantizaremos que el sexo biológico sea el criterio para las categorías deportivas femeninas.",
+    "pagina": 35,
+    "usada_en": null
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "En contra de: «Debería derogarse la Ley de Seguridad Ciudadana de 2015.» (postura inferida)",
+    "cita_literal": "Elevaremos la multa mínima a 3.000 euros para quienes participen activamente en actos de vandalismo contra bienes públicos o privados durante desórdenes multitudinarios",
+    "pagina": 16,
+    "usada_en": "seg-1"
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Muy a favor de: «Deberían endurecerse las penas por participar en disturbios violentos.»",
+    "cita_literal": "Reformaremos el delito de desórdenes públicos para ampliar las conductas castigadas y endurecer las penas por participar en disturbios violentos",
+    "pagina": 16,
+    "usada_en": "seg-2"
+  },
+  {
+    "tema": "seguridad",
+    "resumen": "Ampliar la prisión permanente revisable a más delitos.",
+    "cita_literal": "AMPLIAREMOS LA PRISIÓN PERMANENTE REVISABLE A QUIEN HAGA DESAPARECER A SU VÍCTIMA Y A LOS DEPREDADORES SEXUALES.",
+    "pagina": 17,
+    "usada_en": null
+  },
+  {
+    "tema": "exterior",
+    "resumen": "A favor de: «España debería aumentar su gasto en defensa.» (postura inferida)",
+    "cita_literal": "La Defensa será una verdadera política de Estado y contará con una inversión plurianual que permita conocer fehacientemente y cumplir nuestros compromisos internacionales.",
+    "pagina": 21,
+    "usada_en": "ext-1"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Muy en contra de: «España debería salir de la OTAN.»",
+    "cita_literal": "Reforzaremos cuando sea necesario los contingentes españoles de la OTAN",
+    "pagina": 21,
+    "usada_en": "ext-2"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "Muy a favor de: «España debería mantener su apoyo militar a Ucrania.»",
+    "cita_literal": "Mantendremos el apoyo político, económico, militar y humanitario a Ucrania y las sanciones contra Rusia mientras dure su agresión.",
+    "pagina": 56,
+    "usada_en": "ext-4"
+  },
+  {
+    "tema": "exterior",
+    "resumen": "En contra de: «España debería romper sus relaciones diplomáticas y comerciales con Israel.» (postura inferida)",
+    "cita_literal": "Impulsaremos soluciones diplomáticas para la resolución de conflictos, con socios clave, como Israel y los países árabes de la región.",
+    "pagina": 57,
+    "usada_en": "ext-3"
+  }
+]

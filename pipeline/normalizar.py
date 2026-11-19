@@ -19,6 +19,8 @@ import unicodedata
 _GUION_BLANDO = re.compile(r"­\s*")
 # Guion de corte al final de línea seguido de minúscula: «deci-\nsiones» → «decisiones».
 _GUION_CORTE = re.compile(r"(?<=[^\W\d_])-[ \t]*\n[ \t]*(?=[a-záéíóúüñ])")
+# En titulares en mayúsculas: «SOCIEDA-\nDES» → «SOCIEDADES» (dos mayúsculas a cada lado).
+_GUION_CORTE_MAYUS = re.compile(r"(?<=[A-ZÁÉÍÓÚÜÑ]{2})-[ \t]*\n[ \t]*(?=[A-ZÁÉÍÓÚÜÑ]{2})")
 _ESPACIOS_LINEA = re.compile(r"[ \t  -   　]+")
 _LINEAS_VACIAS = re.compile(r"\n{3,}")
 _ANCHO_CERO = re.compile(r"[​-‍⁠﻿]")
@@ -45,6 +47,7 @@ def limpiar(texto: str) -> str:
     texto = re.sub(r"[ﬀ-ﬆ]", lambda m: unicodedata.normalize("NFKC", m.group()), texto)
     texto = _GUION_BLANDO.sub("", texto)
     texto = _GUION_CORTE.sub("", texto)
+    texto = _GUION_CORTE_MAYUS.sub("", texto)
     texto = _ESPACIOS_LINEA.sub(" ", texto)
     texto = "\n".join(linea.strip() for linea in texto.split("\n"))
     texto = _LINEAS_VACIAS.sub("\n\n", texto)
