@@ -1,0 +1,18 @@
+# Node
+node_modules/
+dist/
+web/public/programas/
+*.log
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
