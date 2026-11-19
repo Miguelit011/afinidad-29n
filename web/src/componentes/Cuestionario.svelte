@@ -167,6 +167,11 @@
     gap: 0.6rem;
     margin-bottom: 1.5rem;
   }
+  /* Saltar no es una respuesta: se separa y se distingue de la escala */
+  .opciones .saltar:not(.elegida) {
+    margin-top: 0.4rem;
+    border-style: dashed;
+  }
   @media (min-width: 640px) {
     .opciones {
       grid-template-columns: repeat(5, 1fr);

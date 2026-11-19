@@ -25,7 +25,7 @@ Leyenda: `[ ]` pendiente · `[~]` en curso · `[x]` completada · `[!]` bloquead
 | FRENTE_AMPLIO | 151 | 347 k | 17-11-2026 | Generales 29N 2026 | Sí |
 | PODEMOS | 141 | 354 k | 17-11-2026 | Generales 29N 2026 | Sí |
 | PP | 64 | 158 k | 10-11-2026 | Generales 29N 2026 | Sí |
-| PSOE | 114 | 251 k | 15-11-2026 | Generales 29N 2026 | Sí |
+| PSOE | 114 | 251 k | 14-11-2026 | Generales 29N 2026 | Sí |
 | VOX | 66 | 48 k | 04-11-2026 | Generales 29N 2026 | Sí |
 
 Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («elec­ ciones») y viñetas (●, •) que habrá que normalizar. La paginación impresa no coincide con la física (p. ej., en FRENTE_AMPLIO la física 27 lleva impreso el 31 y la física 56 el 62), así que usaremos siempre la física, como está especificado.
@@ -68,7 +68,7 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] Prueba de mutación: una cifra cambiada (similitud 99,1) y una página errónea se detectan
 - [x] Commit de la fase
 
-## Fase 5: Web (`web/`, Vite + Svelte + TypeScript) `[~]` (código hecho, falta revisión visual en navegador)
+## Fase 5: Web (`web/`, Vite + Svelte + TypeScript) `[x]`
 
 - [x] Proyecto base con `base: '/afinidad-29n/'`
 - [x] `web/src/lib/afinidad.ts` (función pura: afinidad, cobertura, por tema, `null` sin datos)
@@ -77,10 +77,11 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] Pantalla Resultados (barras globales, cobertura con aviso < 60 %, heatmap tema × partido, detalle con cita y enlace `.pdf#page=N`, reiniciar)
 - [x] Pantalla Metodología (fuentes con fecha, criterios, escala, fórmula, limitaciones, repo)
 - [x] Copia de los PDF a `web/public/programas/` en el build
-- [~] Mobile-first, accesible (contraste, teclado, aria), en español: implementado, pendiente de revisar en navegador
+- [x] Mobile-first, accesible (contraste, teclado, aria), en español: revisado en Chrome (390 px y 1280 px, tema claro y oscuro, solo teclado); Lighthouse: accesibilidad 100, buenas prácticas 100
+- [x] Correcciones de la revisión: mapa de calor en 5 tramos con contraste ≥ 5,3:1 en ambos temas (antes 3,05:1 en grises medios), columna de temas fija al desplazar, «Saltar» diferenciado de la escala, indicador +/− en los desplegables, «p. N» sin corte de línea
 - [x] Privacidad: sin backend, cookies, analítica ni localStorage de respuestas
 - [x] Neutralidad: orden aleatorio, colores neutros, sin logos, aviso "no es una recomendación de voto"
-- [ ] Commit de la fase
+- [x] Commit de la fase
 
 ## Fase 6: Tests (Vitest) `[x]`
 
@@ -88,7 +89,7 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] Opuesto total → 0 %
 - [x] Saltadas no cuentan, peso ×2 y `null` excluido
 - [x] Cobertura correcta y "sin datos" → `null`
-- [ ] Commit de la fase
+- [x] Commit de la fase
 
 ## Fase 7: CI/CD
 
@@ -103,7 +104,7 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 
 - [ ] README (qué es, enlace, metodología resumida, cómo reproducir, cómo reportar errores)
 - [ ] Plantilla de issue para errores de codificación
-- [ ] `.gitignore` (node_modules, dist, venv, `__pycache__`)
+- [x] `.gitignore` (node_modules, dist, venv, `__pycache__`)
 
 ---
 
@@ -115,3 +116,5 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 | 2026-11-19 | Fase 0: se incluyen los 5 programas (FRENTE_AMPLIO, PODEMOS, PP, PSOE, VOX); todos son de las generales del 29N 2026 y ninguno necesita OCR. PODEMOS sí publicó programa (PDF del 17-11). |
 | 2026-11-19 | Fase 5: CSP en producción con `connect-src 'none'` (la página no puede enviar datos); sin fuentes externas. |
 | 2026-11-19 | Fase 3, criterios de codificación: (a) los logros pasados que describe un partido cuentan como postura con intensidad ±1; (b) las posturas que requieren una inferencia corta desde la cita se codifican con ±1 y se marcan como `inferida` (la web lo indica); (c) se aceptan afirmaciones en las que solo se pronuncian partidos de un bloque si difieren en intensidad (jornada de 35 h, pensión mínima = SMI); (d) en seguridad se incluyen «derogar la Ley de Seguridad Ciudadana de 2015» y «endurecer penas por disturbios violentos», con las posturas contrarias inferidas. |
+| 2026-11-19 | Fase 0: la fecha del PDF del PSOE es la de creación (14-11-2026, 22:02 UTC); el 15-11 era la de modificación. |
+| 2026-11-19 | Fase 5: el mapa de calor pasa de un degradado continuo a 5 tramos de gris, porque con un degradado ningún color de texto alcanza 4,5:1 en los grises medios. |

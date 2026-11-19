@@ -32,8 +32,8 @@
   const porPartido = Object.fromEntries(resultados.map((r) => [r.partido, r]));
 
   const pct = (x: number | null) => (x === null ? '—' : `${Math.round(x)} %`);
-  // Intensidad de gris de la celda (0–100) para el mapa de calor; el número siempre se muestra.
-  const intensidad = (x: number | null) => (x === null ? 0 : Math.round(15 + x * 0.75));
+  // Tramo del mapa de calor (1-5, de 20 en 20 puntos); el número siempre se muestra.
+  const tramo = (x: number | null) => (x === null ? null : Math.min(5, Math.floor(x / 20) + 1));
 
   function textoRespuesta(r: Respuesta | undefined) {
     if (!r) return 'Sin responder';
@@ -100,9 +100,10 @@
               <th scope="row">{t.nombre}</th>
               {#each ordenColumnas as p (p)}
                 {@const v = porPartido[p].porTema[t.id]}
+                {@const n = tramo(v)}
                 <td
-                  class:oscura={v !== null && v >= 60}
-                  style:background="color-mix(in srgb, var(--barra) {intensidad(v)}%, var(--superficie))"
+                  style:background={n ? `var(--mapa-${n})` : null}
+                  style:color={n ? `var(--mapa-texto-${n})` : null}
                 >
                   {pct(v)}
                 </td>
@@ -141,7 +142,7 @@
                 <blockquote>«{s.cita}»</blockquote>
                 {#if s.nota}<p class="nota suave">{s.nota}</p>{/if}
                 <a href={urlPdf(p, s.pagina)} target="_blank" rel="noopener noreferrer">
-                  Ver en el programa de {nombrePartido(p)}, p. {s.pagina}<span class="visualmente-oculto">
+                  Ver en el programa de {nombrePartido(p)}, p.&nbsp;{s.pagina}<span class="visualmente-oculto">
                     (se abre en una pestaña nueva)</span
                   >
                 </a>
@@ -217,7 +218,7 @@
   .mapa {
     border-collapse: collapse;
     width: 100%;
-    min-width: 34rem;
+    min-width: 30rem;
     font-size: 0.92rem;
     background: var(--superficie);
   }
@@ -231,12 +232,19 @@
     text-align: left;
     font-weight: 500;
   }
+  /* Columna de temas fija al desplazar horizontalmente en pantallas estrechas */
+  .mapa th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--superficie);
+    min-width: 7.5rem;
+    max-width: 9rem;
+    border-right: 1px solid var(--borde);
+  }
   .mapa td {
     font-variant-numeric: tabular-nums;
-  }
-  .mapa td.oscura {
-    color: var(--acento-texto);
-    font-weight: 600;
+    white-space: nowrap;
   }
   .detalle {
     display: grid;
@@ -245,8 +253,20 @@
   summary {
     cursor: pointer;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto 1fr auto;
     column-gap: 0.5rem;
+  }
+  /* El display: grid oculta el triángulo nativo; se sustituye por un indicador visible */
+  summary::after {
+    content: '+' / '';
+    grid-column: 3;
+    grid-row: 1;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    color: var(--texto-suave);
+  }
+  details[open] > summary::after {
+    content: '−' / '';
   }
   summary .tu {
     grid-column: 2;
