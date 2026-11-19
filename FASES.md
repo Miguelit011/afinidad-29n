@@ -91,19 +91,19 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] Cobertura correcta y "sin datos" → `null`
 - [x] Commit de la fase
 
-## Fase 7: CI/CD
+## Fase 7: CI/CD `[~]` (workflow listo; falta push y activar Pages)
 
-- [ ] `.github/workflows/deploy.yml` (push a `main`)
-- [ ] Python: `verify_quotes.py` + pytest
-- [ ] Node: Vitest + build
-- [ ] Despliegue con `actions/deploy-pages` (bloqueado si falla algo)
-- [ ] Repo en GitHub y Pages activado
-- [ ] Commit de la fase
+- [x] `.github/workflows/deploy.yml` (push a `main`; en pull requests solo verifica)
+- [x] Python: reextracción de los PDF con `git diff --exit-code data/textos` (extracción determinista, comprobado) + `verify_quotes.py` + pytest
+- [x] Node: `npm ci` + svelte-check + Vitest + build
+- [x] Despliegue con `actions/deploy-pages` (bloqueado si falla algo)
+- [!] Repo en GitHub y Pages activado: el repo existe pero está vacío y es privado; Pages en repos privados requiere plan de pago
+- [x] Commit de la fase
 
 ## Extras
 
-- [ ] README (qué es, enlace, metodología resumida, cómo reproducir, cómo reportar errores)
-- [ ] Plantilla de issue para errores de codificación
+- [x] README (qué es, enlace, metodología resumida, cómo reproducir, cómo reportar errores)
+- [x] Plantilla de issue para errores de codificación (`.github/ISSUE_TEMPLATE/error-codificacion.yml`)
 - [x] `.gitignore` (node_modules, dist, venv, `__pycache__`)
 
 ---

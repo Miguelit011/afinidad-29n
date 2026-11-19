@@ -1,0 +1,92 @@
+# Verifica los datos y la web y, si todo pasa, publica en GitHub Pages.
+# Si falla cualquier comprobación (una cita que no está en su página, un test,
+# el build...), el despliegue no se ejecuta y sigue publicada la versión anterior.
+name: Verificar y publicar
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  datos:
+    name: Datos (Python)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Los textos coinciden con los PDF
+        # Se vuelve a extraer el texto de los PDF; si difiere del versionado
+        # (o cambia la huella SHA-256 de algún PDF), falla.
+        run: |
+          python pipeline/extract.py
+          git diff --exit-code -- data/textos
+
+      - name: Verificar citas y esquema
+        run: python pipeline/verify_quotes.py
+
+      - name: Tests (pytest)
+        run: python -m pytest -q pipeline
+
+  web:
+    name: Web (Node)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Comprobar tipos (svelte-check)
+        run: npm run check
+
+      - name: Tests (Vitest)
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v4
+        if: github.event_name != 'pull_request'
+        with:
+          path: web/dist
+
+  desplegar:
+    name: Publicar en GitHub Pages
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: [datos, web]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - id: despliegue
+        uses: actions/deploy-pages@v4

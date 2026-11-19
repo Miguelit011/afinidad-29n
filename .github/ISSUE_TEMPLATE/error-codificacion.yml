@@ -1,0 +1,57 @@
+name: Error de codificación
+description: Una postura, cita o página de un partido parece incorrecta.
+title: "[Codificación] Afirmación N · PARTIDO"
+labels: ["codificación"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por revisar. Cada postura debe poder comprobarse en el programa, así que
+        indica la página exacta del PDF (la física, la que muestra el visor, no la impresa).
+  - type: input
+    id: afirmacion
+    attributes:
+      label: Afirmación
+      description: Número y texto, tal como aparecen en «Pregunta a pregunta».
+      placeholder: "19. El Estado debería asumir una parte de la deuda de las comunidades autónomas."
+    validations:
+      required: true
+  - type: dropdown
+    id: partido
+    attributes:
+      label: Partido
+      options:
+        - Frente Amplio
+        - Podemos
+        - PP
+        - PSOE
+        - Vox
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo de error
+      options:
+        - La postura (a favor / en contra / intensidad) no corresponde a la cita
+        - La cita está sacada de contexto
+        - El programa sí se pronuncia, pero figura «no se pronuncia»
+        - La página o el enlace al PDF no son correctos
+        - La afirmación está redactada de forma sesgada
+        - Otro
+    validations:
+      required: true
+  - type: input
+    id: pagina
+    attributes:
+      label: Página del PDF que lo demuestra
+      placeholder: "p. 33"
+    validations:
+      required: true
+  - type: textarea
+    id: explicacion
+    attributes:
+      label: Explicación
+      description: Copia el fragmento del programa que justifica la corrección y cuál debería ser la postura.
+    validations:
+      required: true
