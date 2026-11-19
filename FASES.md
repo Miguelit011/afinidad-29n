@@ -30,14 +30,15 @@ Leyenda: `[ ]` pendiente · `[~]` en curso · `[x]` completada · `[!]` bloquead
 
 Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («elec­ ciones») y viñetas (●, •) que habrá que normalizar. La paginación impresa no coincide con la física (p. ej., en FRENTE_AMPLIO la física 27 lleva impreso el 31 y la física 56 el 62), así que usaremos siempre la física, como está especificado.
 
-## Fase 1: Extracción (`pipeline/`) `[~]`
+## Fase 1: Extracción (`pipeline/`) `[x]`
 
-- [ ] `pipeline/extract.py`: texto por página con PyMuPDF → `data/textos/<PARTIDO>.json` (`[{pagina, texto}]`, página física + 1)
-- [ ] Normalización para búsquedas: espacios, guiones de corte, comillas tipográficas, ligaduras
-- [ ] `requirements.txt`
-- [ ] Commit de la fase
+- [x] `pipeline/extract.py`: texto por página con PyMuPDF → `data/textos/<PARTIDO>.json` (`[{pagina, texto}]`, página física + 1), más `data/textos/fuentes.json` con el SHA-256 de cada PDF
+- [x] Normalización (`pipeline/normalizar.py`): `limpiar` (guiones blandos y de corte, ligaduras y espacios, para el texto guardado) y `normalizar` (además comillas, rayas, viñetas y minúsculas, para comparar); 7 tests con pytest
+- [x] Comprobado: 0 guiones blandos, ligaduras o caracteres corruptos restantes; orden de lectura correcto en páginas a varias columnas
+- [x] `requirements.txt`
+- [x] Commit de la fase
 
-## Fase 2: Catálogo de propuestas
+## Fase 2: Catálogo de propuestas `[~]`
 
 - [ ] `data/catalogo/<PARTIDO>.json` con `{tema, resumen, cita_literal, pagina}`
 - [ ] Temas: vivienda, fiscalidad, empleo, pensiones, sanidad, educación, inmigración, energía y medio ambiente, modelo territorial, instituciones y justicia, derechos sociales e igualdad, seguridad, exterior y defensa
