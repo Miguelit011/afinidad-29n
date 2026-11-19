@@ -59,15 +59,16 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] Cobertura: FRENTE_AMPLIO 28/33, PP 25/33, PODEMOS 23/33, PSOE 22/33, VOX 22/33
 - [x] Commit de la fase
 
-## Fase 4: Verificador de citas `[~]`
+## Fase 4: Verificador de citas `[x]`
 
-- [ ] `pipeline/verify_quotes.py`: la cita existe en el texto y en la página indicada (rapidfuzz ≥ 0,95)
-- [ ] Validación del esquema (valores, cita y página obligatorias si valor ≠ null)
-- [ ] Sale con código ≠ 0 y lista los errores si algo falla
-- [ ] Tests con pytest
-- [ ] Commit de la fase
+- [x] `pipeline/verify_quotes.py`: la cita existe en el texto y en la página indicada (coincidencia normalizada exacta; si no, rapidfuzz ≥ 95 **y** todas las cifras de la cita presentes en el fragmento alineado)
+- [x] Validación del esquema (valores, cita y página obligatorias si valor ≠ null, temas, ids, que cada pregunta separe a los partidos); también verifica el catálogo
+- [x] Sale con código ≠ 0 y lista los errores (indicando en qué página está la cita si es otra)
+- [x] Tests con pytest (25 en total), incluida la integración con los datos reales
+- [x] Prueba de mutación: una cifra cambiada (similitud 99,1) y una página errónea se detectan
+- [x] Commit de la fase
 
-## Fase 5: Web (`web/`, Vite + Svelte + TypeScript)
+## Fase 5: Web (`web/`, Vite + Svelte + TypeScript) `[~]`
 
 - [ ] Proyecto base con `base: '/afinidad-29n/'`
 - [ ] `web/src/lib/afinidad.ts` (función pura: afinidad, cobertura, por tema, `null` sin datos)
