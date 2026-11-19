@@ -38,24 +38,28 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] `requirements.txt`
 - [x] Commit de la fase
 
-## Fase 2: Catálogo de propuestas `[~]`
+## Fase 2: Catálogo de propuestas `[x]`
 
-- [ ] `data/catalogo/<PARTIDO>.json` con `{tema, resumen, cita_literal, pagina}`
-- [ ] Temas: vivienda, fiscalidad, empleo, pensiones, sanidad, educación, inmigración, energía y medio ambiente, modelo territorial, instituciones y justicia, derechos sociales e igualdad, seguridad, exterior y defensa
-- [ ] Citas exactas, como máximo unas 40 palabras
-- [ ] Commit de la fase
+- [x] `data/catalogo/<PARTIDO>.json` con `{tema, resumen, cita_literal, pagina, usada_en}` (162 propuestas: las 120 citadas en posturas y 42 revisadas y descartadas por consenso o por falta de contraste)
+- [x] Temas: vivienda, fiscalidad, empleo, pensiones, sanidad, educación, inmigración, energía y medio ambiente, modelo territorial, instituciones y justicia, derechos sociales e igualdad, seguridad, exterior y defensa
+- [x] Citas exactas, como máximo unas 40 palabras: se recortan automáticamente del texto extraído entre una frase de inicio y otra de fin (`pipeline/construir_datos.py`)
+- [x] Herramientas de apoyo: `pipeline/buscar.py` (búsqueda normalizada) y `pipeline/paginas.py` (lectura por página)
+- [x] Mejora de la normalización: se unen los guiones de corte en titulares en mayúsculas («SOCIEDA- DES»)
+- [x] Commit de la fase
+- Limitación: el catálogo no es exhaustivo. VOX y PP se leyeron completos; en FRENTE_AMPLIO, PODEMOS y PSOE se leyeron las secciones de cada tema y se buscaron las medidas en disputa.
 
-## Fase 3: Afirmaciones y posturas
+## Fase 3: Afirmaciones y posturas `[x]`
 
-- [ ] ~30 afirmaciones (2-3 por tema) en `data/preguntas.json`
-- [ ] Cada una separa a los partidos (si todos coinciden, se descarta)
-- [ ] Medidas concretas, una sola idea, redacción neutra
-- [ ] Equilibrio: ~mitad formuladas como propuesta de un bloque y ~mitad del otro
-- [ ] Posturas en {-2..2, null} con cita y página siempre que no sean null
-- [ ] Revisión de las dudas de interpretación con el usuario
-- [ ] Commit de la fase
+- [x] 33 afirmaciones en `data/preguntas.json` (2-4 por tema; pensiones solo 1, porque PP y VOX apenas concretan)
+- [x] Cada una separa a los partidos (si todos coinciden, se descarta)
+- [x] Medidas concretas, una sola idea, redacción neutra y `contexto` explicativo
+- [x] Equilibrio: 16 formuladas a partir de propuestas de FRENTE_AMPLIO/PODEMOS/PSOE y 17 de PP/VOX (campo `formulada_desde`)
+- [x] Posturas en {-2..2, null} con cita y página siempre que no sean null; campos `inferida` y `nota`
+- [x] Revisión de las dudas de interpretación con el usuario (ver registro de decisiones)
+- [x] Cobertura: FRENTE_AMPLIO 28/33, PP 25/33, PODEMOS 23/33, PSOE 22/33, VOX 22/33
+- [x] Commit de la fase
 
-## Fase 4: Verificador de citas
+## Fase 4: Verificador de citas `[~]`
 
 - [ ] `pipeline/verify_quotes.py`: la cita existe en el texto y en la página indicada (rapidfuzz ≥ 0,95)
 - [ ] Validación del esquema (valores, cita y página obligatorias si valor ≠ null)
@@ -108,3 +112,4 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 |---|---|
 | 2026-11-19 | Inicio del proyecto. |
 | 2026-11-19 | Fase 0: se incluyen los 5 programas (FRENTE_AMPLIO, PODEMOS, PP, PSOE, VOX); todos son de las generales del 29N 2026 y ninguno necesita OCR. PODEMOS sí publicó programa (PDF del 17-11). |
+| 2026-11-19 | Fase 3, criterios de codificación: (a) los logros pasados que describe un partido cuentan como postura con intensidad ±1; (b) las posturas que requieren una inferencia corta desde la cita se codifican con ±1 y se marcan como `inferida` (la web lo indica); (c) se aceptan afirmaciones en las que solo se pronuncian partidos de un bloque si difieren en intensidad (jornada de 35 h, pensión mínima = SMI); (d) en seguridad se incluyen «derogar la Ley de Seguridad Ciudadana de 2015» y «endurecer penas por disturbios violentos», con las posturas contrarias inferidas. |
