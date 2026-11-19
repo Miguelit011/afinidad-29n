@@ -63,8 +63,8 @@ enlace a la página exacta del PDF.
   <tr>
     <td align="center"><h2>5</h2><sub>programas<br>oficiales</sub></td>
     <td align="center"><h2>536</h2><sub>páginas<br>analizadas</sub></td>
-    <td align="center"><h2>13</h2><sub>temas</sub></td>
-    <td align="center"><h2>33</h2><sub>afirmaciones</sub></td>
+    <td align="center"><h2>13</h2><sub>temas<br>de debate</sub></td>
+    <td align="center"><h2>33</h2><sub>afirmaciones<br>concretas</sub></td>
     <td align="center"><h2>282</h2><sub>citas verificadas<br>automáticamente</sub></td>
     <td align="center"><h2>0</h2><sub>datos que salen<br>de tu navegador</sub></td>
   </tr>
@@ -147,7 +147,7 @@ falla, la web no se actualiza.**
 ```text
 afinidad-29n/
 ├── Programas_Electorales/   Los 5 programas en PDF (la única fuente)
-├── pipeline/                Python: extracción, búsqueda, verificador de citas y recorte de logotipos
+├── pipeline/                Python: extracción, verificador de citas y logotipos
 ├── data/
 │   ├── textos/              Texto de cada PDF por página y huella SHA-256 de cada archivo
 │   ├── catalogo/            Propuestas de cada partido, con tema, cita y página
