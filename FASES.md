@@ -91,13 +91,14 @@ Notas para la Fase 1: hay guiones blandos (U+00AD) en los cortes de palabra («e
 - [x] Cobertura correcta y "sin datos" → `null`
 - [x] Commit de la fase
 
-## Fase 7: CI/CD `[~]` (workflow listo; falta push y activar Pages)
+## Fase 7: CI/CD `[x]`
 
 - [x] `.github/workflows/deploy.yml` (push a `main`; en pull requests solo verifica)
 - [x] Python: reextracción de los PDF con `git diff --exit-code data/textos` (extracción determinista, comprobado) + `verify_quotes.py` + pytest
 - [x] Node: `npm ci` + svelte-check + Vitest + build
 - [x] Despliegue con `actions/deploy-pages` (bloqueado si falla algo)
-- [!] Repo en GitHub y Pages activado: el repo existe pero está vacío y es privado; Pages en repos privados requiere plan de pago
+- [x] Repo público en GitHub y Pages activado («Source: GitHub Actions»)
+- [x] Primera ejecución correcta (los 3 jobs); web en https://miguelit011.github.io/afinidad-29n/ revisada: test completo sin errores de consola y sin peticiones de red durante el test
 - [x] Commit de la fase
 
 ## Extras
