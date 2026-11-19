@@ -1,6 +1,7 @@
 <script lang="ts">
   import { enfocar } from '../lib/enfocar';
   import { preguntas, partidos } from '../lib/datos';
+  import Urna from './Urna.svelte';
 
   let { onEmpezar, onMetodologia }: { onEmpezar: () => void; onMetodologia: () => void } = $props();
 </script>
@@ -13,6 +14,10 @@
 -->
 <section aria-labelledby="titulo-inicio" class="inicio">
   <div class="portada">
+    <div class="ilustracion">
+      <Urna />
+    </div>
+    <div class="texto-portada">
     <p class="etiqueta-tema aparece" style="--desde: 0px">Elecciones generales · 29 de noviembre de 2026</p>
     <h1 id="titulo-inicio" tabindex="-1" use:enfocar class="aparece" style="--desde: 12px">
       ¿Con qué programa electoral coincides más?
@@ -42,6 +47,7 @@
         </svg>
       </button>
       <p class="meta suave">{preguntas.length} afirmaciones · menos de 10 minutos · anónimo</p>
+    </div>
     </div>
   </div>
 
@@ -76,7 +82,10 @@
       <svg class="check" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
         <path d="M5 10.5l3.2 3.2L15 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
       </svg>
-      <span>Los partidos aparecen en orden aleatorio, sin logos ni colores propios.</span>
+      <span>
+        Los partidos aparecen en orden aleatorio y con el mismo tratamiento. Sus logotipos, tomados de su propio
+        programa, solo sirven para identificarlos en los resultados.
+      </span>
     </li>
     <li>
       <svg class="check" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
@@ -98,6 +107,24 @@
   .portada {
     padding: 0.5rem 0 1rem;
     margin-bottom: 1.5rem;
+  }
+  .ilustracion {
+    width: 132px;
+    margin-bottom: 1rem;
+  }
+  /* En escritorio: texto a la izquierda y urna a la derecha */
+  @media (min-width: 760px) {
+    .portada {
+      display: grid;
+      grid-template-columns: 1fr 230px;
+      gap: 2.5rem;
+      align-items: center;
+    }
+    .ilustracion {
+      order: 2;
+      width: 100%;
+      margin: 0;
+    }
   }
   .etiqueta-tema {
     margin-bottom: 1rem;

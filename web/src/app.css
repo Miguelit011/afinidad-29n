@@ -1,37 +1,40 @@
-/* Paleta deliberadamente neutra (grises cálidos): ningún color puede asociarse a un partido. */
+/* Paleta inspirada en una votación: papel crema, el sepia de la papeleta y el sobre del Senado y
+   tinta marrón. Evita a propósito los tonos de los partidos (rojo, azul, verde, morado, naranja, turquesa). */
 :root {
-  --fondo: #f6f5f2;
-  --superficie: #ffffff;
-  --superficie-2: #efeee9;
-  --texto: #1a1a19;
-  --texto-suave: #5b5b56;
-  --borde: #dcdbd5;
-  --acento: #1f1f1d;
-  --acento-hover: #3a3a37;
-  --acento-texto: #ffffff;
-  --barra: #2e2e2b;
-  --barra-fondo: #e7e6e0;
-  --foco: #0b57d0;
-  --radio: 14px;
-  --radio-sm: 10px;
+  --fondo: #fbf6ee;
+  --superficie: #fffdf9;
+  --superficie-2: #f4eadb;
+  --texto: #2b2118;
+  --texto-suave: #6b5a49;
+  --borde: #e6d9c4;
+  --acento: #3a2a1c;
+  --acento-hover: #57402b;
+  --acento-texto: #fffdf9;
+  --sepia: #e9d3ac;
+  --sepia-oscuro: #c9a46b;
+  --barra: #8f6233;
+  --barra-fondo: #efe2cd;
+  --foco: #8f4a00;
+  --radio: 16px;
+  --radio-sm: 12px;
 
   /* Profundidad con anillo semitransparente + sombras suaves en capas, en vez de bordes sólidos */
-  --sombra-1: 0 0 0 1px rgb(30 30 20 / 0.07), 0 1px 2px rgb(30 30 20 / 0.05);
-  --sombra-2: 0 0 0 1px rgb(30 30 20 / 0.07), 0 2px 4px rgb(30 30 20 / 0.04), 0 10px 28px -8px rgb(30 30 20 / 0.12);
+  --sombra-1: 0 0 0 1px rgb(80 55 25 / 0.08), 0 1px 2px rgb(80 55 25 / 0.06);
+  --sombra-2: 0 0 0 1px rgb(80 55 25 / 0.08), 0 2px 4px rgb(80 55 25 / 0.05), 0 12px 30px -8px rgb(80 55 25 / 0.16);
 
   /* Curvas de animación: las de CSS por defecto son demasiado blandas */
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
   --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
 
   /* Mapa de calor: 5 tramos (0-19, 20-39, 40-59, 60-79, 80-100 %), texto con contraste ≥ 4,5:1 en cada uno */
-  --mapa-1: #f0f0ec;
-  --mapa-2: #d9d9d4;
-  --mapa-3: #b0b0aa;
-  --mapa-4: #6b6b67;
-  --mapa-5: #3d3d3a;
-  --mapa-texto-1: #1d1d1b;
-  --mapa-texto-2: #1d1d1b;
-  --mapa-texto-3: #000000;
+  --mapa-1: #f7efe2;
+  --mapa-2: #ead8bb;
+  --mapa-3: #d4b386;
+  --mapa-4: #8f6233;
+  --mapa-5: #5a3d22;
+  --mapa-texto-1: #2b2118;
+  --mapa-texto-2: #2b2118;
+  --mapa-texto-3: #2b2118;
   --mapa-texto-4: #ffffff;
   --mapa-texto-5: #ffffff;
   color-scheme: light;
@@ -39,27 +42,29 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
-    --fondo: #121211;
-    --superficie: #1c1c1b;
-    --superficie-2: #262624;
-    --texto: #ededeb;
-    --texto-suave: #a9a9a3;
-    --borde: #33332f;
-    --acento: #ededeb;
-    --acento-hover: #d2d2cd;
-    --acento-texto: #121211;
-    --barra: #d6d6d1;
-    --barra-fondo: #2c2c29;
-    --foco: #8ab4f8;
-    --sombra-1: 0 0 0 1px rgb(255 255 255 / 0.07), 0 1px 2px rgb(0 0 0 / 0.4);
-    --sombra-2: 0 0 0 1px rgb(255 255 255 / 0.08), 0 2px 4px rgb(0 0 0 / 0.3), 0 12px 32px -8px rgb(0 0 0 / 0.6);
-    --mapa-1: #2a2a28;
-    --mapa-2: #3f3f3c;
-    --mapa-3: #6b6b67;
-    --mapa-4: #9a9a95;
-    --mapa-5: #d6d6d1;
-    --mapa-texto-1: #ececea;
-    --mapa-texto-2: #ececea;
+    --fondo: #17120d;
+    --superficie: #211a13;
+    --superficie-2: #2e251b;
+    --texto: #f3ece2;
+    --texto-suave: #c4b5a2;
+    --borde: #3d3226;
+    --acento: #f0d9b5;
+    --acento-hover: #e3c79c;
+    --acento-texto: #17120d;
+    --sepia: #6b5235;
+    --sepia-oscuro: #c9a46b;
+    --barra: #d9b98a;
+    --barra-fondo: #33291e;
+    --foco: #f0c27a;
+    --sombra-1: 0 0 0 1px rgb(255 240 220 / 0.07), 0 1px 2px rgb(0 0 0 / 0.4);
+    --sombra-2: 0 0 0 1px rgb(255 240 220 / 0.08), 0 2px 4px rgb(0 0 0 / 0.3), 0 12px 32px -8px rgb(0 0 0 / 0.6);
+    --mapa-1: #2a221a;
+    --mapa-2: #3e3124;
+    --mapa-3: #6a5236;
+    --mapa-4: #b08a5c;
+    --mapa-5: #e3c9a0;
+    --mapa-texto-1: #f3ece2;
+    --mapa-texto-2: #f3ece2;
     --mapa-texto-3: #ffffff;
     --mapa-texto-4: #000000;
     --mapa-texto-5: #000000;

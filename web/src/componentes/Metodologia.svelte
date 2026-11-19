@@ -32,6 +32,10 @@
     podrían añadirse. Se verificó en la portada o la introducción que cada PDF corresponde a estas elecciones y que tiene
     capa de texto (no hizo falta reconocimiento óptico).
   </p>
+  <p>
+    Los logotipos de los resultados se han recortado de la contraportada de cada programa, sin modificarlos, y
+    solo sirven para identificar a cada partido. Todos se muestran al mismo tamaño.
+  </p>
   <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
   <div class="tabla-scroll" role="region" aria-label="Fuentes" tabindex="0">
     <table>

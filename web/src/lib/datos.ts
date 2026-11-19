@@ -78,4 +78,7 @@ export const urlPdf = (partido: string, pagina: number) => {
   return `${import.meta.env.BASE_URL}programas/${p?.pdf ?? `${partido}.pdf`}#page=${pagina}`;
 };
 
+// Ficha con el logotipo recortado de la portada o contraportada del propio programa (pipeline/logos.py).
+export const urlLogo = (partido: string) => `${import.meta.env.BASE_URL}logos/${partido}.png`;
+
 export const REPO_URL = 'https://github.com/Miguelit011/afinidad-29n';

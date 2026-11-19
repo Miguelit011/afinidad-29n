@@ -9,6 +9,7 @@
     ETIQUETA_RESPUESTA,
     ETIQUETA_POSTURA,
     urlPdf,
+    urlLogo,
   } from '../lib/datos';
   import { enfocar } from '../lib/enfocar';
 
@@ -74,7 +75,11 @@
       {#each ordenados as r, i (r.partido)}
         <li class="barra-fila">
           <div class="barra-cabecera">
-            <span class="nombre">{nombrePartido(r.partido)}</span>
+            <span class="nombre">
+              <!-- alt vacío: el nombre va justo al lado, así el lector de pantalla no lo repite -->
+              <img class="logo-partido" src={urlLogo(r.partido)} alt="" width="54" height="36" />
+              {nombrePartido(r.partido)}
+            </span>
             <span class="valor">{r.afinidad === null ? 'Sin datos' : pct(r.afinidad)}</span>
           </div>
           <div class="barra-pista" aria-hidden="true">
@@ -201,9 +206,24 @@
   .barra-cabecera {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    gap: 0.75rem;
     font-weight: 600;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.55rem;
+  }
+  .nombre {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    min-width: 0;
+  }
+  /* Ficha del logotipo: todas del mismo tamaño (3:2), recortadas del propio programa */
+  .logo-partido {
+    flex-shrink: 0;
+    width: 54px;
+    height: 36px;
+    border-radius: 8px;
+    box-shadow: var(--sombra-1);
   }
   .valor {
     font-size: 1.2rem;

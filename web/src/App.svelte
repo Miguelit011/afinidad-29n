@@ -38,11 +38,11 @@
 <header class="cabecera">
   <div class="contenedor fila">
     <span class="marca">
-      <!-- Logotipo: una urna estilizada, sin colores -->
+      <!-- Logotipo: urna con un sobre sepia entrando por la ranura -->
       <svg class="logo" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <rect x="3.5" y="9" width="17" height="11.5" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8" />
-        <path d="M8.5 9V4.5h7V9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
-        <path d="M8 13h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+        <rect x="8.5" y="2.5" width="7" height="8" rx="1" fill="var(--sepia)" stroke="var(--sepia-oscuro)" stroke-width="0.9" />
+        <rect x="3.5" y="9" width="17" height="12" rx="2.5" fill="var(--superficie)" stroke="currentColor" stroke-width="1.6" />
+        <rect x="2.5" y="7.6" width="19" height="3" rx="1.5" fill="currentColor" />
       </svg>
       Afinidad 29N
     </span>

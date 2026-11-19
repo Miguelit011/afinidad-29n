@@ -30,7 +30,7 @@ La metodología completa, con sus limitaciones, está en la propia web (enlace �
 | Ruta | Contenido |
 |---|---|
 | `Programas_Electorales/` | Los 5 programas en PDF |
-| `pipeline/` | Extracción de texto, herramientas de búsqueda y verificador de citas (Python) |
+| `pipeline/` | Extracción de texto, herramientas de búsqueda, verificador de citas y recorte de logotipos (`logos.py`) (Python) |
 | `data/textos/` | Texto de cada PDF por página física y huella SHA-256 de cada archivo (`fuentes.json`) |
 | `data/catalogo/` | Propuestas catalogadas por partido, con tema, cita y página |
 | `data/preguntas.json` | Las 33 afirmaciones y la postura codificada de cada partido |
