@@ -27,8 +27,9 @@
 
   <h2>Fuentes</h2>
   <p>
-    La única fuente son los programas en PDF. Se incluyen las {partidos.length} candidaturas cuyo programa para el 29N se
-    ha analizado. Se verificó en la portada o la introducción que cada PDF corresponde a estas elecciones y que tiene
+    La única fuente son los programas en PDF. Se han analizado los programas de estas {partidos.length} candidaturas; la
+    selección no sigue un criterio formal (como la representación parlamentaria o las encuestas) y otras candidaturas
+    podrían añadirse. Se verificó en la portada o la introducción que cada PDF corresponde a estas elecciones y que tiene
     capa de texto (no hizo falta reconocimiento óptico).
   </p>
   <!-- svelte-ignore a11y_no_noninteractive_tabindex -->
@@ -129,6 +130,10 @@
     </li>
     <li>Todas las afirmaciones pesan lo mismo, salvo las que marques como importantes.</li>
     <li>El catálogo de propuestas no es exhaustivo: se centra en las medidas en las que los partidos discrepan.</li>
+    <li>
+      Solo se incluyen {partidos.length} candidaturas, elegidas sin un criterio formal. Concurren otras cuyo programa
+      no se ha analizado, y que no aparezcan aquí no dice nada sobre su programa.
+    </li>
   </ul>
 
   <h2>Privacidad</h2>

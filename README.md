@@ -11,7 +11,8 @@ en global y tema a tema, con la cita literal y la página del PDF que respaldan 
 ## Cómo funciona
 
 - **Fuente única: los programas oficiales en PDF** de Frente Amplio, Podemos, PP, PSOE y Vox
-  (`Programas_Electorales/`). No se usan declaraciones, mítines ni trayectorias.
+  (`Programas_Electorales/`). No se usan declaraciones, mítines ni trayectorias. Estas 5 candidaturas se
+  eligieron sin un criterio formal y se podrían añadir otras.
 - **33 afirmaciones en 13 temas** que separan a los partidos. Si todos coinciden en una medida, se descarta.
   16 parten de propuestas de Frente Amplio, Podemos o PSOE y 17 de propuestas de PP o Vox.
 - **Posturas de −2 a +2, o «no se pronuncia»**, siempre con cita literal y página. Las posturas
