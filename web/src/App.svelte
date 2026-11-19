@@ -37,7 +37,15 @@
 
 <header class="cabecera">
   <div class="contenedor fila">
-    <span class="marca">Afinidad 29N</span>
+    <span class="marca">
+      <!-- Logotipo: una urna estilizada, sin colores -->
+      <svg class="logo" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <rect x="3.5" y="9" width="17" height="11.5" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8" />
+        <path d="M8.5 9V4.5h7V9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+        <path d="M8 13h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+      </svg>
+      Afinidad 29N
+    </span>
     <nav aria-label="Principal">
       {#if pantalla !== 'metodologia'}
         <button class="enlace-boton" onclick={() => ir('metodologia')}>Metodología</button>
@@ -80,28 +88,54 @@
     background: var(--superficie);
     z-index: 10;
   }
+  /* Cabecera fija translúcida: la navegación queda a mano sin tapar el contenido */
   .cabecera {
-    border-bottom: 1px solid var(--borde);
-    background: var(--superficie);
-    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: color-mix(in srgb, var(--fondo) 80%, transparent);
+    backdrop-filter: saturate(1.4) blur(12px);
+    -webkit-backdrop-filter: saturate(1.4) blur(12px);
+    border-bottom: 1px solid color-mix(in srgb, var(--borde) 70%, transparent);
+    margin-bottom: 2rem;
+  }
+  @supports not (backdrop-filter: blur(1px)) {
+    .cabecera {
+      background: var(--fondo);
+    }
   }
   .fila {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-height: 56px;
+    min-height: 60px;
   }
   .marca {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     font-weight: 700;
-    letter-spacing: 0.01em;
+    letter-spacing: -0.01em;
+  }
+  .logo {
+    width: 1.35rem;
+    height: 1.35rem;
+    flex-shrink: 0;
+  }
+  nav :global(.enlace-boton) {
+    font-size: 0.95rem;
+    font-weight: 500;
   }
   main {
     min-height: 60vh;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
   .pie {
     border-top: 1px solid var(--borde);
-    padding: 1.2rem 0 2rem;
-    font-size: 0.95rem;
+    padding: 1.5rem 0 2.5rem;
+    font-size: 0.92rem;
+  }
+  .pie p:last-child {
+    margin-bottom: 0;
   }
 </style>

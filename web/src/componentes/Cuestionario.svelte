@@ -14,6 +14,8 @@
   const pregunta = $derived(preguntas[indice]);
   const actual = $derived(respuestas[pregunta.id]);
   let importante = $state(false);
+  // Sentido del último cambio: la afirmación nueva entra por la derecha al avanzar y por la izquierda al volver.
+  let direccion = $state<1 | -1>(1);
 
   // Al cambiar de pregunta, se recupera lo que la persona marcó (si vuelve atrás).
   $effect.pre(() => {
@@ -27,6 +29,7 @@
 
   function avanzar() {
     if (indice < preguntas.length - 1) {
+      direccion = 1;
       indice += 1;
       window.scrollTo({ top: 0 });
     } else {
@@ -35,7 +38,10 @@
   }
 
   function retroceder() {
-    if (indice > 0) indice -= 1;
+    if (indice > 0) {
+      direccion = -1;
+      indice -= 1;
+    }
   }
 
   function cambiarImportante() {
@@ -46,24 +52,38 @@
 
 <section aria-labelledby="enunciado" class="cuestionario">
   <div class="progreso">
-    <span id="texto-progreso">Afirmación {indice + 1} de {preguntas.length}</span>
-    <progress max={preguntas.length} value={indice + 1} aria-labelledby="texto-progreso"></progress>
+    <div class="progreso-texto">
+      <span id="texto-progreso">Afirmación {indice + 1} de {preguntas.length}</span>
+      <span class="suave porcentaje" aria-hidden="true">{Math.round(((indice + 1) / preguntas.length) * 100)} %</span>
+    </div>
+    <div
+      class="pista"
+      role="progressbar"
+      aria-labelledby="texto-progreso"
+      aria-valuemin="1"
+      aria-valuemax={preguntas.length}
+      aria-valuenow={indice + 1}
+    >
+      <div class="relleno" style:transform="scaleX({(indice + 1) / preguntas.length})"></div>
+    </div>
   </div>
 
+  <!-- La afirmación, su tema y su explicación cambian juntos, como un solo bloque -->
   {#key indice}
-    <p class="tema suave">{nombreTema(pregunta.tema)}</p>
-    <h1 id="enunciado" tabindex="-1" use:enfocar>{pregunta.texto}</h1>
+    <div class="afirmacion" style:--dir={direccion}>
+      <p class="etiqueta-tema">{nombreTema(pregunta.tema)}</p>
+      <h1 id="enunciado" tabindex="-1" use:enfocar>{pregunta.texto}</h1>
+      <!-- La explicación se muestra siempre: sin ella muchas afirmaciones no se entienden -->
+      <div class="contexto">
+        <p class="contexto-titulo">Qué significa</p>
+        <p class="contexto-texto">{pregunta.contexto}</p>
+      </div>
+    </div>
   {/key}
-
-  <!-- La explicación se muestra siempre: sin ella muchas afirmaciones no se entienden -->
-  <div class="contexto tarjeta">
-    <p class="contexto-titulo">Qué significa</p>
-    <p class="contexto-texto">{pregunta.contexto}</p>
-  </div>
 
   <label class="importante">
     <input type="checkbox" bind:checked={importante} onchange={cambiarImportante} />
-    Esto es importante para mí <span class="suave">(cuenta doble)</span>
+    <span>Esto es importante para mí <span class="suave">(cuenta doble)</span></span>
   </label>
 
   <div class="opciones" role="group" aria-label="Tu respuesta">
@@ -99,76 +119,142 @@
 
 <style>
   .progreso {
-    display: flex;
-    flex-direction: column;
-    gap: 0.35rem;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
+    margin-bottom: 1.75rem;
   }
-  progress {
-    width: 100%;
-    height: 8px;
-    appearance: none;
-    border: none;
-    border-radius: 4px;
+  .progreso-texto {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.92rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  .porcentaje {
+    font-variant-numeric: tabular-nums;
+  }
+  .pista {
+    height: 6px;
+    border-radius: 999px;
     background: var(--barra-fondo);
     overflow: hidden;
   }
-  progress::-webkit-progress-bar {
-    background: var(--barra-fondo);
-  }
-  progress::-webkit-progress-value {
+  /* Se anima transform (no width): no recalcula el diseño y va fluido en móviles */
+  .relleno {
+    height: 100%;
     background: var(--barra);
+    border-radius: inherit;
+    transform-origin: left center;
+    transition: transform 300ms var(--ease-out);
   }
-  progress::-moz-progress-bar {
-    background: var(--barra);
+
+  /* Cambio de afirmación: fundido corto con un pequeño desplazamiento en el sentido de la navegación.
+     Se ve 33 veces por test, así que es breve (180 ms) y no bloquea nada. */
+  @keyframes cambiar {
+    from {
+      opacity: 0;
+      transform: translateX(calc(12px * var(--dir, 1)));
+    }
   }
-  .tema {
-    margin-bottom: 0.3rem;
-    font-size: 0.95rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+  .afirmacion {
+    animation: cambiar 180ms var(--ease-out);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .afirmacion {
+      animation-name: fundido;
+    }
+    .relleno {
+      transition: none;
+    }
+  }
+
+  .etiqueta-tema {
+    margin-bottom: 0.8rem;
   }
   h1 {
-    font-size: clamp(1.35rem, 5vw, 1.8rem);
-    margin-bottom: 1rem;
+    font-size: clamp(1.4rem, 5.2vw, 1.9rem);
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.1rem;
   }
   .contexto {
-    margin-bottom: 1rem;
+    background: var(--superficie);
+    border-radius: var(--radio);
+    box-shadow: var(--sombra-1);
+    outline: 1px solid transparent;
+    outline-offset: -1px;
+    padding: 1rem 1.15rem;
+    margin-bottom: 1.25rem;
   }
   .contexto-titulo {
-    margin: 0 0 0.3rem;
-    font-size: 0.85rem;
-    font-weight: 600;
+    margin: 0 0 0.35rem;
+    font-size: 0.78rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.06em;
     color: var(--texto-suave);
   }
   .contexto-texto {
     margin: 0;
+    font-size: 0.98rem;
+    line-height: 1.55;
   }
+
+  /* «Importante» como una píldora que cambia de aspecto al marcarla */
   .importante {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.6rem;
     min-height: 44px;
-    margin-bottom: 1rem;
+    padding: 0.4rem 1rem 0.4rem 0.8rem;
+    margin-bottom: 1.25rem;
+    border-radius: 999px;
+    background: var(--superficie-2);
     cursor: pointer;
+    font-size: 0.95rem;
+    transition:
+      background-color 150ms ease,
+      box-shadow 150ms ease;
+  }
+  .importante:has(input:checked) {
+    background: var(--superficie);
+    box-shadow: 0 0 0 1.5px var(--texto);
   }
   .importante input {
-    width: 1.3rem;
-    height: 1.3rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: 0;
     accent-color: var(--acento);
   }
+
   .opciones {
     display: grid;
-    gap: 0.6rem;
+    gap: 0.55rem;
     margin-bottom: 1.5rem;
   }
+  .opcion {
+    min-height: 52px;
+  }
+  .opcion.elegida {
+    background: var(--acento);
+    color: var(--acento-texto);
+    box-shadow: none;
+  }
   /* Saltar no es una respuesta: se separa y se distingue de la escala */
-  .opciones .saltar:not(.elegida) {
-    margin-top: 0.4rem;
-    border-style: dashed;
+  .opciones .saltar {
+    margin-top: 0.35rem;
+    background: transparent;
+    box-shadow: inset 0 0 0 1px var(--borde);
+    color: var(--texto-suave);
+  }
+  .opciones .saltar.elegida {
+    background: var(--acento);
+    color: var(--acento-texto);
+    box-shadow: none;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .opcion.elegida:hover,
+    .opciones .saltar.elegida:hover {
+      background: var(--acento-hover);
+    }
   }
   @media (min-width: 640px) {
     .opciones {
@@ -183,12 +269,8 @@
       font-size: 0.95rem;
       padding: 0.6em 0.5em;
       text-align: center;
+      min-height: 64px;
     }
-  }
-  .opcion.elegida {
-    background: var(--acento);
-    color: var(--acento-texto);
-    border-color: var(--acento);
   }
   .navegacion {
     display: flex;

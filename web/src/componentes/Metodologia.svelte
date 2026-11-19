@@ -158,19 +158,30 @@
 
 <style>
   h1 {
-    font-size: clamp(1.7rem, 6vw, 2.2rem);
+    font-size: clamp(2rem, 7vw, 2.6rem);
+    letter-spacing: -0.03em;
   }
   h2 {
-    font-size: 1.25rem;
-    margin-top: 1.8rem;
+    font-size: 1.3rem;
+    margin-top: 2.2rem;
   }
   li {
     margin-bottom: 0.4rem;
   }
   .tabla-scroll {
     overflow-x: auto;
-    border: 1px solid var(--borde);
     border-radius: var(--radio);
+    box-shadow: var(--sombra-1);
+    outline: 1px solid transparent;
+  }
+  th {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--texto-suave);
+  }
+  tbody tr:last-child td {
+    border-bottom: none;
   }
   table {
     border-collapse: collapse;
@@ -191,9 +202,8 @@
   }
   .formula {
     font-family: ui-monospace, 'Cascadia Mono', Menlo, Consolas, monospace;
-    background: var(--superficie);
-    border: 1px solid var(--borde);
-    border-radius: var(--radio);
+    background: var(--superficie-2);
+    border-radius: var(--radio-sm);
     padding: 0.8rem 1rem;
     overflow-x: auto;
   }

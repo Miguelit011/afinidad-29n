@@ -31,6 +31,9 @@
   );
   const porPartido = Object.fromEntries(resultados.map((r) => [r.partido, r]));
 
+  // Retraso de cada barra al entrar: huecos de 60, 50, 40 y 30 ms (decrecientes, no uniformes).
+  const RETRASOS = [0, 60, 110, 150, 180];
+
   const pct = (x: number | null) => (x === null ? '—' : `${Math.round(x)} %`);
   // Tramo del mapa de calor (1-5, de 20 en 20 puntos); el número siempre se muestra.
   const tramo = (x: number | null) => (x === null ? null : Math.min(5, Math.floor(x / 20) + 1));
@@ -46,8 +49,15 @@
   <h1 id="titulo-resultados" tabindex="-1" use:enfocar>Tus resultados</h1>
 
   <div class="aviso" role="note">
-    <strong>Mide afinidad con programas, no es una recomendación de voto.</strong> El resultado depende de las
-    afirmaciones elegidas y de lo que cada programa dice (o no dice) sobre ellas.
+    <svg class="aviso-icono" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+      <circle cx="10" cy="10" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5" />
+      <path d="M10 9v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+      <circle cx="10" cy="6.2" r="1" fill="currentColor" />
+    </svg>
+    <p>
+      <strong>Mide afinidad con programas, no es una recomendación de voto.</strong> El resultado depende de las
+      afirmaciones elegidas y de lo que cada programa dice (o no dice) sobre ellas.
+    </p>
   </div>
 
   {#if respondidas === 0}
@@ -59,15 +69,20 @@
       100 % significa coincidencia total en las afirmaciones en las que el partido se pronuncia. Has respondido
       {respondidas} de {preguntas.length}. En caso de empate, el orden es aleatorio.
     </p>
-    <ol class="barras">
-      {#each ordenados as r (r.partido)}
+    <!-- Las barras crecen una vez al llegar, en orden de resultado y con huecos decrecientes (ola, no cola) -->
+    <ol class="barras tarjeta">
+      {#each ordenados as r, i (r.partido)}
         <li class="barra-fila">
           <div class="barra-cabecera">
             <span class="nombre">{nombrePartido(r.partido)}</span>
             <span class="valor">{r.afinidad === null ? 'Sin datos' : pct(r.afinidad)}</span>
           </div>
           <div class="barra-pista" aria-hidden="true">
-            <div class="barra-relleno" style:width="{r.afinidad ?? 0}%"></div>
+            <div
+              class="barra-relleno"
+              style:transform="scaleX({(r.afinidad ?? 0) / 100})"
+              style:animation-delay="{RETRASOS[i] ?? 200}ms"
+            ></div>
           </div>
           <p class="cobertura suave">
             Se pronuncia en {r.validas} de tus {r.respondidas} respuestas.
@@ -128,6 +143,9 @@
           <span class="num suave">{i + 1}.</span>
           <span class="enunciado">{q.texto}</span>
           <span class="tu suave">Tú: {textoRespuesta(respuestas[q.id])}</span>
+          <svg class="chevron" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+            <path d="M5 7.5l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
         </summary>
         <ul class="posturas">
           {#each ordenColumnas as p (p)}
@@ -162,42 +180,62 @@
 
 <style>
   h1 {
-    font-size: clamp(1.7rem, 6vw, 2.2rem);
+    font-size: clamp(2rem, 7vw, 2.6rem);
+    letter-spacing: -0.03em;
   }
   h2 {
     font-size: 1.3rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
   }
   .explicacion {
     font-size: 0.95rem;
   }
   .barras {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 1.25rem 1.25rem 0.4rem;
   }
   .barra-fila {
-    margin-bottom: 1.1rem;
+    margin-bottom: 1.15rem;
   }
   .barra-cabecera {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     font-weight: 600;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
   }
   .valor {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
     font-variant-numeric: tabular-nums;
   }
   .barra-pista {
-    height: 14px;
+    height: 12px;
     background: var(--barra-fondo);
-    border-radius: 7px;
+    border-radius: 999px;
     overflow: hidden;
   }
   .barra-relleno {
+    width: 100%;
     height: 100%;
     background: var(--barra);
-    border-radius: 7px;
+    border-radius: inherit;
+    transform-origin: left center;
+    animation: crecer 700ms var(--ease-out) both;
+  }
+  /* Los datos crecen desde su origen (0 %). Pantalla que se ve una vez: admite algo más de duración. */
+  @keyframes crecer {
+    from {
+      transform: scaleX(0);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .barra-relleno {
+      animation: fundido 200ms ease both;
+      animation-delay: 0ms !important;
+    }
   }
   .cobertura {
     font-size: 0.9rem;
@@ -212,8 +250,9 @@
   }
   .tabla-scroll {
     overflow-x: auto;
-    border: 1px solid var(--borde);
     border-radius: var(--radio);
+    box-shadow: var(--sombra-1);
+    outline: 1px solid transparent;
   }
   .mapa {
     border-collapse: collapse;
@@ -250,23 +289,44 @@
     display: grid;
     gap: 0.6rem;
   }
+  .detalle .tarjeta {
+    padding: 0;
+    transition: box-shadow 200ms ease;
+  }
+  .detalle .tarjeta[open] {
+    box-shadow: var(--sombra-2);
+  }
   summary {
     cursor: pointer;
     display: grid;
     grid-template-columns: auto 1fr auto;
-    column-gap: 0.5rem;
+    column-gap: 0.6rem;
+    padding: 1rem 1.15rem;
+    border-radius: var(--radio);
+    list-style: none;
+    touch-action: manipulation;
+    transition: background-color 150ms ease;
   }
-  /* El display: grid oculta el triángulo nativo; se sustituye por un indicador visible */
-  summary::after {
-    content: '+' / '';
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    summary:hover {
+      background: var(--superficie-2);
+    }
+  }
+  /* Flecha que gira al desplegar: el cambio de estado se ve como continuo */
+  .chevron {
     grid-column: 3;
     grid-row: 1;
-    font-size: 1.3rem;
-    line-height: 1.2;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-top: 0.2rem;
     color: var(--texto-suave);
+    transition: transform 200ms var(--ease-out);
   }
-  details[open] > summary::after {
-    content: '−' / '';
+  details[open] .chevron {
+    transform: rotate(180deg);
   }
   summary .tu {
     grid-column: 2;
@@ -274,8 +334,8 @@
   }
   .posturas {
     list-style: none;
-    padding: 0;
-    margin: 1rem 0 0;
+    padding: 0 1.15rem 0.4rem;
+    margin: 0;
   }
   .posturas li {
     border-top: 1px solid var(--borde);
