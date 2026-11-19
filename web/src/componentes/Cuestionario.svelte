@@ -14,12 +14,10 @@
   const pregunta = $derived(preguntas[indice]);
   const actual = $derived(respuestas[pregunta.id]);
   let importante = $state(false);
-  let verContexto = $state(false);
 
   // Al cambiar de pregunta, se recupera lo que la persona marcó (si vuelve atrás).
   $effect.pre(() => {
     importante = respuestas[preguntas[indice].id]?.importante ?? false;
-    verContexto = false;
   });
 
   function responder(valor: Valor | null) {
@@ -57,18 +55,10 @@
     <h1 id="enunciado" tabindex="-1" use:enfocar>{pregunta.texto}</h1>
   {/key}
 
-  <div class="contexto">
-    <button
-      class="enlace-boton"
-      aria-expanded={verContexto}
-      aria-controls="contexto-texto"
-      onclick={() => (verContexto = !verContexto)}
-    >
-      {verContexto ? 'Ocultar contexto' : 'Contexto'}
-    </button>
-    <div id="contexto-texto" hidden={!verContexto}>
-      <p class="tarjeta">{pregunta.contexto}</p>
-    </div>
+  <!-- La explicación se muestra siempre: sin ella muchas afirmaciones no se entienden -->
+  <div class="contexto tarjeta">
+    <p class="contexto-titulo">Qué significa</p>
+    <p class="contexto-texto">{pregunta.contexto}</p>
   </div>
 
   <label class="importante">
@@ -146,8 +136,16 @@
   .contexto {
     margin-bottom: 1rem;
   }
-  .contexto .tarjeta {
-    margin-top: 0.6rem;
+  .contexto-titulo {
+    margin: 0 0 0.3rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--texto-suave);
+  }
+  .contexto-texto {
+    margin: 0;
   }
   .importante {
     display: flex;

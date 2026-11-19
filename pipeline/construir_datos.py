@@ -50,8 +50,8 @@ LOGRO = "El programa lo presenta como un logro ya aprobado, no como un compromis
 PREGUNTAS = [
     # ---------------- VIVIENDA ----------------
     dict(id="viv-1", tema="vivienda", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería limitarse por ley el precio del alquiler en las zonas con el mercado de vivienda tensionado.",
-         contexto="Las zonas tensionadas son áreas en las que el coste del alquiler o su subida superan umbrales fijados en la Ley de Vivienda de 2023. Hoy son las comunidades autónomas quienes deciden si las declaran.",
+         texto="Debería haber por ley un precio máximo para los alquileres en las zonas donde alquilar una vivienda se ha vuelto muy caro.",
+         contexto="La ley de vivienda de 2023 ya permite poner ese tope, pero solo en las zonas que su comunidad autónoma declare «tensionadas», es decir, con alquileres muy caros o que suben mucho. Cada comunidad decide si lo hace.",
          posturas=[
              P(2, FA, 13, "Limitaremos por ley el precio del alquiler", "en todas las zonas tensionadas"),
              P(2, POD, 8, "Bajar los alquileres un 40% por ley.", "de los precios del alquiler"),
@@ -61,8 +61,8 @@ PREGUNTAS = [
                nota="La Ley de Vivienda es la norma que permite limitar el alquiler en zonas tensionadas; el programa propone derogarla."),
          ]),
     dict(id="viv-2", tema="vivienda", formulada_desde="PP/VOX",
-         texto="Debería derogarse la Ley de Vivienda aprobada en 2023.",
-         contexto="La Ley 12/2023 por el derecho a la vivienda regula, entre otras cosas, las zonas tensionadas, los índices de precios de referencia y la protección frente a desahucios.",
+         texto="Debería eliminarse la ley de vivienda aprobada en 2023.",
+         contexto="Es la ley que permite poner un tope al alquiler en las zonas más caras y que da más protección frente a los desahucios a las familias vulnerables. Si se elimina, esas normas dejarían de aplicarse.",
          posturas=[
              P(2, PP, 42, "DEROGAREMOS LA LEY DE VIVIENDA.", "propietarios e inquilinos."),
              P(2, VOX, 23, "Recuperar la seguridad jurídica y una oferta de alquileres", "Derogación de la Ley de Vivienda."),
@@ -72,8 +72,8 @@ PREGUNTAS = [
          ]),
     # ---------------- FISCALIDAD ----------------
     dict(id="fis-1", tema="fiscalidad", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería subirse el IRPF a las rentas más altas.",
-         contexto="El IRPF es el impuesto sobre la renta de las personas físicas. Su tipo marginal máximo estatal más autonómico ronda hoy el 45-54 % según la comunidad.",
+         texto="Las personas que más ganan deberían pagar más impuestos por sus ingresos.",
+         contexto="Cada año se paga un impuesto por lo que se gana (el IRPF, el de la declaración de la renta). Cuanto más se gana, mayor es el porcentaje que se paga. Hoy, por la parte más alta de los ingresos se paga entre el 45 % y el 54 %, según la comunidad autónoma.",
          posturas=[
              P(2, POD, 21, "Reforma del IRPF para que las rentas más altas contribuyan más.", "contribuyan más."),
              P(2, FA, 46, "Ampliaremos el número de tramos del IRPF", "para rentas a partir de 300.000 euros."),
@@ -83,8 +83,8 @@ PREGUNTAS = [
                nota="Propone bajar el IRPF con carácter general, sin referirse expresamente a las rentas altas."),
          ]),
     dict(id="fis-2", tema="fiscalidad", formulada_desde="PP/VOX",
-         texto="Debería reducirse el Impuesto sobre Sociedades que pagan las empresas.",
-         contexto="El Impuesto sobre Sociedades grava los beneficios de las empresas. El tipo general es del 25 %, con tipos reducidos para empresas pequeñas.",
+         texto="Las empresas deberían pagar menos impuestos por sus beneficios.",
+         contexto="Las empresas pagan un impuesto por lo que ganan (el Impuesto sobre Sociedades). Hoy es, en general, el 25 % de sus beneficios, y algo menos para las empresas pequeñas.",
          posturas=[
              P(2, VOX, 9, "Reducir el tipo del Impuesto de Sociedades", "dinamización de nuestra economía"),
              P(1, PP, 47, "LA EMPRESA QUE INVIERTA PARA CRECER PAGARÁ MENOS IMPUESTO SOBRE SOCIEDADES.", "SOBRE SOCIEDADES.",
@@ -95,8 +95,8 @@ PREGUNTAS = [
                nota="Solo para empresas cotizadas con grandes diferencias salariales internas."),
          ]),
     dict(id="fis-3", tema="fiscalidad", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería existir un impuesto estatal sobre las grandes fortunas que las comunidades autónomas no puedan suprimir.",
-         contexto="El Impuesto sobre el Patrimonio está cedido a las comunidades autónomas, que pueden bonificarlo. Desde 2022 existe además un Impuesto Temporal de Solidaridad de las Grandes Fortunas, de ámbito estatal.",
+         texto="Las grandes fortunas deberían pagar un impuesto estatal, igual en toda España, que ninguna comunidad autónoma pueda quitar.",
+         contexto="El patrimonio es todo lo que tiene una persona: casas, dinero, acciones… El impuesto sobre el patrimonio lo gestionan las comunidades autónomas, y algunas en la práctica no lo cobran. Desde 2022 existe además un impuesto estatal para las grandes fortunas, que se aprobó como temporal.",
          posturas=[
              P(2, POD, 17, "Ampliaremos el impuesto a las grandes fortunas", "para evitar que las Comunidades Autónomas lo eliminen."),
              P(2, FA, 45, "Reformaremos el Impuesto de Solidaridad de las Grandes Fortunas", "paguen como mínimo el 2 %."),
@@ -109,8 +109,8 @@ PREGUNTAS = [
          ]),
     # ---------------- EMPLEO ----------------
     dict(id="emp-1", tema="empleo", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería reducirse por ley la jornada laboral máxima a 35 horas semanales o menos, sin bajar el salario.",
-         contexto="La jornada máxima legal ordinaria en España es de 40 horas semanales de promedio anual.",
+         texto="La jornada laboral máxima debería bajar por ley a 35 horas a la semana o menos, sin que baje el sueldo.",
+         contexto="Hoy el máximo legal es de 40 horas a la semana (de media a lo largo del año). Se ha propuesto bajarlo a 37,5 horas, pero no se ha aprobado.",
          posturas=[
              P(2, POD, 41, "Reduciremos la jornada laboral a 30 horas semanales", "comenzando con una bajada a 35 horas"),
              P(2, FA, 7, "Avanzaremos hacia la jornada laboral máxima de 32 horas semanales", "sin reducción salarial"),
@@ -118,8 +118,8 @@ PREGUNTAS = [
                nota="Por ley hasta 37,5 horas; las 35 horas, mediante la negociación colectiva."),
          ]),
     dict(id="emp-2", tema="empleo", formulada_desde="PP/VOX",
-         texto="Debería derogarse la reforma laboral aprobada en 2021.",
-         contexto="La reforma laboral de 2021 (Real Decreto-ley 32/2021) limitó los contratos temporales y reforzó los convenios colectivos sectoriales.",
+         texto="Debería eliminarse la reforma laboral de 2021.",
+         contexto="Esa reforma limitó los contratos temporales para que hubiera más contratos fijos. También dio más peso a los convenios de cada sector: los acuerdos sobre sueldos y condiciones de trabajo que firman sindicatos y empresarios.",
          posturas=[
              P(1, VOX, 13, "Derogar la legislación laboral de Sánchez", "agravado la precariedad", inferida=True,
                nota="Se entiende que «la legislación laboral de Sánchez» incluye la reforma laboral de 2021."),
@@ -129,8 +129,8 @@ PREGUNTAS = [
          ]),
     # ---------------- PENSIONES ----------------
     dict(id="pen-1", tema="pensiones", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="La pensión mínima contributiva debería igualarse al salario mínimo interprofesional.",
-         contexto="Las pensiones mínimas contributivas son inferiores al salario mínimo interprofesional (SMI), que se fija cada año por real decreto.",
+         texto="La pensión más baja que cobra quien ha trabajado y cotizado debería ser igual al salario mínimo.",
+         contexto="Hoy esa pensión mínima es más baja que el salario mínimo interprofesional, que es lo menos que se puede pagar por ley por una jornada completa. El Gobierno lo fija cada año.",
          posturas=[
              P(2, FA, 57, "Blindaje constitucional del carácter público de las pensiones", "pensión mínima igual al SMI"),
              P(2, POD, 44, "Equiparar la pensión mínima al salario mínimo interprofesional.", "se equipare al SMI"),
@@ -139,8 +139,8 @@ PREGUNTAS = [
          ]),
     # ---------------- SANIDAD ----------------
     dict(id="san-1", tema="sanidad", formulada_desde="PP/VOX",
-         texto="La sanidad pública debería recurrir a centros privados para reducir las listas de espera.",
-         contexto="La colaboración público-privada en sanidad consiste en que el sistema público pague a centros privados para atender a sus pacientes (conciertos) o les encargue la gestión de servicios.",
+         texto="La sanidad pública debería pagar a clínicas privadas para que atiendan a sus pacientes y así reducir las listas de espera.",
+         contexto="Ya se hace en muchas comunidades autónomas: la sanidad pública paga a un centro privado para que opere o atienda a pacientes que están esperando. El paciente no paga nada.",
          posturas=[
              P(2, VOX, 37, "Fomento de la colaboración público-privada", "a reducir demoras"),
              P(-1, PSOE, 49, "Limitar la privatización de la sanidad", "en la prestación sanitaria."),
@@ -148,8 +148,8 @@ PREGUNTAS = [
              P(-2, POD, 88, "Acabar con la privatización y recuperar la sanidad para lo público.", "para lo público."),
          ]),
     dict(id="san-2", tema="sanidad", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Las personas inmigrantes en situación irregular deberían tener acceso a la sanidad pública en las mismas condiciones que el resto de residentes.",
-         contexto="Desde 2018 la ley reconoce el derecho a la asistencia sanitaria pública a las personas extranjeras no registradas ni autorizadas como residentes, con algunos requisitos.",
+         texto="Las personas inmigrantes sin permiso de residencia («sin papeles») deberían poder usar la sanidad pública igual que el resto de personas que viven en España.",
+         contexto="Desde 2018 la ley les reconoce el derecho a la sanidad pública, pero con algunos requisitos que no se piden al resto.",
          posturas=[
              P(2, FA, 26, "Blindaremos por ley la universalidad de la atención sanitaria", "independientemente de su estatus administrativo."),
              P(2, POD, 69, "incluidas las personas migrantes en situación administrativa irregular", "que impiden recibir atención"),
@@ -159,8 +159,8 @@ PREGUNTAS = [
          ]),
     # ---------------- EDUCACIÓN ----------------
     dict(id="edu-1", tema="educacion", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería reducirse progresivamente la financiación pública de los colegios concertados.",
-         contexto="Los colegios concertados son centros de titularidad privada que reciben fondos públicos a cambio de ser gratuitos en las etapas obligatorias.",
+         texto="Debería reducirse poco a poco el dinero público que reciben los colegios concertados.",
+         contexto="Hay colegios públicos, privados y concertados. Los concertados son de propiedad privada, pero reciben dinero público y, a cambio, las clases son gratuitas en la enseñanza obligatoria.",
          posturas=[
              P(2, POD, 79, "Avanzaremos hacia una única red educativa de gestión pública directa", "para financiar negocios privados."),
              P(-2, PP, 51, "LOS PADRES ELEGIRÁN COLEGIO, Y NINGÚN CONCIERTO EDUCATIVO SE ELIMINARÁ", "DEMANDA SUFICIENTE."),
@@ -168,8 +168,8 @@ PREGUNTAS = [
                nota="La libre elección de centro sin barreras económicas supone mantener la red concertada."),
          ]),
     dict(id="edu-2", tema="educacion", formulada_desde="PP/VOX",
-         texto="Debería garantizarse en todas las comunidades autónomas el derecho a recibir la enseñanza en castellano.",
-         contexto="En las comunidades con lengua cooficial, cada una regula qué parte de la enseñanza se imparte en cada lengua. En Cataluña el modelo es de inmersión en catalán.",
+         texto="En todas las comunidades autónomas, los alumnos deberían tener garantizado poder recibir las clases en castellano.",
+         contexto="En las comunidades con otra lengua oficial (catalán, valenciano, euskera, gallego…), cada comunidad decide cuántas clases se dan en cada lengua. En Cataluña, por ejemplo, la mayoría de las clases se dan en catalán (lo que se llama «inmersión lingüística»).",
          posturas=[
              P(2, PP, 32, "Garantizaremos el derecho constitucional de recibir enseñanza en castellano", "y en toda la Nación"),
              P(2, VOX, 41, "Se garantizará la educación en español en todo el territorio nacional.", "en todo el territorio nacional."),
@@ -177,8 +177,8 @@ PREGUNTAS = [
                nota="Defiende la inmersión en catalán, lo que choca con garantizar la enseñanza en castellano en toda España."),
          ]),
     dict(id="edu-3", tema="educacion", formulada_desde="PP/VOX",
-         texto="Debería sustituirse la ley educativa actual (LOMLOE) por una nueva ley.",
-         contexto="La LOMLOE (Ley Orgánica 3/2020) es la ley educativa vigente.",
+         texto="Debería cambiarse la ley de educación actual (la LOMLOE) por una ley nueva.",
+         contexto="La LOMLOE, de 2020, es la ley que marca hoy cómo funcionan colegios e institutos: qué se estudia, cuándo se puede pasar de curso con asignaturas suspendidas o cuánto cuenta la asignatura de religión.",
          posturas=[
              P(2, PP, 51, "Acordaremos con docentes, inspectores, expertos y familias un nuevo marco educativo", "que sustituya a la LOMLOE."),
              P(2, VOX, 41, "Derogación de la LOMLOE", "basada en el esfuerzo"),
@@ -187,8 +187,8 @@ PREGUNTAS = [
          ]),
     # ---------------- INMIGRACIÓN ----------------
     dict(id="inm-1", tema="inmigracion", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería regularizarse a las personas inmigrantes que viven en España en situación irregular.",
-         contexto="Regularizar es conceder permiso de residencia a personas que viven en España sin él. Puede hacerse caso a caso (arraigo) o de forma extraordinaria para un colectivo amplio.",
+         texto="Debería darse permiso para vivir y trabajar en España, de forma general, a las personas inmigrantes que ya viven aquí sin papeles.",
+         contexto="La vía habitual es caso a caso: por ejemplo, demostrar que se lleva años en España y se tiene trabajo o familia aquí (lo que se llama «arraigo»). En 2026 se abrió además un proceso extraordinario para que muchas personas pudieran pedirlo a la vez.",
          posturas=[
              P(2, FA, 126, "Culminar la regularización extraordinaria de 2026", "por retrasos de la Administración."),
              P(2, POD, 67, "Establecimiento de un procedimiento permanente de regularización de las personas migrantes.", "de las personas migrantes."),
@@ -196,8 +196,8 @@ PREGUNTAS = [
              P(-2, VOX, 15, "Prohibición de las regularizaciones masivas.", "podrá regularizar su situación."),
          ]),
     dict(id="inm-2", tema="inmigracion", formulada_desde="PP/VOX",
-         texto="Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas de nacionalidad española.",
-         contexto="Hoy el acceso a la mayoría de ayudas y a la vivienda protegida depende de la renta, la residencia o el empadronamiento, no de la nacionalidad.",
+         texto="Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas con nacionalidad española.",
+         contexto="Hoy, para la mayoría de ayudas y para las viviendas públicas se tiene en cuenta lo que se gana y el tiempo que se lleva viviendo en el lugar, pero no la nacionalidad.",
          posturas=[
              P(2, VOX, 19, "Acceso preferente de los españoles a vivienda pública", "prestaciones y servicios sociales."),
              P(-1, PP, 32, "Estos criterios se aplicarán dentro de los límites constitucionales y europeos", "exclusivamente en la nacionalidad.",
@@ -208,8 +208,8 @@ PREGUNTAS = [
                nota="Propone facilitar el acceso a derechos a las personas migrantes, no priorizar por nacionalidad."),
          ]),
     dict(id="inm-3", tema="inmigracion", formulada_desde="PP/VOX",
-         texto="Los menores extranjeros que llegan solos a España deberían volver con sus familias o a su país como opción prioritaria.",
-         contexto="Los menores extranjeros no acompañados quedan bajo la tutela de las comunidades autónomas. La ley permite su repatriación si se considera que es lo mejor para el menor.",
+         texto="Los menores extranjeros que llegan solos a España deberían, como primera opción, volver con su familia o a su país.",
+         contexto="Hoy quedan a cargo de las comunidades autónomas, que se ocupan de su cuidado. La ley ya permite devolverlos con su familia o a su país, pero solo si se considera que es lo mejor para el menor.",
          posturas=[
              P(2, PP, 20, "PROMOVEREMOS EL REGRESO DE LOS MENORES CON SUS FAMILIAS COMO OBJETIVO PRIORITARIO.", "OBJETIVO PRIORITARIO."),
              P(2, VOX, 15, "Devolución de menores extranjeros no acompañados", "a sus padres"),
@@ -218,8 +218,8 @@ PREGUNTAS = [
          ]),
     # ---------------- ENERGÍA Y MEDIO AMBIENTE ----------------
     dict(id="ene-1", tema="energia", formulada_desde="PP/VOX",
-         texto="Debería alargarse la vida de las centrales nucleares más allá del calendario de cierre previsto.",
-         contexto="El calendario acordado en 2019 prevé cerrar las centrales nucleares españolas entre 2027 y 2035, empezando por Almaraz.",
+         texto="Las centrales nucleares deberían seguir funcionando más años de lo que está previsto.",
+         contexto="El calendario acordado en 2019 prevé cerrar todas las centrales nucleares de España entre 2027 y 2035. La primera sería Almaraz (Cáceres), en 2027 y 2028.",
          posturas=[
              P(2, PP, 54, "ELIMINAREMOS EL CALENDARIO DE CIERRE", "COFRENTES Y TRILLO."),
              P(2, VOX, 12, "Se garantizará la supervivencia de las centrales nucleares actuales", "derogando el calendario de cierre."),
@@ -228,8 +228,8 @@ PREGUNTAS = [
              P(-2, PSOE, 66, "Mantener el calendario de cierre de las centrales nucleares hasta 2035", "hasta 2035"),
          ]),
     dict(id="ene-2", tema="energia", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Deberían implantarse zonas de bajas emisiones que restrinjan la circulación de los vehículos más contaminantes en las ciudades.",
-         contexto="Las zonas de bajas emisiones (ZBE) limitan el acceso de los vehículos según su etiqueta ambiental. La ley obliga a crearlas a los municipios de más de 50.000 habitantes.",
+         texto="Las ciudades deberían limitar la entrada de los coches y otros vehículos que más contaminan.",
+         contexto="Son las llamadas «zonas de bajas emisiones»: los vehículos más contaminantes, según su etiqueta ambiental de la DGT, no pueden entrar o solo pueden hacerlo con limitaciones. La ley ya obliga a crearlas a los municipios de más de 50.000 habitantes.",
          posturas=[
              P(2, PSOE, 71, "Impulsar las Zonas de Bajas Emisiones y la movilidad sostenible en las ciudades", "en las ciudades"),
              P(2, POD, 95, "Implantar de forma acelerada las Zonas de Bajas Emisiones", "Zonas de Bajas Emisiones"),
@@ -237,8 +237,8 @@ PREGUNTAS = [
          ]),
     # ---------------- MODELO TERRITORIAL ----------------
     dict(id="ter-1", tema="territorial", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="El Estado debería asumir una parte de la deuda de las comunidades autónomas.",
-         contexto="Muchas comunidades autónomas deben grandes cantidades al Estado por préstamos de mecanismos como el Fondo de Liquidez Autonómica (FLA).",
+         texto="El Estado debería perdonar a las comunidades autónomas una parte del dinero que le deben.",
+         contexto="Desde 2012, el Estado ha prestado mucho dinero a las comunidades autónomas para que pudieran pagar sus gastos, y muchas le deben grandes cantidades. Si se perdona una parte, esa deuda pasaría a ser del Estado.",
          posturas=[
              P(2, PSOE, 61, "Avanzaremos en la asunción parcial por el Estado de 83.000 millones de euros de deuda autonómica", "de deuda autonómica"),
              P(2, FA, 104, "Condonación de deuda autonómica condicionada", "bajadas de impuestos a rentas altas."),
@@ -246,8 +246,8 @@ PREGUNTAS = [
                nota="El mismo punto propone una reestructuración multilateral de la deuda autonómica."),
          ]),
     dict(id="ter-2", tema="territorial", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería poder usarse el catalán, el euskera y el gallego en los debates del Congreso de los Diputados.",
-         contexto="Desde 2023 el Reglamento del Congreso permite intervenir en las lenguas cooficiales, con traducción simultánea.",
+         texto="Los diputados deberían poder hablar en catalán, euskera o gallego en el Congreso.",
+         contexto="Ya pueden hacerlo desde 2023, con traducción simultánea. Estar en desacuerdo significa que en el Congreso se hable solo en castellano.",
          posturas=[
              P(2, PSOE, 91, "Consolidaremos el uso de las lenguas cooficiales en las Cortes Generales", "en las Cortes Generales"),
              P(1, FA, 141, "Aprobaremos una ley del plurilingüismo", "con las instituciones del Estado.", inferida=True,
@@ -255,8 +255,8 @@ PREGUNTAS = [
              P(-2, PP, 37, "Propondremos la reforma del Reglamento de la Cámara", "lengua común de todos los españoles."),
          ]),
     dict(id="ter-3", tema="territorial", formulada_desde="PP/VOX",
-         texto="Ninguna comunidad autónoma debería tener un sistema de financiación propio pactado bilateralmente con el Estado.",
-         contexto="Todas las comunidades salvo el País Vasco y Navarra comparten un sistema común de financiación, que se negocia de forma multilateral.",
+         texto="Todas las comunidades autónomas que hoy se financian con las mismas reglas deberían seguir así: ninguna debería pactar por su cuenta con el Gobierno un sistema propio.",
+         contexto="Las comunidades autónomas pagan la sanidad, la educación y otros servicios sobre todo con impuestos que se reparten con unas reglas comunes. El País Vasco y Navarra tienen desde hace mucho un sistema propio: recaudan sus impuestos y pagan al Estado una cantidad pactada. Otras comunidades, como Cataluña, piden un sistema propio.",
          posturas=[
              P(2, PP, 33, "Ninguna de las Comunidades que actualmente integran el régimen común saldrá de él", "al margen de este sistema."),
              P(-1, FA, 103, "debe acomodar la voluntad de mayor autogobierno que han expresado algunas comunidades autónomas", "federalismo social y plurinacional.", inferida=True,
@@ -264,16 +264,16 @@ PREGUNTAS = [
          ]),
     # ---------------- INSTITUCIONES Y JUSTICIA ----------------
     dict(id="ins-1", tema="instituciones", formulada_desde="PP/VOX",
-         texto="Los propios jueces deberían elegir a los doce vocales de origen judicial del Consejo General del Poder Judicial.",
-         contexto="El CGPJ tiene 20 vocales. Hoy los 12 de origen judicial los eligen el Congreso y el Senado entre candidaturas de jueces, por mayoría de tres quintos.",
+         texto="Los 12 jueces que forman parte del Consejo General del Poder Judicial deberían ser elegidos por los propios jueces, y no por el Congreso y el Senado.",
+         contexto="El Consejo General del Poder Judicial (CGPJ) es el órgano que gobierna a los jueces: decide sus nombramientos, ascensos y sanciones. Tiene 20 miembros. Hoy los 12 que son jueces los eligen el Congreso y el Senado, con un acuerdo amplio entre partidos (tres quintos de los votos).",
          posturas=[
              P(2, PP, 27, "Los jueces y magistrados de todas las categorías elegirán a los doce vocales judiciales", "del Consejo General del Poder Judicial."),
              P(2, VOX, 55, "Modificar la Ley Orgánica del Poder Judicial para que los doce vocales", "por y entre los propios jueces y magistrados"),
              P(-2, FA, 148, "Los vocales del turno judicial se seguirán eligiendo por mayoría de tres quintos", "por mayoría absoluta"),
          ]),
     dict(id="ins-2", tema="instituciones", formulada_desde="PP/VOX",
-         texto="Debería derogarse la Ley de Memoria Democrática.",
-         contexto="La Ley 20/2022 de Memoria Democrática regula el reconocimiento de las víctimas de la Guerra Civil y la dictadura, las exhumaciones y la retirada de símbolos franquistas.",
+         texto="Debería eliminarse la Ley de Memoria Democrática.",
+         contexto="Es una ley de 2022 sobre las víctimas de la Guerra Civil y de la dictadura de Franco. Entre otras cosas, ayuda a localizar e identificar a desaparecidos enterrados en fosas comunes, reconoce a las víctimas y obliga a retirar los símbolos que ensalzan la dictadura.",
          posturas=[
              P(2, PP, 37, "Derogaremos la mal llamada «ley de memoria democrática»", "«ley de memoria democrática»"),
              P(1, VOX, 30, "Superación de las divisivas leyes ideológicas", "tales como la de Memoria Democrática", inferida=True,
@@ -284,8 +284,8 @@ PREGUNTAS = [
                nota="Propone aplicar disposiciones de la ley, lo que supone mantenerla."),
          ]),
     dict(id="ins-3", tema="instituciones", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Deberían dejar de ser delito las injurias a la Corona y los ultrajes a España y a sus símbolos.",
-         contexto="El Código Penal castiga las injurias al Rey y a la Familia Real y los ultrajes a España, a sus comunidades autónomas y a sus símbolos.",
+         texto="Insultar al Rey o a la Familia Real, u ofender a España y a sus símbolos (como la bandera), debería dejar de ser delito.",
+         contexto="Hoy el Código Penal castiga estas conductas con multas y, en algunos casos, con cárcel. Estar en desacuerdo significa que sigan siendo delito.",
          posturas=[
              P(2, FA, 142, "Derogaremos los artículos del Código Penal que castigan", "los delitos contra la Corona"),
              P(-2, VOX, 56, "Las penas por las ofensas y ultrajes a España y sus símbolos o emblemas deben agravarse", "quede impune."),
@@ -294,8 +294,8 @@ PREGUNTAS = [
          ]),
     # ---------------- DERECHOS SOCIALES E IGUALDAD ----------------
     dict(id="der-1", tema="derechos", formulada_desde="PP/VOX",
-         texto="Deberían derogarse las leyes específicas contra la violencia de género.",
-         contexto="La Ley Orgánica 1/2004 de Medidas de Protección Integral contra la Violencia de Género regula la violencia ejercida contra las mujeres por sus parejas o exparejas.",
+         texto="Deberían eliminarse las leyes que tratan de forma específica la violencia contra las mujeres por parte de sus parejas o exparejas (violencia de género).",
+         contexto="La ley de violencia de género de 2004 trata esta violencia de forma separada: tiene juzgados especializados, castiga con más pena algunos delitos cuando el agresor es un hombre y la víctima su pareja o expareja, y da ayudas y protección a las víctimas.",
          posturas=[
              P(2, VOX, 30, "Derogar las leyes que han criminalizado a los hombres y desprotegido a las mujeres.", "desprotegido a las mujeres."),
              P(-1, PP, 17, "Cada año rendiremos cuentas del cumplimiento del Pacto de Estado contra la Violencia de Género.", "contra la Violencia de Género.", inferida=True,
@@ -307,8 +307,8 @@ PREGUNTAS = [
                nota="Propone reforzar la financiación de las políticas contra la violencia machista."),
          ]),
     dict(id="der-2", tema="derechos", formulada_desde="PP/VOX",
-         texto="Debería eliminarse la posibilidad de cambiar el sexo en el Registro Civil con la sola declaración de la persona interesada.",
-         contexto="La Ley 4/2023 (conocida como «ley trans») permite a los mayores de 16 años rectificar la mención registral del sexo sin informes médicos.",
+         texto="Para cambiar el sexo que consta en el Registro Civil y en el DNI no debería bastar con que la persona lo pida.",
+         contexto="Desde la ley de 2023 (conocida como «ley trans»), las personas mayores de 16 años pueden cambiarlo solo con pedirlo, sin informes médicos ni tratamientos. Para los menores de 16 hay requisitos adicionales.",
          posturas=[
              P(2, PP, 35, "eliminaremos la libre autodeterminación registral del sexo", "autodeterminación registral del sexo"),
              P(-2, FA, 123, "autodeterminación de las personas trans, intersex y no binarias", "intersex y no binarias"),
@@ -319,7 +319,7 @@ PREGUNTAS = [
          ]),
     dict(id="der-3", tema="derechos", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
          texto="El derecho al aborto debería incluirse en la Constitución.",
-         contexto="El aborto está regulado por la Ley Orgánica 2/2010, que lo permite a petición de la mujer hasta la semana 14 de embarazo.",
+         contexto="Hoy el aborto lo regula una ley de 2010: la mujer puede decidir abortar hasta la semana 14 de embarazo, y después solo en algunos casos, como un riesgo grave para su salud. Si está en la Constitución, es mucho más difícil cambiarlo. En 2026 se inició una reforma de la Constitución para incluirlo, que no se ha completado.",
          posturas=[
              P(2, PSOE, 81, "Blindar constitucionalmente el derecho a la interrupción voluntaria del embarazo.", "voluntaria del embarazo."),
              P(2, FA, 28, "Reformaremos el artículo 43 de la Constitución para incluir el derecho al aborto", "el derecho al aborto"),
@@ -329,8 +329,8 @@ PREGUNTAS = [
          ]),
     # ---------------- SEGURIDAD ----------------
     dict(id="seg-1", tema="seguridad", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="Debería derogarse la Ley de Seguridad Ciudadana de 2015.",
-         contexto="La Ley Orgánica 4/2015 de protección de la seguridad ciudadana regula, entre otras cosas, las multas administrativas relacionadas con manifestaciones. Sus críticos la llaman «ley mordaza».",
+         texto="Debería eliminarse la Ley de Seguridad Ciudadana de 2015.",
+         contexto="Esta ley regula, entre otras cosas, las multas que la Administración puede poner sin pasar por un juez por conductas relacionadas con el orden público, por ejemplo en manifestaciones. Sus críticos la llaman «ley mordaza».",
          posturas=[
              P(2, FA, 142, "Derogaremos por completo la Ley Mordaza.", "la Ley Mordaza."),
              P(2, POD, 133, "Derogar la Ley Mordaza y reformar la legislación que limita los derechos fundamentales.", "los derechos fundamentales."),
@@ -339,8 +339,8 @@ PREGUNTAS = [
                nota="Propone endurecer las multas administrativas por desórdenes, no derogar la ley."),
          ]),
     dict(id="seg-2", tema="seguridad", formulada_desde="PP/VOX",
-         texto="Deberían endurecerse las penas por participar en disturbios violentos.",
-         contexto="El Código Penal castiga los desórdenes públicos con penas de prisión de seis meses a tres años, que pueden ser mayores en casos agravados.",
+         texto="Las penas por participar en disturbios violentos en la calle deberían ser más duras.",
+         contexto="Hoy el Código Penal castiga los «desórdenes públicos» (alterar la paz en grupo con violencia o amenazas) con entre 6 meses y 3 años de cárcel, y más en los casos graves.",
          posturas=[
              P(2, PP, 16, "Reformaremos el delito de desórdenes públicos", "por participar en disturbios violentos"),
              P(-1, FA, 142, "Reduciremos las multas excesivas", "«criterios de proporcionalidad»", inferida=True,
@@ -348,8 +348,8 @@ PREGUNTAS = [
          ]),
     # ---------------- EXTERIOR Y DEFENSA ----------------
     dict(id="ext-1", tema="exterior", formulada_desde="PP/VOX",
-         texto="España debería aumentar su gasto en defensa.",
-         contexto="La OTAN fijó en 2025 un objetivo del 5 % del PIB en gasto de defensa y seguridad para 2035. España obtuvo una excepción a ese objetivo.",
+         texto="España debería gastar más dinero en defensa (ejército y armamento).",
+         contexto="En 2025 los países de la OTAN acordaron gastar en defensa y seguridad el 5 % de su riqueza (PIB) de aquí a 2035. España consiguió quedar fuera de ese objetivo.",
          posturas=[
              P(2, VOX, 47, "Aumento de la inversión en Defensa", "Aumento de la inversión en Defensa"),
              P(1, PP, 21, "La Defensa será una verdadera política de Estado", "cumplir nuestros compromisos internacionales.", inferida=True,
@@ -361,7 +361,7 @@ PREGUNTAS = [
          ]),
     dict(id="ext-2", tema="exterior", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
          texto="España debería salir de la OTAN.",
-         contexto="España es miembro de la OTAN desde 1982; su permanencia se votó en referéndum en 1986.",
+         contexto="La OTAN es una alianza militar de Estados Unidos, Canadá y la mayoría de países europeos: si uno es atacado, los demás se comprometen a defenderlo. España forma parte desde 1982, y en 1986 se votó en referéndum seguir dentro.",
          posturas=[
              P(2, POD, 28, "Impulsaremos la salida de España de la OTAN", "del Tratado del Atlántico Norte"),
              P(-2, PP, 21, "Reforzaremos cuando sea necesario los contingentes españoles de la OTAN", "de la OTAN"),
@@ -369,8 +369,8 @@ PREGUNTAS = [
                nota="Se presenta como aliado dentro de la OTAN."),
          ]),
     dict(id="ext-3", tema="exterior", formulada_desde="FRENTE_AMPLIO/PODEMOS/PSOE",
-         texto="España debería romper sus relaciones diplomáticas y comerciales con Israel.",
-         contexto="España reconoció el Estado de Palestina en 2024 y aprobó en 2025 un embargo de armas a Israel; mantiene relaciones diplomáticas con ambos.",
+         texto="España debería romper relaciones con Israel: retirar su embajada y dejar de comerciar con ese país.",
+         contexto="España reconoció a Palestina como Estado en 2024 y en 2025 prohibió comprar y vender armas a Israel, pero mantiene relaciones diplomáticas con los dos.",
          posturas=[
              P(2, POD, 34, "Ruptura de las relaciones diplomáticas, culturales y comerciales con Israel.", "comerciales con Israel."),
              P(1, FA, 132, "suspensión efectiva del Acuerdo de Asociación UE-Israel", "Acuerdo de Asociación UE-Israel",
@@ -379,8 +379,8 @@ PREGUNTAS = [
                nota="Considera a Israel un socio clave."),
          ]),
     dict(id="ext-4", tema="exterior", formulada_desde="PP/VOX",
-         texto="España debería mantener su apoyo militar a Ucrania.",
-         contexto="Desde 2022 España envía a Ucrania material militar, además de ayuda económica y humanitaria.",
+         texto="España debería seguir enviando ayuda militar a Ucrania.",
+         contexto="Desde que Rusia invadió Ucrania en 2022, España le envía armas y material militar, además de ayuda económica y humanitaria. Estar en desacuerdo significa dejar de enviar ayuda militar.",
          posturas=[
              P(2, PP, 56, "Mantendremos el apoyo político, económico, militar y humanitario a Ucrania", "mientras dure su agresión."),
              P(1, PSOE, 88, "con Ucrania frente a Putin", "con Ucrania frente a Putin", inferida=True, nota=LOGRO),
@@ -390,9 +390,9 @@ PREGUNTAS = [
 ]
 
 TEMAS = [
-    ("vivienda", "Vivienda"), ("fiscalidad", "Fiscalidad"), ("empleo", "Empleo"), ("pensiones", "Pensiones"),
+    ("vivienda", "Vivienda"), ("fiscalidad", "Impuestos"), ("empleo", "Empleo"), ("pensiones", "Pensiones"),
     ("sanidad", "Sanidad"), ("educacion", "Educación"), ("inmigracion", "Inmigración"),
-    ("energia", "Energía y medio ambiente"), ("territorial", "Modelo territorial"),
+    ("energia", "Energía y medio ambiente"), ("territorial", "Comunidades autónomas"),
     ("instituciones", "Instituciones y justicia"), ("derechos", "Derechos sociales e igualdad"),
     ("seguridad", "Seguridad"), ("exterior", "Exterior y defensa"),
 ]
