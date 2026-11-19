@@ -15,6 +15,8 @@ export interface Pregunta {
   tema: string;
   texto: string;
   contexto: string;
+  de_acuerdo: string;
+  en_desacuerdo: string;
   formulada_desde: string;
   posturas: Record<string, Postura>;
 }

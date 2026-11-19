@@ -18,7 +18,7 @@ Cada postura de cada partido está respaldada por una cita literal de su program
 <br><br>
 
 [![Verificar y publicar](https://github.com/Miguelit011/afinidad-29n/actions/workflows/deploy.yml/badge.svg)](https://github.com/Miguelit011/afinidad-29n/actions/workflows/deploy.yml)
-![Citas verificadas](https://img.shields.io/badge/citas_verificadas-282-8f6233)
+![Citas verificadas](https://img.shields.io/badge/citas_verificadas-280-8f6233)
 ![Datos enviados](https://img.shields.io/badge/datos_enviados-0-8f6233)
 ![Svelte](https://img.shields.io/badge/Svelte_5-FF3E00?logo=svelte&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
@@ -65,7 +65,7 @@ enlace a la página exacta del PDF.
     <td align="center"><h2>536</h2><sub>páginas<br>analizadas</sub></td>
     <td align="center"><h2>13</h2><sub>temas<br>de debate</sub></td>
     <td align="center"><h2>33</h2><sub>afirmaciones<br>concretas</sub></td>
-    <td align="center"><h2>282</h2><sub>citas verificadas<br>automáticamente</sub></td>
+    <td align="center"><h2>280</h2><sub>citas verificadas<br>automáticamente</sub></td>
     <td align="center"><h2>0</h2><sub>datos que salen<br>de tu navegador</sub></td>
   </tr>
 </table>
@@ -139,7 +139,7 @@ flowchart LR
 ```
 
 En cada cambio, GitHub Actions vuelve a extraer el texto de los PDF y comprueba que coincide con el
-guardado. Después verifica las 282 citas, ejecuta los 51 tests (pytest y Vitest) y compila la web. **Si algo
+guardado. Después verifica las 280 citas, ejecuta los 51 tests (pytest y Vitest) y compila la web. **Si algo
 falla, la web no se actualiza.**
 
 ## 📁 Estructura

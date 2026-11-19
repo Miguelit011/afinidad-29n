@@ -8,14 +8,14 @@
   },
   {
     "tema": "vivienda",
-    "resumen": "Muy en contra de: «Debería haber por ley un precio máximo para los alquileres en las zonas donde alquilar una vivienda se ha vuelto muy caro.»",
+    "resumen": "Muy en contra de: «Debería haber un precio máximo para el alquiler en las zonas donde alquilar es muy caro.»",
     "cita_literal": "Eliminaremos las zonas tensionadas y el índice de precios, que han introducido más intervención, más incertidumbre y menos oferta en el mercado del alquiler.",
     "pagina": 42,
     "usada_en": "viv-1"
   },
   {
     "tema": "vivienda",
-    "resumen": "Muy a favor de: «Debería eliminarse la ley de vivienda aprobada en 2023.»",
+    "resumen": "En contra de: «Debería prohibirse desahuciar a familias vulnerables que no tienen otra casa a la que ir.» (postura inferida)",
     "cita_literal": "DEROGAREMOS LA LEY DE VIVIENDA. Recuperaremos la seguridad jurídica que necesitan propietarios e inquilinos.",
     "pagina": 42,
     "usada_en": "viv-2"
@@ -36,14 +36,14 @@
   },
   {
     "tema": "fiscalidad",
-    "resumen": "A favor de: «Las empresas deberían pagar menos impuestos por sus beneficios.»",
+    "resumen": "A favor de: «Las empresas deberían pagar menos impuestos por lo que ganan.»",
     "cita_literal": "LA EMPRESA QUE INVIERTA PARA CRECER PAGARÁ MENOS IMPUESTO SOBRE SOCIEDADES.",
     "pagina": 47,
     "usada_en": "fis-2"
   },
   {
     "tema": "fiscalidad",
-    "resumen": "En contra de: «Las grandes fortunas deberían pagar un impuesto estatal, igual en toda España, que ninguna comunidad autónoma pueda quitar.» (postura inferida)",
+    "resumen": "En contra de: «Las grandes fortunas deberían pagar un impuesto igual en toda España, que ninguna comunidad autónoma pueda quitar.» (postura inferida)",
     "cita_literal": "Las Comunidades Autónomas seguirán decidiendo con libertad sobre sus impuestos propios y cedidos, dentro de sus competencias, y podrán bajarlos cuanto quieran.",
     "pagina": 47,
     "usada_en": "fis-3"
@@ -78,7 +78,7 @@
   },
   {
     "tema": "educacion",
-    "resumen": "Muy a favor de: «En todas las comunidades autónomas, los alumnos deberían tener garantizado poder recibir las clases en castellano.»",
+    "resumen": "Muy a favor de: «Todos los alumnos de España deberían tener garantizado poder estudiar en castellano.»",
     "cita_literal": "Garantizaremos el derecho constitucional de recibir enseñanza en castellano en todas las etapas del sistema educativo y en toda la Nación",
     "pagina": 32,
     "usada_en": "edu-2"
@@ -92,21 +92,21 @@
   },
   {
     "tema": "educacion",
-    "resumen": "Muy en contra de: «Debería reducirse poco a poco el dinero público que reciben los colegios concertados.»",
+    "resumen": "Muy en contra de: «Los colegios concertados deberían recibir cada vez menos dinero público.»",
     "cita_literal": "LOS PADRES ELEGIRÁN COLEGIO, Y NINGÚN CONCIERTO EDUCATIVO SE ELIMINARÁ DONDE HAYA DEMANDA SUFICIENTE.",
     "pagina": 51,
     "usada_en": "edu-1"
   },
   {
     "tema": "educacion",
-    "resumen": "Muy a favor de: «Debería cambiarse la ley de educación actual (la LOMLOE) por una ley nueva.»",
-    "cita_literal": "Acordaremos con docentes, inspectores, expertos y familias un nuevo marco educativo que sustituya a la LOMLOE.",
-    "pagina": 51,
+    "resumen": "Muy a favor de: «Para pasar de curso en la ESO deberían tener que aprobarse todas las asignaturas.»",
+    "cita_literal": "En la ESO volverá a pasarse de curso con las asignaturas aprobadas. El alumno que vaya mal tendrá refuerzo obligatorio antes de tener que repetir.",
+    "pagina": 52,
     "usada_en": "edu-3"
   },
   {
     "tema": "inmigracion",
-    "resumen": "Muy en contra de: «Debería darse permiso para vivir y trabajar en España, de forma general, a las personas inmigrantes que ya viven aquí sin papeles.»",
+    "resumen": "Muy en contra de: «Debería darse permiso para vivir y trabajar, de una vez, a los inmigrantes que ya viven en España sin papeles.»",
     "cita_literal": "PROHIBIREMOS POR LEY LAS REGULARIZACIONES MASIVAS E INDISCRIMINADAS Y EL ARRAIGO SERÁ EXCEPCIONAL.",
     "pagina": 19,
     "usada_en": "inm-1"
@@ -120,21 +120,21 @@
   },
   {
     "tema": "inmigracion",
-    "resumen": "Muy a favor de: «Los menores extranjeros que llegan solos a España deberían, como primera opción, volver con su familia o a su país.»",
+    "resumen": "Muy a favor de: «Los menores extranjeros que llegan solos a España deberían, antes que nada, volver con su familia o a su país.»",
     "cita_literal": "PROMOVEREMOS EL REGRESO DE LOS MENORES CON SUS FAMILIAS COMO OBJETIVO PRIORITARIO.",
     "pagina": 20,
     "usada_en": "inm-3"
   },
   {
     "tema": "inmigracion",
-    "resumen": "En contra de: «Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas con nacionalidad española.»",
+    "resumen": "En contra de: «Las ayudas sociales y la vivienda pública deberían ser primero para quienes tienen nacionalidad española.»",
     "cita_literal": "Estos criterios se aplicarán dentro de los límites constitucionales y europeos, por lo que no podrán basarse exclusivamente en la nacionalidad.",
     "pagina": 32,
     "usada_en": "inm-2"
   },
   {
     "tema": "energia",
-    "resumen": "Muy a favor de: «Las centrales nucleares deberían seguir funcionando más años de lo que está previsto.»",
+    "resumen": "Muy a favor de: «Las centrales nucleares deberían seguir funcionando más años de lo previsto.»",
     "cita_literal": "ELIMINAREMOS EL CALENDARIO DE CIERRE DE ALMARAZ, ASCÓ, VANDELLÓS, COFRENTES Y TRILLO.",
     "pagina": 54,
     "usada_en": "ene-1"
@@ -148,14 +148,14 @@
   },
   {
     "tema": "territorial",
-    "resumen": "En contra de: «El Estado debería perdonar a las comunidades autónomas una parte del dinero que le deben.»",
+    "resumen": "En contra de: «El Estado debería perdonar a las comunidades autónomas parte del dinero que le deben.»",
     "cita_literal": "Cada Comunidad responderá de sus decisiones y de su deuda.",
     "pagina": 33,
     "usada_en": "ter-1"
   },
   {
     "tema": "territorial",
-    "resumen": "Muy a favor de: «Todas las comunidades autónomas que hoy se financian con las mismas reglas deberían seguir así: ninguna debería pactar por su cuenta con el Gobierno un sistema propio.»",
+    "resumen": "Muy en contra de: «Algunas comunidades autónomas deberían poder pactar con el Gobierno su propia forma de financiarse, distinta de la del resto.»",
     "cita_literal": "Ninguna de las Comunidades que actualmente integran el régimen común saldrá de él ni habrá nuevos regímenes singulares negociados bilateralmente al margen de este sistema.",
     "pagina": 33,
     "usada_en": "ter-3"
@@ -183,35 +183,35 @@
   },
   {
     "tema": "instituciones",
-    "resumen": "Muy a favor de: «Los 12 jueces que forman parte del Consejo General del Poder Judicial deberían ser elegidos por los propios jueces, y no por el Congreso y el Senado.»",
+    "resumen": "Muy a favor de: «Los propios jueces, y no el Congreso y el Senado, deberían elegir a la mayoría de los miembros del órgano que gobierna a los jueces.»",
     "cita_literal": "Los jueces y magistrados de todas las categorías elegirán a los doce vocales judiciales del Consejo General del Poder Judicial.",
     "pagina": 27,
     "usada_en": "ins-1"
   },
   {
     "tema": "instituciones",
-    "resumen": "Muy a favor de: «Debería eliminarse la Ley de Memoria Democrática.»",
+    "resumen": "En contra de: «Deberían retirarse los monumentos y símbolos que homenajean la dictadura de Franco.» (postura inferida)",
     "cita_literal": "Derogaremos la mal llamada «ley de memoria democrática»",
     "pagina": 37,
     "usada_en": "ins-2"
   },
   {
     "tema": "instituciones",
-    "resumen": "En contra de: «Insultar al Rey o a la Familia Real, u ofender a España y a sus símbolos (como la bandera), debería dejar de ser delito.» (postura inferida)",
+    "resumen": "A favor de: «Insultar al Rey u ofender a España y a sus símbolos, como la bandera, debería seguir siendo delito.» (postura inferida)",
     "cita_literal": "Llevaremos a cabo una reforma legal que rehabilite y proteja los símbolos del Estado",
     "pagina": 37,
     "usada_en": "ins-3"
   },
   {
     "tema": "derechos",
-    "resumen": "En contra de: «Deberían eliminarse las leyes que tratan de forma específica la violencia contra las mujeres por parte de sus parejas o exparejas (violencia de género).» (postura inferida)",
+    "resumen": "A favor de: «Debería haber juzgados dedicados solo a la violencia contra las mujeres por parte de sus parejas o exparejas.» (postura inferida)",
     "cita_literal": "Cada año rendiremos cuentas del cumplimiento del Pacto de Estado contra la Violencia de Género.",
     "pagina": 17,
     "usada_en": "der-1"
   },
   {
     "tema": "derechos",
-    "resumen": "Muy a favor de: «Para cambiar el sexo que consta en el Registro Civil y en el DNI no debería bastar con que la persona lo pida.»",
+    "resumen": "Muy en contra de: «Las personas mayores de 16 años deberían poder cambiar el sexo de su DNI solo con pedirlo.»",
     "cita_literal": "eliminaremos la libre autodeterminación registral del sexo",
     "pagina": 35,
     "usada_en": "der-2"
@@ -225,14 +225,14 @@
   },
   {
     "tema": "seguridad",
-    "resumen": "En contra de: «Debería eliminarse la Ley de Seguridad Ciudadana de 2015.» (postura inferida)",
+    "resumen": "Muy a favor de: «Las multas por causar desórdenes en la calle, por ejemplo durante una protesta, deberían ser más altas.»",
     "cita_literal": "Elevaremos la multa mínima a 3.000 euros para quienes participen activamente en actos de vandalismo contra bienes públicos o privados durante desórdenes multitudinarios",
     "pagina": 16,
     "usada_en": "seg-1"
   },
   {
     "tema": "seguridad",
-    "resumen": "Muy a favor de: «Las penas por participar en disturbios violentos en la calle deberían ser más duras.»",
+    "resumen": "Muy a favor de: «Las penas por causar disturbios violentos en la calle deberían ser más duras.»",
     "cita_literal": "Reformaremos el delito de desórdenes públicos para ampliar las conductas castigadas y endurecer las penas por participar en disturbios violentos",
     "pagina": 16,
     "usada_en": "seg-2"
@@ -267,7 +267,7 @@
   },
   {
     "tema": "exterior",
-    "resumen": "En contra de: «España debería romper relaciones con Israel: retirar su embajada y dejar de comerciar con ese país.» (postura inferida)",
+    "resumen": "En contra de: «España debería romper relaciones con Israel: cerrar su embajada y dejar de comerciar con ese país.» (postura inferida)",
     "cita_literal": "Impulsaremos soluciones diplomáticas para la resolución de conflictos, con socios clave, como Israel y los países árabes de la región.",
     "pagina": 57,
     "usada_en": "ext-3"

@@ -102,7 +102,7 @@ def validar_preguntas(datos: dict, textos: dict, errores: list[str], avisos: lis
         if qid in ids:
             errores.append(f"{qid}: id duplicado")
         ids.add(qid)
-        for campo in ("texto", "contexto"):
+        for campo in ("texto", "contexto", "de_acuerdo", "en_desacuerdo"):
             if not isinstance(q.get(campo), str) or not q[campo].strip():
                 errores.append(f"{qid}: falta «{campo}»")
         if q.get("tema") not in temas:

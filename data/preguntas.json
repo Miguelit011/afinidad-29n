@@ -93,8 +93,10 @@
     {
       "id": "viv-1",
       "tema": "vivienda",
-      "texto": "Debería haber por ley un precio máximo para los alquileres en las zonas donde alquilar una vivienda se ha vuelto muy caro.",
-      "contexto": "La ley de vivienda de 2023 ya permite poner ese tope, pero solo en las zonas que su comunidad autónoma declare «tensionadas», es decir, con alquileres muy caros o que suben mucho. Cada comunidad decide si lo hace.",
+      "texto": "Debería haber un precio máximo para el alquiler en las zonas donde alquilar es muy caro.",
+      "contexto": "La ley ya permite poner ese tope, pero solo si la comunidad autónoma lo pide para sus zonas más caras. Cada comunidad decide.",
+      "de_acuerdo": "El alquiler tendría un límite en esas zonas.",
+      "en_desacuerdo": "El precio lo seguiría fijando libremente el propietario.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -137,52 +139,56 @@
     {
       "id": "viv-2",
       "tema": "vivienda",
-      "texto": "Debería eliminarse la ley de vivienda aprobada en 2023.",
-      "contexto": "Es la ley que permite poner un tope al alquiler en las zonas más caras y que da más protección frente a los desahucios a las familias vulnerables. Si se elimina, esas normas dejarían de aplicarse.",
-      "formulada_desde": "PP/VOX",
+      "texto": "Debería prohibirse desahuciar a familias vulnerables que no tienen otra casa a la que ir.",
+      "contexto": "Hoy hay algunas protecciones: por ejemplo, se avisa a los servicios sociales y el juez puede aplazar el desahucio un tiempo. Pero no hay una prohibición permanente.",
+      "de_acuerdo": "No se podría desahuciar a estas familias hasta que tuvieran otra vivienda.",
+      "en_desacuerdo": "Se las podría desahuciar, aunque con algunas protecciones, como los aplazamientos.",
+      "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": -1,
-          "cita": "La declaración de Zona de Mercado Residencial Tensionado (ZMRT) será obligatoria y automática en el momento en que una demarcación cumpla con los parámetros objetivos legalmente establecidos en la Ley de Vivienda",
-          "pagina": 14,
-          "inferida": true,
-          "nota": "Propone aplicar de forma obligatoria mecanismos de la Ley de Vivienda, lo que supone mantenerla."
+          "valor": 2,
+          "cita": "Prohibiremos de forma permanente y con rango de ley la ejecución de lanzamientos o desahucios de personas y familias en situación de vulnerabilidad económica o social sin que las administraciones públicas hayan proporcionado con carácter previo una alternativa habitacional digna, adecuada y estable.",
+          "pagina": 15,
+          "inferida": false,
+          "nota": null
         },
         "PODEMOS": {
-          "valor": null,
-          "cita": null,
-          "pagina": null,
+          "valor": 2,
+          "cita": "Prohibiremos los desahucios y lanzamientos de personas en situación de vulnerabilidad sin alternativa habitacional digna y adecuada",
+          "pagina": 9,
           "inferida": false,
           "nota": null
         },
         "PP": {
-          "valor": 2,
+          "valor": -1,
           "cita": "DEROGAREMOS LA LEY DE VIVIENDA. Recuperaremos la seguridad jurídica que necesitan propietarios e inquilinos.",
           "pagina": 42,
-          "inferida": false,
-          "nota": null
+          "inferida": true,
+          "nota": "Propone derogar la ley de vivienda de 2023, que incluye protecciones frente al desahucio de familias vulnerables."
         },
         "PSOE": {
-          "valor": -1,
-          "cita": "En 2023, aprobamos la primera Ley por el Derecho a la Vivienda de la democracia",
-          "pagina": 24,
-          "inferida": false,
-          "nota": "El programa lo presenta como un logro ya aprobado, no como un compromiso nuevo."
-        },
-        "VOX": {
           "valor": 2,
-          "cita": "Recuperar la seguridad jurídica y una oferta de alquileres estable, abundante y asequible. Derogación de la Ley de Vivienda.",
-          "pagina": 23,
+          "cita": "Asegurar que el coste de la prohibición de los desahucios a personas vulnerables no recaiga sobre el pequeño propietario o propietaria debiendo asumir el coste directamente las administraciones.",
+          "pagina": 33,
           "inferida": false,
           "nota": null
+        },
+        "VOX": {
+          "valor": -1,
+          "cita": "Mano dura contra la okupación y la inquiocupación. Desalojo de la vivienda okupada en menos de 24 horas y recuperación inmediata de la posesión por su legítimo titular, el propietario.",
+          "pagina": 24,
+          "inferida": true,
+          "nota": "Propone recuperar de inmediato la vivienda también cuando el inquilino deja de pagar («inquiocupación»), sin mencionar excepciones."
         }
       }
     },
     {
       "id": "fis-1",
       "tema": "fiscalidad",
-      "texto": "Las personas que más ganan deberían pagar más impuestos por sus ingresos.",
-      "contexto": "Cada año se paga un impuesto por lo que se gana (el IRPF, el de la declaración de la renta). Cuanto más se gana, mayor es el porcentaje que se paga. Hoy, por la parte más alta de los ingresos se paga entre el 45 % y el 54 %, según la comunidad autónoma.",
+      "texto": "Las personas que más ganan deberían pagar más impuestos por lo que ganan.",
+      "contexto": "En la declaración de la renta, cuanto más se gana, mayor es el porcentaje que se paga. Por la parte más alta de los ingresos se paga hoy entre el 45 % y el 54 %, según la comunidad autónoma.",
+      "de_acuerdo": "Subiría el impuesto de la renta a quienes más ganan.",
+      "en_desacuerdo": "Se quedaría igual o bajaría.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -225,8 +231,10 @@
     {
       "id": "fis-2",
       "tema": "fiscalidad",
-      "texto": "Las empresas deberían pagar menos impuestos por sus beneficios.",
-      "contexto": "Las empresas pagan un impuesto por lo que ganan (el Impuesto sobre Sociedades). Hoy es, en general, el 25 % de sus beneficios, y algo menos para las empresas pequeñas.",
+      "texto": "Las empresas deberían pagar menos impuestos por lo que ganan.",
+      "contexto": "Hoy pagan, en general, el 25 % de sus beneficios, y algo menos las empresas pequeñas.",
+      "de_acuerdo": "Bajaría ese impuesto.",
+      "en_desacuerdo": "Se quedaría igual o subiría.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -269,8 +277,10 @@
     {
       "id": "fis-3",
       "tema": "fiscalidad",
-      "texto": "Las grandes fortunas deberían pagar un impuesto estatal, igual en toda España, que ninguna comunidad autónoma pueda quitar.",
-      "contexto": "El patrimonio es todo lo que tiene una persona: casas, dinero, acciones… El impuesto sobre el patrimonio lo gestionan las comunidades autónomas, y algunas en la práctica no lo cobran. Desde 2022 existe además un impuesto estatal para las grandes fortunas, que se aprobó como temporal.",
+      "texto": "Las grandes fortunas deberían pagar un impuesto igual en toda España, que ninguna comunidad autónoma pueda quitar.",
+      "contexto": "Hay un impuesto por lo que se tiene (casas, dinero, acciones…). Lo gestionan las comunidades autónomas y algunas, en la práctica, no lo cobran. Desde 2022 hay además uno estatal para las grandes fortunas, aprobado como temporal.",
+      "de_acuerdo": "Las grandes fortunas pagarían ese impuesto vivan donde vivan.",
+      "en_desacuerdo": "Cada comunidad seguiría decidiendo si lo cobra.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -313,8 +323,10 @@
     {
       "id": "emp-1",
       "tema": "empleo",
-      "texto": "La jornada laboral máxima debería bajar por ley a 35 horas a la semana o menos, sin que baje el sueldo.",
-      "contexto": "Hoy el máximo legal es de 40 horas a la semana (de media a lo largo del año). Se ha propuesto bajarlo a 37,5 horas, pero no se ha aprobado.",
+      "texto": "La jornada de trabajo debería bajar a 35 horas a la semana o menos, cobrando lo mismo.",
+      "contexto": "Hoy el máximo es de 40 horas a la semana. Se propuso bajarlo a 37,5 horas, pero no se aprobó.",
+      "de_acuerdo": "Se trabajaría como máximo 35 horas a la semana, sin bajar el sueldo.",
+      "en_desacuerdo": "El máximo seguiría en 40 horas o bajaría menos.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -357,8 +369,10 @@
     {
       "id": "emp-2",
       "tema": "empleo",
-      "texto": "Debería eliminarse la reforma laboral de 2021.",
-      "contexto": "Esa reforma limitó los contratos temporales para que hubiera más contratos fijos. También dio más peso a los convenios de cada sector: los acuerdos sobre sueldos y condiciones de trabajo que firman sindicatos y empresarios.",
+      "texto": "Las empresas deberían tener más libertad para hacer contratos temporales.",
+      "contexto": "Desde 2021, el contrato normal es el fijo. Los temporales solo se permiten por motivos concretos, como sustituir a alguien o un aumento del trabajo, y hay una excepción de hasta 90 días al año.",
+      "de_acuerdo": "Sería más fácil hacer contratos temporales.",
+      "en_desacuerdo": "Seguirían los límites actuales, o serían más estrictos.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -366,12 +380,12 @@
           "cita": "A pesar de que la reforma laboral ha dado lugar a las cifras más altas de personas trabajando y de empleo estable",
           "pagina": 54,
           "inferida": true,
-          "nota": "Valora positivamente la reforma, sin un compromiso expreso sobre ella."
+          "nota": "Valora positivamente la reforma laboral que limitó los contratos temporales, sin un compromiso expreso sobre ella."
         },
         "PODEMOS": {
-          "valor": null,
-          "cita": null,
-          "pagina": null,
+          "valor": -2,
+          "cita": "Eliminaremos la posibilidad de recurrir a la contratación temporal sin causa justificada durante 90 días al año",
+          "pagina": 42,
           "inferida": false,
           "nota": null
         },
@@ -384,8 +398,8 @@
         },
         "PSOE": {
           "valor": -1,
-          "cita": "Con la reforma laboral, España ha alcanzado los 22,8 millones de ocupados, ha reducido el paro por debajo del 10% por primera vez en 17 años",
-          "pagina": 36,
+          "cita": "La reforma laboral ha reforzado la estabilidad en el empleo, favoreciendo la contratación indefinida y limitando el abuso de la temporalidad.",
+          "pagina": 90,
           "inferida": false,
           "nota": "El programa lo presenta como un logro ya aprobado, no como un compromiso nuevo."
         },
@@ -394,15 +408,17 @@
           "cita": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad",
           "pagina": 13,
           "inferida": true,
-          "nota": "Se entiende que «la legislación laboral de Sánchez» incluye la reforma laboral de 2021."
+          "nota": "Se entiende que «la legislación laboral de Sánchez» incluye la reforma laboral de 2021, que limitó los contratos temporales."
         }
       }
     },
     {
       "id": "pen-1",
       "tema": "pensiones",
-      "texto": "La pensión más baja que cobra quien ha trabajado y cotizado debería ser igual al salario mínimo.",
-      "contexto": "Hoy esa pensión mínima es más baja que el salario mínimo interprofesional, que es lo menos que se puede pagar por ley por una jornada completa. El Gobierno lo fija cada año.",
+      "texto": "La pensión mínima de quien ha trabajado debería ser igual al salario mínimo.",
+      "contexto": "Hoy la pensión mínima es más baja que el salario mínimo, que es lo menos que se puede pagar por trabajar a jornada completa.",
+      "de_acuerdo": "La pensión mínima subiría hasta igualar el salario mínimo.",
+      "en_desacuerdo": "Seguiría siendo más baja que el salario mínimo.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -445,8 +461,10 @@
     {
       "id": "san-1",
       "tema": "sanidad",
-      "texto": "La sanidad pública debería pagar a clínicas privadas para que atiendan a sus pacientes y así reducir las listas de espera.",
-      "contexto": "Ya se hace en muchas comunidades autónomas: la sanidad pública paga a un centro privado para que opere o atienda a pacientes que están esperando. El paciente no paga nada.",
+      "texto": "La sanidad pública debería pagar a clínicas privadas para reducir las listas de espera.",
+      "contexto": "Ya se hace en muchas comunidades autónomas: la sanidad pública paga a una clínica privada para que atienda a pacientes que están esperando. El paciente no paga nada.",
+      "de_acuerdo": "Se usaría más esta fórmula.",
+      "en_desacuerdo": "Se usaría menos o se dejaría de usar.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -489,8 +507,10 @@
     {
       "id": "san-2",
       "tema": "sanidad",
-      "texto": "Las personas inmigrantes sin permiso de residencia («sin papeles») deberían poder usar la sanidad pública igual que el resto de personas que viven en España.",
-      "contexto": "Desde 2018 la ley les reconoce el derecho a la sanidad pública, pero con algunos requisitos que no se piden al resto.",
+      "texto": "Los inmigrantes sin papeles deberían poder usar la sanidad pública igual que los demás.",
+      "contexto": "Desde 2018 tienen derecho a la sanidad pública, pero con algunos requisitos que no se piden al resto.",
+      "de_acuerdo": "Se quitarían esos requisitos.",
+      "en_desacuerdo": "Seguirían los requisitos, o su acceso se limitaría más (por ejemplo, solo a urgencias).",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -533,8 +553,10 @@
     {
       "id": "edu-1",
       "tema": "educacion",
-      "texto": "Debería reducirse poco a poco el dinero público que reciben los colegios concertados.",
-      "contexto": "Hay colegios públicos, privados y concertados. Los concertados son de propiedad privada, pero reciben dinero público y, a cambio, las clases son gratuitas en la enseñanza obligatoria.",
+      "texto": "Los colegios concertados deberían recibir cada vez menos dinero público.",
+      "contexto": "Los concertados son colegios privados que reciben dinero público y, a cambio, no cobran las clases en la enseñanza obligatoria.",
+      "de_acuerdo": "Irían recibiendo menos dinero público.",
+      "en_desacuerdo": "Seguirían recibiendo lo mismo o más.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -577,8 +599,10 @@
     {
       "id": "edu-2",
       "tema": "educacion",
-      "texto": "En todas las comunidades autónomas, los alumnos deberían tener garantizado poder recibir las clases en castellano.",
-      "contexto": "En las comunidades con otra lengua oficial (catalán, valenciano, euskera, gallego…), cada comunidad decide cuántas clases se dan en cada lengua. En Cataluña, por ejemplo, la mayoría de las clases se dan en catalán (lo que se llama «inmersión lingüística»).",
+      "texto": "Todos los alumnos de España deberían tener garantizado poder estudiar en castellano.",
+      "contexto": "En las comunidades con otra lengua oficial (catalán, valenciano, euskera, gallego), cada comunidad decide cuántas clases se dan en cada lengua. En Cataluña, la mayoría se dan en catalán.",
+      "de_acuerdo": "Cualquier alumno podría recibir las clases en castellano, viva donde viva.",
+      "en_desacuerdo": "Cada comunidad seguiría decidiendo en qué lengua se dan las clases.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -621,16 +645,18 @@
     {
       "id": "edu-3",
       "tema": "educacion",
-      "texto": "Debería cambiarse la ley de educación actual (la LOMLOE) por una ley nueva.",
-      "contexto": "La LOMLOE, de 2020, es la ley que marca hoy cómo funcionan colegios e institutos: qué se estudia, cuándo se puede pasar de curso con asignaturas suspendidas o cuánto cuenta la asignatura de religión.",
+      "texto": "Para pasar de curso en la ESO deberían tener que aprobarse todas las asignaturas.",
+      "contexto": "Hoy, en la ESO, se pasa de curso con una o dos asignaturas suspendidas, y con más si los profesores del alumno lo deciden.",
+      "de_acuerdo": "Solo se pasaría de curso con todo aprobado.",
+      "en_desacuerdo": "Se podría seguir pasando con alguna asignatura suspendida.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": -1,
-          "cita": "Impulsaremos una reforma de la LOMLOE que incluya la alfabetización informacional y digital como competencia clave",
-          "pagina": 41,
-          "inferida": true,
-          "nota": "Propone reformar la LOMLOE, no sustituirla."
+          "valor": null,
+          "cita": null,
+          "pagina": null,
+          "inferida": false,
+          "nota": null
         },
         "PODEMOS": {
           "valor": null,
@@ -641,8 +667,8 @@
         },
         "PP": {
           "valor": 2,
-          "cita": "Acordaremos con docentes, inspectores, expertos y familias un nuevo marco educativo que sustituya a la LOMLOE.",
-          "pagina": 51,
+          "cita": "En la ESO volverá a pasarse de curso con las asignaturas aprobadas. El alumno que vaya mal tendrá refuerzo obligatorio antes de tener que repetir.",
+          "pagina": 52,
           "inferida": false,
           "nota": null
         },
@@ -654,19 +680,21 @@
           "nota": null
         },
         "VOX": {
-          "valor": 2,
-          "cita": "Derogación de la LOMLOE y recuperación de una enseñanza basada en el esfuerzo",
+          "valor": 1,
+          "cita": "Derogación de la LOMLOE y recuperación de una enseñanza basada en el esfuerzo, el saber, el mérito, la exigencia, la disciplina y la responsabilidad personal.",
           "pagina": 41,
-          "inferida": false,
-          "nota": null
+          "inferida": true,
+          "nota": "Propone sustituir la ley educativa actual, que permite pasar de curso con suspensos, y recuperar la «exigencia»."
         }
       }
     },
     {
       "id": "inm-1",
       "tema": "inmigracion",
-      "texto": "Debería darse permiso para vivir y trabajar en España, de forma general, a las personas inmigrantes que ya viven aquí sin papeles.",
-      "contexto": "La vía habitual es caso a caso: por ejemplo, demostrar que se lleva años en España y se tiene trabajo o familia aquí (lo que se llama «arraigo»). En 2026 se abrió además un proceso extraordinario para que muchas personas pudieran pedirlo a la vez.",
+      "texto": "Debería darse permiso para vivir y trabajar, de una vez, a los inmigrantes que ya viven en España sin papeles.",
+      "contexto": "Lo normal es pedirlo caso a caso: por ejemplo, demostrando que se llevan años en España y se tiene trabajo o familia aquí. En 2026 se abrió además un proceso extraordinario para que muchas personas lo pidieran a la vez.",
+      "de_acuerdo": "Recibirían permiso de forma general, sin ir caso a caso.",
+      "en_desacuerdo": "Se seguiría yendo caso a caso, o sería más difícil conseguirlo.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -709,8 +737,10 @@
     {
       "id": "inm-2",
       "tema": "inmigracion",
-      "texto": "Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas con nacionalidad española.",
-      "contexto": "Hoy, para la mayoría de ayudas y para las viviendas públicas se tiene en cuenta lo que se gana y el tiempo que se lleva viviendo en el lugar, pero no la nacionalidad.",
+      "texto": "Las ayudas sociales y la vivienda pública deberían ser primero para quienes tienen nacionalidad española.",
+      "contexto": "Hoy, para la mayoría de ayudas y viviendas públicas cuenta lo que se gana y el tiempo que se lleva viviendo en el lugar, pero no la nacionalidad.",
+      "de_acuerdo": "Tener la nacionalidad española daría prioridad.",
+      "en_desacuerdo": "La nacionalidad seguiría sin contar.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -753,8 +783,10 @@
     {
       "id": "inm-3",
       "tema": "inmigracion",
-      "texto": "Los menores extranjeros que llegan solos a España deberían, como primera opción, volver con su familia o a su país.",
-      "contexto": "Hoy quedan a cargo de las comunidades autónomas, que se ocupan de su cuidado. La ley ya permite devolverlos con su familia o a su país, pero solo si se considera que es lo mejor para el menor.",
+      "texto": "Los menores extranjeros que llegan solos a España deberían, antes que nada, volver con su familia o a su país.",
+      "contexto": "Hoy quedan al cuidado de las comunidades autónomas. Ya se les puede devolver con su familia o a su país, pero solo si se considera lo mejor para el menor.",
+      "de_acuerdo": "Lo primero que se intentaría sería su vuelta.",
+      "en_desacuerdo": "Se seguiría decidiendo caso a caso, o se facilitaría que se queden en España.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -797,8 +829,10 @@
     {
       "id": "ene-1",
       "tema": "energia",
-      "texto": "Las centrales nucleares deberían seguir funcionando más años de lo que está previsto.",
-      "contexto": "El calendario acordado en 2019 prevé cerrar todas las centrales nucleares de España entre 2027 y 2035. La primera sería Almaraz (Cáceres), en 2027 y 2028.",
+      "texto": "Las centrales nucleares deberían seguir funcionando más años de lo previsto.",
+      "contexto": "Está previsto cerrar todas las centrales nucleares de España entre 2027 y 2035. La primera sería Almaraz (Cáceres), en 2027 y 2028.",
+      "de_acuerdo": "Se retrasaría su cierre.",
+      "en_desacuerdo": "Se cerrarían cuando está previsto, o antes.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -841,8 +875,10 @@
     {
       "id": "ene-2",
       "tema": "energia",
-      "texto": "Las ciudades deberían limitar la entrada de los coches y otros vehículos que más contaminan.",
-      "contexto": "Son las llamadas «zonas de bajas emisiones»: los vehículos más contaminantes, según su etiqueta ambiental de la DGT, no pueden entrar o solo pueden hacerlo con limitaciones. La ley ya obliga a crearlas a los municipios de más de 50.000 habitantes.",
+      "texto": "Las ciudades deberían prohibir o limitar la entrada de los coches que más contaminan.",
+      "contexto": "Son las «zonas de bajas emisiones». La ley ya obliga a crearlas a los municipios de más de 50.000 habitantes. Que un coche pueda entrar depende de su etiqueta ambiental de la DGT.",
+      "de_acuerdo": "Estas zonas se mantendrían o se ampliarían.",
+      "en_desacuerdo": "Se eliminarían o dejarían de ser obligatorias.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -885,8 +921,10 @@
     {
       "id": "ter-1",
       "tema": "territorial",
-      "texto": "El Estado debería perdonar a las comunidades autónomas una parte del dinero que le deben.",
-      "contexto": "Desde 2012, el Estado ha prestado mucho dinero a las comunidades autónomas para que pudieran pagar sus gastos, y muchas le deben grandes cantidades. Si se perdona una parte, esa deuda pasaría a ser del Estado.",
+      "texto": "El Estado debería perdonar a las comunidades autónomas parte del dinero que le deben.",
+      "contexto": "Desde 2012, el Estado ha prestado mucho dinero a las comunidades autónomas para pagar sus gastos, y muchas le deben grandes cantidades.",
+      "de_acuerdo": "Esa parte de la deuda pasaría a ser del Estado.",
+      "en_desacuerdo": "Cada comunidad seguiría debiendo todo lo que debe.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -930,7 +968,9 @@
       "id": "ter-2",
       "tema": "territorial",
       "texto": "Los diputados deberían poder hablar en catalán, euskera o gallego en el Congreso.",
-      "contexto": "Ya pueden hacerlo desde 2023, con traducción simultánea. Estar en desacuerdo significa que en el Congreso se hable solo en castellano.",
+      "contexto": "Ya pueden hacerlo desde 2023, con traducción simultánea.",
+      "de_acuerdo": "Seguiría siendo así.",
+      "en_desacuerdo": "En el Congreso se hablaría solo en castellano.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -973,12 +1013,14 @@
     {
       "id": "ter-3",
       "tema": "territorial",
-      "texto": "Todas las comunidades autónomas que hoy se financian con las mismas reglas deberían seguir así: ninguna debería pactar por su cuenta con el Gobierno un sistema propio.",
-      "contexto": "Las comunidades autónomas pagan la sanidad, la educación y otros servicios sobre todo con impuestos que se reparten con unas reglas comunes. El País Vasco y Navarra tienen desde hace mucho un sistema propio: recaudan sus impuestos y pagan al Estado una cantidad pactada. Otras comunidades, como Cataluña, piden un sistema propio.",
+      "texto": "Algunas comunidades autónomas deberían poder pactar con el Gobierno su propia forma de financiarse, distinta de la del resto.",
+      "contexto": "Las comunidades pagan la sanidad, la educación y otros servicios sobre todo con impuestos que se reparten con reglas comunes. El País Vasco y Navarra tienen desde hace mucho un sistema propio: cobran sus impuestos y pagan al Estado una cantidad pactada. Otras, como Cataluña, piden algo parecido.",
+      "de_acuerdo": "Otras comunidades, como Cataluña, podrían tener un sistema propio.",
+      "en_desacuerdo": "Todas, salvo el País Vasco y Navarra, seguirían con las mismas reglas.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": -1,
+          "valor": 1,
           "cita": "debe acomodar la voluntad de mayor autogobierno que han expresado algunas comunidades autónomas, avanzando hacia un modelo de financiación que responda a los principios de un federalismo social y plurinacional.",
           "pagina": 103,
           "inferida": true,
@@ -992,7 +1034,7 @@
           "nota": null
         },
         "PP": {
-          "valor": 2,
+          "valor": -2,
           "cita": "Ninguna de las Comunidades que actualmente integran el régimen común saldrá de él ni habrá nuevos regímenes singulares negociados bilateralmente al margen de este sistema.",
           "pagina": 33,
           "inferida": false,
@@ -1017,8 +1059,10 @@
     {
       "id": "ins-1",
       "tema": "instituciones",
-      "texto": "Los 12 jueces que forman parte del Consejo General del Poder Judicial deberían ser elegidos por los propios jueces, y no por el Congreso y el Senado.",
-      "contexto": "El Consejo General del Poder Judicial (CGPJ) es el órgano que gobierna a los jueces: decide sus nombramientos, ascensos y sanciones. Tiene 20 miembros. Hoy los 12 que son jueces los eligen el Congreso y el Senado, con un acuerdo amplio entre partidos (tres quintos de los votos).",
+      "texto": "Los propios jueces, y no el Congreso y el Senado, deberían elegir a la mayoría de los miembros del órgano que gobierna a los jueces.",
+      "contexto": "Ese órgano es el Consejo General del Poder Judicial: decide nombramientos, ascensos y sanciones de los jueces. Tiene 20 miembros; 12 son jueces y hoy los eligen el Congreso y el Senado, con un acuerdo amplio entre partidos.",
+      "de_acuerdo": "Esos 12 miembros los votarían los propios jueces.",
+      "en_desacuerdo": "Los seguirían eligiendo el Congreso y el Senado.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -1061,56 +1105,60 @@
     {
       "id": "ins-2",
       "tema": "instituciones",
-      "texto": "Debería eliminarse la Ley de Memoria Democrática.",
-      "contexto": "Es una ley de 2022 sobre las víctimas de la Guerra Civil y de la dictadura de Franco. Entre otras cosas, ayuda a localizar e identificar a desaparecidos enterrados en fosas comunes, reconoce a las víctimas y obliga a retirar los símbolos que ensalzan la dictadura.",
+      "texto": "Deberían retirarse los monumentos y símbolos que homenajean la dictadura de Franco.",
+      "contexto": "Hoy la ley ya obliga a retirarlos de calles y edificios públicos, aunque aún quedan algunos, como el Arco de la Victoria de Madrid.",
+      "de_acuerdo": "Se seguirían retirando, también los que aún quedan.",
+      "en_desacuerdo": "Dejaría de ser obligatorio retirarlos.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": -2,
-          "cita": "Desarrollo reglamentario de la Ley de Memoria Democrática que recoja el derecho a la reparación de todas las víctimas de la dictadura franquista",
-          "pagina": 146,
+          "valor": null,
+          "cita": null,
+          "pagina": null,
           "inferida": false,
           "nota": null
         },
         "PODEMOS": {
-          "valor": -1,
-          "cita": "Llevar a la práctica las propuestas de la Comisión de Memoria del Pueblo Gitano, que se creó en 2024 por la disposición adicional duodécima de la Ley de Memoria Democrática",
-          "pagina": 71,
-          "inferida": true,
-          "nota": "Propone aplicar disposiciones de la ley, lo que supone mantenerla."
-        },
-        "PP": {
           "valor": 2,
-          "cita": "Derogaremos la mal llamada «ley de memoria democrática»",
-          "pagina": 37,
+          "cita": "Retiraremos los símbolos, honores y reconocimientos franquistas, impediremos los actos de exaltación de la dictadura",
+          "pagina": 137,
           "inferida": false,
           "nota": null
         },
-        "PSOE": {
+        "PP": {
           "valor": -1,
-          "cita": "Con la Ley de Memoria Democrática las hemos situado en el centro de las políticas públicas.",
+          "cita": "Derogaremos la mal llamada «ley de memoria democrática»",
+          "pagina": 37,
+          "inferida": true,
+          "nota": "Propone derogar la ley de memoria democrática, que es la que obliga a retirar estos símbolos."
+        },
+        "PSOE": {
+          "valor": 2,
+          "cita": "Ampliar la red de Lugares de Memoria Democrática, retirar simbología franquista",
           "pagina": 98,
           "inferida": false,
-          "nota": "El programa lo presenta como un logro ya aprobado, no como un compromiso nuevo."
+          "nota": null
         },
         "VOX": {
-          "valor": 1,
-          "cita": "Superación de las divisivas leyes ideológicas que enfrentan a los españoles, tales como la de Memoria Democrática",
+          "valor": -1,
+          "cita": "Superación de las divisivas leyes ideológicas que enfrentan a los españoles, tales como la de Memoria Democrática, que dañan la convivencia y dividen y enfrentan a los españoles tratando de imponer una verdad oficial.",
           "pagina": 30,
           "inferida": true,
-          "nota": "Se entiende que «superación» equivale a derogación."
+          "nota": "Propone dejar atrás («superación») la ley de memoria democrática, que es la que obliga a retirar estos símbolos."
         }
       }
     },
     {
       "id": "ins-3",
       "tema": "instituciones",
-      "texto": "Insultar al Rey o a la Familia Real, u ofender a España y a sus símbolos (como la bandera), debería dejar de ser delito.",
-      "contexto": "Hoy el Código Penal castiga estas conductas con multas y, en algunos casos, con cárcel. Estar en desacuerdo significa que sigan siendo delito.",
+      "texto": "Insultar al Rey u ofender a España y a sus símbolos, como la bandera, debería seguir siendo delito.",
+      "contexto": "Hoy son delito: se castigan con multas y, en algunos casos, con cárcel.",
+      "de_acuerdo": "Seguirían castigándose, igual o con más dureza.",
+      "en_desacuerdo": "Dejarían de ser delito.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": 2,
+          "valor": -2,
           "cita": "Derogaremos los artículos del Código Penal que castigan los delitos contra los sentimientos religiosos o de escarnio público, los delitos contra la Corona",
           "pagina": 142,
           "inferida": false,
@@ -1124,7 +1172,7 @@
           "nota": null
         },
         "PP": {
-          "valor": -1,
+          "valor": 1,
           "cita": "Llevaremos a cabo una reforma legal que rehabilite y proteja los símbolos del Estado",
           "pagina": 37,
           "inferida": true,
@@ -1138,7 +1186,7 @@
           "nota": null
         },
         "VOX": {
-          "valor": -2,
+          "valor": 2,
           "cita": "Las penas por las ofensas y ultrajes a España y sus símbolos o emblemas deben agravarse para que ninguna afrenta a ellos quede impune.",
           "pagina": 56,
           "inferida": false,
@@ -1149,77 +1197,81 @@
     {
       "id": "der-1",
       "tema": "derechos",
-      "texto": "Deberían eliminarse las leyes que tratan de forma específica la violencia contra las mujeres por parte de sus parejas o exparejas (violencia de género).",
-      "contexto": "La ley de violencia de género de 2004 trata esta violencia de forma separada: tiene juzgados especializados, castiga con más pena algunos delitos cuando el agresor es un hombre y la víctima su pareja o expareja, y da ayudas y protección a las víctimas.",
+      "texto": "Debería haber juzgados dedicados solo a la violencia contra las mujeres por parte de sus parejas o exparejas.",
+      "contexto": "Existen desde 2005. Sus jueces están especializados en estos casos y pueden tomar medidas rápidas para proteger a la víctima, como una orden de alejamiento.",
+      "de_acuerdo": "Estos juzgados se mantendrían o habría más.",
+      "en_desacuerdo": "Estos casos los llevarían los juzgados de siempre, como cualquier otro delito.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": -1,
-          "cita": "blindaremos con carácter plurianual las partidas estructurales del Pacto de Estado contra la Violencia de Género",
+          "valor": 2,
+          "cita": "Crearemos más Juzgados de Violencia sobre la Mujer y dotaremos adecuadamente de personal y recursos a los Centros de Crisis 24 horas.",
           "pagina": 38,
-          "inferida": true,
-          "nota": "Se compromete con el Pacto de Estado contra la Violencia de Género."
+          "inferida": false,
+          "nota": null
         },
         "PODEMOS": {
-          "valor": -1,
-          "cita": "Este fondo garantizará la financiación pública de todas las medidas, servicios y políticas públicas contra las violencias machistas",
-          "pagina": 51,
+          "valor": 1,
+          "cita": "Ello implica revisar tanto las pruebas selectivas de especialización de jueces y magistrados, como las competencias de los juzgados de violencia sobre la mujer y de la fiscalía contra la violencia sobre la mujer.",
+          "pagina": 54,
           "inferida": true,
-          "nota": "Propone reforzar la financiación de las políticas contra la violencia machista."
+          "nota": "Propone reforzar la especialización de estos juzgados y ampliarla a las violencias sexuales."
         },
         "PP": {
-          "valor": -1,
+          "valor": 1,
           "cita": "Cada año rendiremos cuentas del cumplimiento del Pacto de Estado contra la Violencia de Género.",
           "pagina": 17,
           "inferida": true,
-          "nota": "Se compromete con el Pacto de Estado contra la Violencia de Género, cuyo marco son estas leyes."
+          "nota": "Se compromete con el Pacto de Estado contra la Violencia de Género, que incluye reforzar estos juzgados."
         },
         "PSOE": {
-          "valor": -2,
-          "cita": "Aprobar una Ley Orgánica contra la Violencia Vicaria como manifestación de la violencia de género",
+          "valor": 1,
+          "cita": "Garantizar la valoración forense del riesgo en todos los juzgados de violencia sobre la mujer, mediante equipos multidisciplinares especializados.",
           "pagina": 82,
-          "inferida": false,
-          "nota": null
+          "inferida": true,
+          "nota": "Propone reforzar estos juzgados."
         },
         "VOX": {
-          "valor": 2,
+          "valor": -1,
           "cita": "Derogar las leyes que han criminalizado a los hombres y desprotegido a las mujeres.",
           "pagina": 30,
-          "inferida": false,
-          "nota": null
+          "inferida": true,
+          "nota": "Propone derogar las leyes de violencia de género, que son las que crearon estos juzgados."
         }
       }
     },
     {
       "id": "der-2",
       "tema": "derechos",
-      "texto": "Para cambiar el sexo que consta en el Registro Civil y en el DNI no debería bastar con que la persona lo pida.",
-      "contexto": "Desde la ley de 2023 (conocida como «ley trans»), las personas mayores de 16 años pueden cambiarlo solo con pedirlo, sin informes médicos ni tratamientos. Para los menores de 16 hay requisitos adicionales.",
+      "texto": "Las personas mayores de 16 años deberían poder cambiar el sexo de su DNI solo con pedirlo.",
+      "contexto": "Es así desde 2023: no hacen falta informes médicos ni tratamientos. Para los menores de 16 hay requisitos adicionales.",
+      "de_acuerdo": "Seguiría siendo así.",
+      "en_desacuerdo": "Haría falta algo más que pedirlo, como antes de 2023, cuando se exigían informes médicos.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": -2,
+          "valor": 2,
           "cita": "autodeterminación de las personas trans, intersex y no binarias",
           "pagina": 123,
           "inferida": false,
           "nota": null
         },
         "PODEMOS": {
-          "valor": -1,
+          "valor": 1,
           "cita": "El Estado debe reconocer todos sus derechos a las personas no binarias y el más primordial de todos es reconocerles su identidad.",
           "pagina": 52,
           "inferida": true,
           "nota": "Propone reconocer la identidad declarada de las personas no binarias en los documentos oficiales."
         },
         "PP": {
-          "valor": 2,
+          "valor": -2,
           "cita": "eliminaremos la libre autodeterminación registral del sexo",
           "pagina": 35,
           "inferida": false,
           "nota": null
         },
         "PSOE": {
-          "valor": -1,
+          "valor": 1,
           "cita": "Garantizar que la Ley 4/2023 sea el suelo común de derechos de las personas LGTBI en toda España",
           "pagina": 97,
           "inferida": true,
@@ -1237,8 +1289,10 @@
     {
       "id": "der-3",
       "tema": "derechos",
-      "texto": "El derecho al aborto debería incluirse en la Constitución.",
-      "contexto": "Hoy el aborto lo regula una ley de 2010: la mujer puede decidir abortar hasta la semana 14 de embarazo, y después solo en algunos casos, como un riesgo grave para su salud. Si está en la Constitución, es mucho más difícil cambiarlo. En 2026 se inició una reforma de la Constitución para incluirlo, que no se ha completado.",
+      "texto": "El derecho al aborto debería estar en la Constitución.",
+      "contexto": "Hoy la mujer puede decidir abortar hasta la semana 14 de embarazo y, después, solo en algunos casos. Lo regula una ley normal, que el Parlamento puede cambiar por mayoría. En 2026 se empezó a reformar la Constitución para incluirlo, pero no se ha terminado.",
+      "de_acuerdo": "Sería mucho más difícil cambiarlo o quitarlo en el futuro.",
+      "en_desacuerdo": "Seguiría siendo más fácil de cambiar.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -1281,35 +1335,37 @@
     {
       "id": "seg-1",
       "tema": "seguridad",
-      "texto": "Debería eliminarse la Ley de Seguridad Ciudadana de 2015.",
-      "contexto": "Esta ley regula, entre otras cosas, las multas que la Administración puede poner sin pasar por un juez por conductas relacionadas con el orden público, por ejemplo en manifestaciones. Sus críticos la llaman «ley mordaza».",
-      "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
+      "texto": "Las multas por causar desórdenes en la calle, por ejemplo durante una protesta, deberían ser más altas.",
+      "contexto": "Son multas que pone la Administración, sin pasar por un juez, cuando el hecho no llega a ser delito. Van desde 100 euros en los casos leves hasta decenas de miles en los más graves.",
+      "de_acuerdo": "Subirían esas multas.",
+      "en_desacuerdo": "Se quedarían igual o bajarían.",
+      "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
-          "valor": 2,
-          "cita": "Derogaremos por completo la Ley Mordaza.",
+          "valor": -2,
+          "cita": "Reduciremos las multas excesivas y aplicaremos «criterios de proporcionalidad» para ajustarlas a la «capacidad de ingresos de las personas sancionadas»",
           "pagina": 142,
           "inferida": false,
           "nota": null
         },
         "PODEMOS": {
-          "valor": 2,
+          "valor": -1,
           "cita": "Derogar la Ley Mordaza y reformar la legislación que limita los derechos fundamentales.",
           "pagina": 133,
+          "inferida": true,
+          "nota": "Propone sustituir la ley que regula estas multas por una «regulación garantista»."
+        },
+        "PP": {
+          "valor": 2,
+          "cita": "Elevaremos la multa mínima a 3.000 euros para quienes participen activamente en actos de vandalismo contra bienes públicos o privados durante desórdenes multitudinarios",
+          "pagina": 16,
           "inferida": false,
           "nota": null
         },
-        "PP": {
-          "valor": -1,
-          "cita": "Elevaremos la multa mínima a 3.000 euros para quienes participen activamente en actos de vandalismo contra bienes públicos o privados durante desórdenes multitudinarios",
-          "pagina": 16,
-          "inferida": true,
-          "nota": "Propone endurecer las multas administrativas por desórdenes, no derogar la ley."
-        },
         "PSOE": {
-          "valor": 2,
-          "cita": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la Ley Orgánica 4/2015",
-          "pagina": 99,
+          "valor": null,
+          "cita": null,
+          "pagina": null,
           "inferida": false,
           "nota": null
         },
@@ -1325,8 +1381,10 @@
     {
       "id": "seg-2",
       "tema": "seguridad",
-      "texto": "Las penas por participar en disturbios violentos en la calle deberían ser más duras.",
-      "contexto": "Hoy el Código Penal castiga los «desórdenes públicos» (alterar la paz en grupo con violencia o amenazas) con entre 6 meses y 3 años de cárcel, y más en los casos graves.",
+      "texto": "Las penas por causar disturbios violentos en la calle deberían ser más duras.",
+      "contexto": "Hoy se castigan con entre 6 meses y 3 años de cárcel, y más en los casos graves.",
+      "de_acuerdo": "Subirían esas penas.",
+      "en_desacuerdo": "Se quedarían igual o bajarían.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -1370,7 +1428,9 @@
       "id": "ext-1",
       "tema": "exterior",
       "texto": "España debería gastar más dinero en defensa (ejército y armamento).",
-      "contexto": "En 2025 los países de la OTAN acordaron gastar en defensa y seguridad el 5 % de su riqueza (PIB) de aquí a 2035. España consiguió quedar fuera de ese objetivo.",
+      "contexto": "En 2025 los países de la OTAN acordaron gastar el 5 % de su riqueza en defensa y seguridad de aquí a 2035. España consiguió quedar fuera de ese objetivo.",
+      "de_acuerdo": "Subiría el gasto militar.",
+      "en_desacuerdo": "Se quedaría igual o bajaría.",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -1414,7 +1474,9 @@
       "id": "ext-2",
       "tema": "exterior",
       "texto": "España debería salir de la OTAN.",
-      "contexto": "La OTAN es una alianza militar de Estados Unidos, Canadá y la mayoría de países europeos: si uno es atacado, los demás se comprometen a defenderlo. España forma parte desde 1982, y en 1986 se votó en referéndum seguir dentro.",
+      "contexto": "La OTAN es una alianza militar de Estados Unidos, Canadá y la mayoría de países europeos: si atacan a uno, los demás se comprometen a defenderlo. España está dentro desde 1982.",
+      "de_acuerdo": "España dejaría la alianza.",
+      "en_desacuerdo": "España seguiría en ella.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -1457,8 +1519,10 @@
     {
       "id": "ext-3",
       "tema": "exterior",
-      "texto": "España debería romper relaciones con Israel: retirar su embajada y dejar de comerciar con ese país.",
-      "contexto": "España reconoció a Palestina como Estado en 2024 y en 2025 prohibió comprar y vender armas a Israel, pero mantiene relaciones diplomáticas con los dos.",
+      "texto": "España debería romper relaciones con Israel: cerrar su embajada y dejar de comerciar con ese país.",
+      "contexto": "España reconoció a Palestina en 2024 y en 2025 prohibió comprar y vender armas a Israel, pero mantiene relaciones con los dos países.",
+      "de_acuerdo": "Se cerraría la embajada y se cortaría el comercio con Israel.",
+      "en_desacuerdo": "Se mantendrían la embajada y el comercio.",
       "formulada_desde": "FRENTE_AMPLIO/PODEMOS/PSOE",
       "posturas": {
         "FRENTE_AMPLIO": {
@@ -1502,7 +1566,9 @@
       "id": "ext-4",
       "tema": "exterior",
       "texto": "España debería seguir enviando ayuda militar a Ucrania.",
-      "contexto": "Desde que Rusia invadió Ucrania en 2022, España le envía armas y material militar, además de ayuda económica y humanitaria. Estar en desacuerdo significa dejar de enviar ayuda militar.",
+      "contexto": "Desde que Rusia invadió Ucrania en 2022, España le envía armas y material militar, además de ayuda económica y humanitaria.",
+      "de_acuerdo": "Seguiría enviándola.",
+      "en_desacuerdo": "Dejaría de enviar ayuda militar (no la económica ni la humanitaria).",
       "formulada_desde": "PP/VOX",
       "posturas": {
         "FRENTE_AMPLIO": {

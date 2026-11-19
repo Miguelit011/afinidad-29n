@@ -1,17 +1,17 @@
 [
   {
     "tema": "vivienda",
-    "resumen": "En contra de: «Debería eliminarse la ley de vivienda aprobada en 2023.»",
-    "cita_literal": "En 2023, aprobamos la primera Ley por el Derecho a la Vivienda de la democracia",
-    "pagina": 24,
-    "usada_en": "viv-2"
-  },
-  {
-    "tema": "vivienda",
-    "resumen": "A favor de: «Debería haber por ley un precio máximo para los alquileres en las zonas donde alquilar una vivienda se ha vuelto muy caro.»",
+    "resumen": "A favor de: «Debería haber un precio máximo para el alquiler en las zonas donde alquilar es muy caro.»",
     "cita_literal": "Congelar temporalmente las rentas que superen los índices de referencia, evitando incrementos abusivos en los mercados tensionados.",
     "pagina": 30,
     "usada_en": "viv-1"
+  },
+  {
+    "tema": "vivienda",
+    "resumen": "Muy a favor de: «Debería prohibirse desahuciar a familias vulnerables que no tienen otra casa a la que ir.»",
+    "cita_literal": "Asegurar que el coste de la prohibición de los desahucios a personas vulnerables no recaiga sobre el pequeño propietario o propietaria debiendo asumir el coste directamente las administraciones.",
+    "pagina": 33,
+    "usada_en": "viv-2"
   },
   {
     "tema": "vivienda",
@@ -22,14 +22,14 @@
   },
   {
     "tema": "fiscalidad",
-    "resumen": "A favor de: «Las personas que más ganan deberían pagar más impuestos por sus ingresos.»",
+    "resumen": "A favor de: «Las personas que más ganan deberían pagar más impuestos por lo que ganan.»",
     "cita_literal": "Introducir progresividad a la imposición del capital. Incrementar la tributación de las rentas de capital más elevadas.",
     "pagina": 48,
     "usada_en": "fis-1"
   },
   {
     "tema": "fiscalidad",
-    "resumen": "En contra de: «Las empresas deberían pagar menos impuestos por sus beneficios.»",
+    "resumen": "En contra de: «Las empresas deberían pagar menos impuestos por lo que ganan.»",
     "cita_literal": "Aumentar la tributación de las empresas cotizadas cuya ratio entre la retribución total de su ejecutivo principal y la mediana de su plantilla supere 100 a 1",
     "pagina": 48,
     "usada_en": "fis-2"
@@ -43,21 +43,14 @@
   },
   {
     "tema": "fiscalidad",
-    "resumen": "A favor de: «Las grandes fortunas deberían pagar un impuesto estatal, igual en toda España, que ninguna comunidad autónoma pueda quitar.» (postura inferida)",
+    "resumen": "A favor de: «Las grandes fortunas deberían pagar un impuesto igual en toda España, que ninguna comunidad autónoma pueda quitar.» (postura inferida)",
     "cita_literal": "Impulsar la creación de un impuesto mínimo global sobre las grandes fortunas",
     "pagina": 107,
     "usada_en": "fis-3"
   },
   {
     "tema": "empleo",
-    "resumen": "En contra de: «Debería eliminarse la reforma laboral de 2021.»",
-    "cita_literal": "Con la reforma laboral, España ha alcanzado los 22,8 millones de ocupados, ha reducido el paro por debajo del 10% por primera vez en 17 años",
-    "pagina": 36,
-    "usada_en": "emp-2"
-  },
-  {
-    "tema": "empleo",
-    "resumen": "A favor de: «La jornada laboral máxima debería bajar por ley a 35 horas a la semana o menos, sin que baje el sueldo.»",
+    "resumen": "A favor de: «La jornada de trabajo debería bajar a 35 horas a la semana o menos, cobrando lo mismo.»",
     "cita_literal": "Completar la reducción de la jornada a 37,5 horas e incentivar los avances en la negociación colectiva hacia las 35 horas.",
     "pagina": 41,
     "usada_en": "emp-1"
@@ -70,8 +63,15 @@
     "usada_en": null
   },
   {
+    "tema": "empleo",
+    "resumen": "En contra de: «Las empresas deberían tener más libertad para hacer contratos temporales.»",
+    "cita_literal": "La reforma laboral ha reforzado la estabilidad en el empleo, favoreciendo la contratación indefinida y limitando el abuso de la temporalidad.",
+    "pagina": 90,
+    "usada_en": "emp-2"
+  },
+  {
     "tema": "pensiones",
-    "resumen": "A favor de: «La pensión más baja que cobra quien ha trabajado y cotizado debería ser igual al salario mínimo.»",
+    "resumen": "A favor de: «La pensión mínima de quien ha trabajado debería ser igual al salario mínimo.»",
     "cita_literal": "culminando el proceso de convergencia de las cuantías de las pensiones mínimas con estándares de ingresos del conjunto de la sociedad.",
     "pagina": 39,
     "usada_en": "pen-1"
@@ -85,14 +85,14 @@
   },
   {
     "tema": "sanidad",
-    "resumen": "A favor de: «Las personas inmigrantes sin permiso de residencia («sin papeles») deberían poder usar la sanidad pública igual que el resto de personas que viven en España.» (postura inferida)",
+    "resumen": "A favor de: «Los inmigrantes sin papeles deberían poder usar la sanidad pública igual que los demás.» (postura inferida)",
     "cita_literal": "En sanidad, devolvimos la universalidad al Sistema Nacional de Salud",
     "pagina": 46,
     "usada_en": "san-2"
   },
   {
     "tema": "sanidad",
-    "resumen": "En contra de: «La sanidad pública debería pagar a clínicas privadas para que atiendan a sus pacientes y así reducir las listas de espera.»",
+    "resumen": "En contra de: «La sanidad pública debería pagar a clínicas privadas para reducir las listas de espera.»",
     "cita_literal": "Limitar la privatización de la sanidad estableciendo la gestión directa como modalidad preferente en la prestación sanitaria.",
     "pagina": 49,
     "usada_en": "san-1"
@@ -106,21 +106,21 @@
   },
   {
     "tema": "energia",
-    "resumen": "Muy en contra de: «Las centrales nucleares deberían seguir funcionando más años de lo que está previsto.»",
+    "resumen": "Muy en contra de: «Las centrales nucleares deberían seguir funcionando más años de lo previsto.»",
     "cita_literal": "Mantener el calendario de cierre de las centrales nucleares hasta 2035",
     "pagina": 66,
     "usada_en": "ene-1"
   },
   {
     "tema": "energia",
-    "resumen": "Muy a favor de: «Las ciudades deberían limitar la entrada de los coches y otros vehículos que más contaminan.»",
+    "resumen": "Muy a favor de: «Las ciudades deberían prohibir o limitar la entrada de los coches que más contaminan.»",
     "cita_literal": "Impulsar las Zonas de Bajas Emisiones y la movilidad sostenible en las ciudades",
     "pagina": 71,
     "usada_en": "ene-2"
   },
   {
     "tema": "territorial",
-    "resumen": "Muy a favor de: «El Estado debería perdonar a las comunidades autónomas una parte del dinero que le deben.»",
+    "resumen": "Muy a favor de: «El Estado debería perdonar a las comunidades autónomas parte del dinero que le deben.»",
     "cita_literal": "Avanzaremos en la asunción parcial por el Estado de 83.000 millones de euros de deuda autonómica",
     "pagina": 61,
     "usada_en": "ter-1"
@@ -134,28 +134,28 @@
   },
   {
     "tema": "instituciones",
-    "resumen": "En contra de: «Debería eliminarse la Ley de Memoria Democrática.»",
-    "cita_literal": "Con la Ley de Memoria Democrática las hemos situado en el centro de las políticas públicas.",
+    "resumen": "Muy a favor de: «Deberían retirarse los monumentos y símbolos que homenajean la dictadura de Franco.»",
+    "cita_literal": "Ampliar la red de Lugares de Memoria Democrática, retirar simbología franquista",
     "pagina": 98,
     "usada_en": "ins-2"
   },
   {
     "tema": "derechos",
-    "resumen": "Muy a favor de: «El derecho al aborto debería incluirse en la Constitución.»",
+    "resumen": "Muy a favor de: «El derecho al aborto debería estar en la Constitución.»",
     "cita_literal": "Blindar constitucionalmente el derecho a la interrupción voluntaria del embarazo.",
     "pagina": 81,
     "usada_en": "der-3"
   },
   {
     "tema": "derechos",
-    "resumen": "Muy en contra de: «Deberían eliminarse las leyes que tratan de forma específica la violencia contra las mujeres por parte de sus parejas o exparejas (violencia de género).»",
-    "cita_literal": "Aprobar una Ley Orgánica contra la Violencia Vicaria como manifestación de la violencia de género",
+    "resumen": "A favor de: «Debería haber juzgados dedicados solo a la violencia contra las mujeres por parte de sus parejas o exparejas.» (postura inferida)",
+    "cita_literal": "Garantizar la valoración forense del riesgo en todos los juzgados de violencia sobre la mujer, mediante equipos multidisciplinares especializados.",
     "pagina": 82,
     "usada_en": "der-1"
   },
   {
     "tema": "derechos",
-    "resumen": "En contra de: «Para cambiar el sexo que consta en el Registro Civil y en el DNI no debería bastar con que la persona lo pida.» (postura inferida)",
+    "resumen": "A favor de: «Las personas mayores de 16 años deberían poder cambiar el sexo de su DNI solo con pedirlo.» (postura inferida)",
     "cita_literal": "Garantizar que la Ley 4/2023 sea el suelo común de derechos de las personas LGTBI en toda España",
     "pagina": 97,
     "usada_en": "der-2"
@@ -166,13 +166,6 @@
     "cita_literal": "Culminar la reforma del Código Penal para penalizar las llamadas «terapias de conversión»",
     "pagina": 97,
     "usada_en": null
-  },
-  {
-    "tema": "seguridad",
-    "resumen": "Muy a favor de: «Debería eliminarse la Ley de Seguridad Ciudadana de 2015.»",
-    "cita_literal": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la Ley Orgánica 4/2015",
-    "pagina": 99,
-    "usada_en": "seg-1"
   },
   {
     "tema": "exterior",

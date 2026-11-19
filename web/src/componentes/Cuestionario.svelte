@@ -73,10 +73,20 @@
     <div class="afirmacion" style:--dir={direccion}>
       <p class="etiqueta-tema">{nombreTema(pregunta.tema)}</p>
       <h1 id="enunciado" tabindex="-1" use:enfocar>{pregunta.texto}</h1>
-      <!-- La explicación se muestra siempre: sin ella muchas afirmaciones no se entienden -->
+      <!-- La explicación se muestra siempre: qué hay hoy y qué supone cada respuesta -->
       <div class="contexto">
-        <p class="contexto-titulo">Qué significa</p>
+        <p class="contexto-titulo">Para entenderlo</p>
         <p class="contexto-texto">{pregunta.contexto}</p>
+        <dl class="efectos">
+          <div>
+            <dt>Si estás de acuerdo</dt>
+            <dd>{pregunta.de_acuerdo}</dd>
+          </div>
+          <div>
+            <dt>Si estás en desacuerdo</dt>
+            <dd>{pregunta.en_desacuerdo}</dd>
+          </div>
+        </dl>
       </div>
     </div>
   {/key}
@@ -103,7 +113,7 @@
       aria-pressed={actual !== undefined && actual.valor === null}
       onclick={() => responder(null)}
     >
-      Saltar
+      No lo sé · Saltar
     </button>
   </div>
 
@@ -196,6 +206,33 @@
     margin: 0;
     font-size: 0.98rem;
     line-height: 1.55;
+  }
+  /* Qué supone cada respuesta: dos líneas cortas separadas del contexto por un filete */
+  .efectos {
+    margin: 0.9rem 0 0;
+    padding-top: 0.85rem;
+    border-top: 1px solid var(--borde);
+    display: grid;
+    gap: 0.6rem;
+  }
+  .efectos dt {
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+  .efectos dd {
+    margin: 0.1rem 0 0;
+    font-size: 0.98rem;
+    line-height: 1.5;
+  }
+  @media (min-width: 640px) {
+    .efectos {
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    /* Mismo orden que los botones: el desacuerdo a la izquierda */
+    .efectos > div:first-child {
+      order: 2;
+    }
   }
 
   /* «Importante» como una píldora que cambia de aspecto al marcarla */

@@ -1,16 +1,16 @@
 [
   {
     "tema": "vivienda",
-    "resumen": "En contra de: «Debería haber por ley un precio máximo para los alquileres en las zonas donde alquilar una vivienda se ha vuelto muy caro.» (postura inferida)",
+    "resumen": "En contra de: «Debería haber un precio máximo para el alquiler en las zonas donde alquilar es muy caro.» (postura inferida)",
     "cita_literal": "Recuperar la seguridad jurídica y una oferta de alquileres estable, abundante y asequible. Derogación de la Ley de Vivienda.",
     "pagina": 23,
     "usada_en": "viv-1"
   },
   {
     "tema": "vivienda",
-    "resumen": "Muy a favor de: «Debería eliminarse la ley de vivienda aprobada en 2023.»",
-    "cita_literal": "Recuperar la seguridad jurídica y una oferta de alquileres estable, abundante y asequible. Derogación de la Ley de Vivienda.",
-    "pagina": 23,
+    "resumen": "En contra de: «Debería prohibirse desahuciar a familias vulnerables que no tienen otra casa a la que ir.» (postura inferida)",
+    "cita_literal": "Mano dura contra la okupación y la inquiocupación. Desalojo de la vivienda okupada en menos de 24 horas y recuperación inmediata de la posesión por su legítimo titular, el propietario.",
+    "pagina": 24,
     "usada_en": "viv-2"
   },
   {
@@ -29,21 +29,21 @@
   },
   {
     "tema": "fiscalidad",
-    "resumen": "En contra de: «Las personas que más ganan deberían pagar más impuestos por sus ingresos.» (postura inferida)",
+    "resumen": "En contra de: «Las personas que más ganan deberían pagar más impuestos por lo que ganan.» (postura inferida)",
     "cita_literal": "Reforma del sistema de tributación sobre la renta (IRPF). Simplificación y bajada del IRPF.",
     "pagina": 9,
     "usada_en": "fis-1"
   },
   {
     "tema": "fiscalidad",
-    "resumen": "Muy a favor de: «Las empresas deberían pagar menos impuestos por sus beneficios.»",
+    "resumen": "Muy a favor de: «Las empresas deberían pagar menos impuestos por lo que ganan.»",
     "cita_literal": "Reducir el tipo del Impuesto de Sociedades con el fin de promover la dinamización de nuestra economía",
     "pagina": 9,
     "usada_en": "fis-2"
   },
   {
     "tema": "fiscalidad",
-    "resumen": "En contra de: «Las grandes fortunas deberían pagar un impuesto estatal, igual en toda España, que ninguna comunidad autónoma pueda quitar.» (postura inferida)",
+    "resumen": "En contra de: «Las grandes fortunas deberían pagar un impuesto igual en toda España, que ninguna comunidad autónoma pueda quitar.» (postura inferida)",
     "cita_literal": "Revisión y reducción sistemática de todos los impuestos y tasas que lastran la prosperidad",
     "pagina": 9,
     "usada_en": "fis-3"
@@ -57,43 +57,43 @@
   },
   {
     "tema": "empleo",
-    "resumen": "A favor de: «Debería eliminarse la reforma laboral de 2021.» (postura inferida)",
+    "resumen": "A favor de: «Las empresas deberían tener más libertad para hacer contratos temporales.» (postura inferida)",
     "cita_literal": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad",
     "pagina": 13,
     "usada_en": "emp-2"
   },
   {
     "tema": "sanidad",
-    "resumen": "Muy en contra de: «Las personas inmigrantes sin permiso de residencia («sin papeles») deberían poder usar la sanidad pública igual que el resto de personas que viven en España.»",
+    "resumen": "Muy en contra de: «Los inmigrantes sin papeles deberían poder usar la sanidad pública igual que los demás.»",
     "cita_literal": "Garantizar la sostenibilidad del sistema sanitario dotándolo de los medios necesarios para atender las necesidades de los españoles, excluyendo a los extranjeros en situación ilegal salvo casos de urgencia grave.",
     "pagina": 19,
     "usada_en": "san-2"
   },
   {
     "tema": "sanidad",
-    "resumen": "Muy a favor de: «La sanidad pública debería pagar a clínicas privadas para que atiendan a sus pacientes y así reducir las listas de espera.»",
+    "resumen": "Muy a favor de: «La sanidad pública debería pagar a clínicas privadas para reducir las listas de espera.»",
     "cita_literal": "Fomento de la colaboración público-privada cuando ayude efectivamente a reducir demoras",
     "pagina": 37,
     "usada_en": "san-1"
   },
   {
     "tema": "educacion",
-    "resumen": "En contra de: «Debería reducirse poco a poco el dinero público que reciben los colegios concertados.» (postura inferida)",
+    "resumen": "En contra de: «Los colegios concertados deberían recibir cada vez menos dinero público.» (postura inferida)",
     "cita_literal": "Garantizar la libre elección de centro educativo en todos los niveles para que las familias elijan libremente el modelo educativo que desean, sin que su situación económica o social sea un impedimento para ello.",
     "pagina": 41,
     "usada_en": "edu-1"
   },
   {
     "tema": "educacion",
-    "resumen": "Muy a favor de: «En todas las comunidades autónomas, los alumnos deberían tener garantizado poder recibir las clases en castellano.»",
+    "resumen": "Muy a favor de: «Todos los alumnos de España deberían tener garantizado poder estudiar en castellano.»",
     "cita_literal": "Se garantizará la educación en español en todo el territorio nacional.",
     "pagina": 41,
     "usada_en": "edu-2"
   },
   {
     "tema": "educacion",
-    "resumen": "Muy a favor de: «Debería cambiarse la ley de educación actual (la LOMLOE) por una ley nueva.»",
-    "cita_literal": "Derogación de la LOMLOE y recuperación de una enseñanza basada en el esfuerzo",
+    "resumen": "A favor de: «Para pasar de curso en la ESO deberían tener que aprobarse todas las asignaturas.» (postura inferida)",
+    "cita_literal": "Derogación de la LOMLOE y recuperación de una enseñanza basada en el esfuerzo, el saber, el mérito, la exigencia, la disciplina y la responsabilidad personal.",
     "pagina": 41,
     "usada_en": "edu-3"
   },
@@ -106,21 +106,21 @@
   },
   {
     "tema": "inmigracion",
-    "resumen": "Muy en contra de: «Debería darse permiso para vivir y trabajar en España, de forma general, a las personas inmigrantes que ya viven aquí sin papeles.»",
+    "resumen": "Muy en contra de: «Debería darse permiso para vivir y trabajar, de una vez, a los inmigrantes que ya viven en España sin papeles.»",
     "cita_literal": "Prohibición de las regularizaciones masivas. Quien entra de forma ilegal jamás podrá regularizar su situación.",
     "pagina": 15,
     "usada_en": "inm-1"
   },
   {
     "tema": "inmigracion",
-    "resumen": "Muy a favor de: «Los menores extranjeros que llegan solos a España deberían, como primera opción, volver con su familia o a su país.»",
+    "resumen": "Muy a favor de: «Los menores extranjeros que llegan solos a España deberían, antes que nada, volver con su familia o a su país.»",
     "cita_literal": "Devolución de menores extranjeros no acompañados a sus padres",
     "pagina": 15,
     "usada_en": "inm-3"
   },
   {
     "tema": "inmigracion",
-    "resumen": "Muy a favor de: «Las ayudas sociales y la vivienda pública deberían dar prioridad a las personas con nacionalidad española.»",
+    "resumen": "Muy a favor de: «Las ayudas sociales y la vivienda pública deberían ser primero para quienes tienen nacionalidad española.»",
     "cita_literal": "Acceso preferente de los españoles a vivienda pública, plazas de guardería, bonos de comedor o transporte, ayudas, prestaciones y servicios sociales.",
     "pagina": 19,
     "usada_en": "inm-2"
@@ -141,14 +141,14 @@
   },
   {
     "tema": "energia",
-    "resumen": "Muy a favor de: «Las centrales nucleares deberían seguir funcionando más años de lo que está previsto.»",
+    "resumen": "Muy a favor de: «Las centrales nucleares deberían seguir funcionando más años de lo previsto.»",
     "cita_literal": "Se garantizará la supervivencia de las centrales nucleares actuales, derogando el calendario de cierre.",
     "pagina": 12,
     "usada_en": "ene-1"
   },
   {
     "tema": "energia",
-    "resumen": "Muy en contra de: «Las ciudades deberían limitar la entrada de los coches y otros vehículos que más contaminan.»",
+    "resumen": "Muy en contra de: «Las ciudades deberían prohibir o limitar la entrada de los coches que más contaminan.»",
     "cita_literal": "Acabar con todas las imposiciones climáticas como el Pacto Verde que castigan nuestra industria, nuestro campo o que coartan la libertad de circulación de los españoles, como la imposición de ZBE.",
     "pagina": 29,
     "usada_en": "ene-2"
@@ -162,28 +162,28 @@
   },
   {
     "tema": "instituciones",
-    "resumen": "A favor de: «Debería eliminarse la Ley de Memoria Democrática.» (postura inferida)",
-    "cita_literal": "Superación de las divisivas leyes ideológicas que enfrentan a los españoles, tales como la de Memoria Democrática",
+    "resumen": "En contra de: «Deberían retirarse los monumentos y símbolos que homenajean la dictadura de Franco.» (postura inferida)",
+    "cita_literal": "Superación de las divisivas leyes ideológicas que enfrentan a los españoles, tales como la de Memoria Democrática, que dañan la convivencia y dividen y enfrentan a los españoles tratando de imponer una verdad oficial.",
     "pagina": 30,
     "usada_en": "ins-2"
   },
   {
     "tema": "instituciones",
-    "resumen": "Muy a favor de: «Los 12 jueces que forman parte del Consejo General del Poder Judicial deberían ser elegidos por los propios jueces, y no por el Congreso y el Senado.»",
+    "resumen": "Muy a favor de: «Los propios jueces, y no el Congreso y el Senado, deberían elegir a la mayoría de los miembros del órgano que gobierna a los jueces.»",
     "cita_literal": "Modificar la Ley Orgánica del Poder Judicial para que los doce vocales de procedencia judicial del Consejo General del Poder Judicial sean elegidos mediante voto personal, directo y secreto por y entre los propios jueces y magistrados",
     "pagina": 55,
     "usada_en": "ins-1"
   },
   {
     "tema": "instituciones",
-    "resumen": "Muy en contra de: «Insultar al Rey o a la Familia Real, u ofender a España y a sus símbolos (como la bandera), debería dejar de ser delito.»",
+    "resumen": "Muy a favor de: «Insultar al Rey u ofender a España y a sus símbolos, como la bandera, debería seguir siendo delito.»",
     "cita_literal": "Las penas por las ofensas y ultrajes a España y sus símbolos o emblemas deben agravarse para que ninguna afrenta a ellos quede impune.",
     "pagina": 56,
     "usada_en": "ins-3"
   },
   {
     "tema": "derechos",
-    "resumen": "Muy a favor de: «Deberían eliminarse las leyes que tratan de forma específica la violencia contra las mujeres por parte de sus parejas o exparejas (violencia de género).»",
+    "resumen": "En contra de: «Debería haber juzgados dedicados solo a la violencia contra las mujeres por parte de sus parejas o exparejas.» (postura inferida)",
     "cita_literal": "Derogar las leyes que han criminalizado a los hombres y desprotegido a las mujeres.",
     "pagina": 30,
     "usada_en": "der-1"
@@ -197,7 +197,7 @@
   },
   {
     "tema": "derechos",
-    "resumen": "En contra de: «El derecho al aborto debería incluirse en la Constitución.» (postura inferida)",
+    "resumen": "En contra de: «El derecho al aborto debería estar en la Constitución.» (postura inferida)",
     "cita_literal": "Defensa del derecho a la vida desde su concepción hasta la muerte natural y fin de la cultura de la muerte.",
     "pagina": 52,
     "usada_en": "der-3"

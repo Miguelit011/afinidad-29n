@@ -52,6 +52,8 @@ def _datos(**cambios):
                 "tema": "vivienda",
                 "texto": "¿Limitar el alquiler?",
                 "contexto": "Contexto.",
+                "de_acuerdo": "Si sí.",
+                "en_desacuerdo": "Si no.",
                 "posturas": {
                     "A": {"valor": 2, "cita": "Bajar los alquileres un 40% por ley.", "pagina": 1},
                     "B": {"valor": None, "cita": None, "pagina": None},
